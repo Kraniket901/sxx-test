@@ -121,7 +121,7 @@ const SXVoiceArtist = () => {
   };
 
   return (
-    <section id="home">
+    <section id="voice_artists">
       <div className="container">
         <h3
           className="fn__maintitle big"

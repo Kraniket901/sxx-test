@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
+import {GrInstagram} from 'react-icons/gr';
+import {BsDiscord} from 'react-icons/bs';
 import { connect } from "react-redux";
 import { navigationToggle } from "../redux/actions/siteSettings";
 const Navigation = ({ navigation, navigationToggle }) => {
@@ -29,9 +31,9 @@ const Navigation = ({ navigation, navigationToggle }) => {
                     rel="noreferrer"
                   />
                   <span className="icon">
-                    <img src="/img/market/opensea.png" alt="" />
+                    <GrInstagram/>
                   </span>
-                  <span className="text">Opensea</span>
+                  <span className="text">Instagram</span>
                 </div>
               </li>
               <li>
@@ -42,7 +44,8 @@ const Navigation = ({ navigation, navigationToggle }) => {
                     rel="noreferrer"
                   />
                   <span className="icon">
-                    <img src="/img/market/discord.png" alt="" />
+                    {/* <img src="/img/market/discord.png" alt="" /> */}
+                    <BsDiscord/>
                   </span>
                   <span className="text">Discord</span>
                 </div>
@@ -61,96 +64,23 @@ const Navigation = ({ navigation, navigationToggle }) => {
               }}
             >
               <li>
-                <a
-                  href="#"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSubMenu("home");
-                  }}
-                  className={`${subMenu == "home" ? "active" : ""}`}
-                >
-                  <span className="creative_link">
-                    Home
-                    <img src="/svg/down.svg" alt="" className="fn__svg" />
-                  </span>
-                </a>
-                <ul className="sub-menu">
-                  <li>
-                    <a
-                      href="#"
-                      className="prev"
-                      onClick={() => setSubMenu(null)}
-                    >
-                      <span className="creative_link">
-                        <img src="/svg/down.svg" alt="" className="fn__svg" />
-                        Home
-                      </span>
-                    </a>
-                  </li>
-
-                  <li>
-                    <Link href="/">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">#1 3D Carousel</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/index-2">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">
-                          #2 Bended Carousel
-                        </span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/index-3">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">
-                          #3 Video Background
-                        </span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/index-4">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">#4 Water Effect</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/index-5">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">
-                          #5 Simple Carousel
-                        </span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/index-6">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">
-                          #6 Fullscreen Slider
-                        </span>
-                      </a>
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <Link href="/nft/1">
+                <Link href="#">
                   <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">Mint Page</span>
+                    <span className="creative_link">Home</span>
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="/collection">
+                <Link href="#about">
                   <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">Collection</span>
+                    <span className="creative_link">About</span>
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#upcoming_projects">
+                  <a onClick={() => navigationToggle(false)}>
+                    <span className="creative_link">Upcoming Projects</span>
                   </a>
                 </Link>
               </li>
@@ -164,88 +94,44 @@ const Navigation = ({ navigation, navigationToggle }) => {
                   className={`${subMenu == "pages" ? "active" : ""}`}
                 >
                   <span className="creative_link">
-                    Pages
+                    Shinnextream
                     <img src="/svg/down.svg" alt="" className="fn__svg" />
                   </span>
                 </a>
                 <ul className="sub-menu">
                   <li>
                     <a
-                      href="#"
+                      href="#shinnextream"
                       className="prev"
                       onClick={() => setSubMenu(null)}
                     >
                       <span className="creative_link">
                         <img src="/svg/down.svg" alt="" className="fn__svg" />
-                        Pages
+                        Shinnextream
                       </span>
                     </a>
                   </li>
 
                   <li>
-                    <Link href="/coming-soon">
+                    <Link href="#shinnextream">
                       <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">Coming Soon</span>
+                        <span className="creative_link">About</span>
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="/404">
+                    <Link href="#voice_artists">
                       <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">404 Page</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/protected">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">Protected Page</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/no-results">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">Search No Results</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/cookies">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">Cookies</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/policy">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">Privacy Policy</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/terms-conditions">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">
-                          Terms &amp; Conditions
-                        </span>
+                        <span className="creative_link">Voice Artists</span>
                       </a>
                     </Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <Link href="/blog">
+                <Link href="#contact">
                   <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">Blog</span>
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/blog-single">
-                  <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">Blog Single</span>
+                    <span className="creative_link">Contact</span>
                   </a>
                 </Link>
               </li>
@@ -254,13 +140,13 @@ const Navigation = ({ navigation, navigationToggle }) => {
           <div className="info_holder">
             <div className="copyright">
               <p>
-                Copyright 2022 - Designed &amp; Developed by{" "}
+                Copyright 2023 - Designed &amp; Developed by{" "}
                 <a
                   href="https://themeforest.net/user/codeefly/portfolio"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  CodeeFly
+                  Aniket
                 </a>
               </p>
             </div>

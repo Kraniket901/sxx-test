@@ -2,7 +2,7 @@ import Link from "next/link";
 import FunFacts from "./FunFacts";
 import SectionDivider from "./SectionDivider";
 import InfiniteCr from "./InfiniteCr";
-import RoadMapSlider from "./SXUpcomingProject.js";
+// import RoadMapSlider from "./SXUpcomingProject.js";
 import MediaComponent from "./MediaComponent";
 // import Animator, { AnimateProvider } from 'nextjs-animate-on-scroll'
 

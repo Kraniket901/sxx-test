@@ -13,7 +13,7 @@ import InfiniteCr2 from "../src/components/InfiniteCr2";
 import MediaComponent from "../src/components/MediaComponent";
 import SXVideoDesc from "../src/components/SXVideoDesc";
 import SXAboutAOT from "../src/components/SXAboutAOT";
-import SXUpcomingProject from "../src/components/SXUpcomingProject.js";
+import SXUpcomingProject from "../src/components/SXUpcomingProject";
 import SXPoll from "../src/components/SXPoll";
 import SXDesc from "../src/components/SXDesc";
 import SXVoiceArtist from "../src/components/SXVoiceArtist";
