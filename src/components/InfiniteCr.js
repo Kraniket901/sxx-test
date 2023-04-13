@@ -20,8 +20,6 @@ const InfiniteCr = () => {
     <InfiniteCr1Comp/>
     <InfiniteCr1Comp/>
     <InfiniteCr1Comp/>
-    <div className="codeutsava__sponsers-carousel-item-block">
-    </div>
     <InfiniteCr1Comp/>
     <InfiniteCr1Comp/>
     <InfiniteCr1Comp/>
@@ -37,8 +35,6 @@ const InfiniteCr = () => {
     <InfiniteCr1Comp/>
     <InfiniteCr1Comp/>
     <InfiniteCr1Comp/>
-    <div className="codeutsava__sponsers-carousel-item-block">
-    </div>
     <InfiniteCr1Comp/>
     <InfiniteCr1Comp/>
     <InfiniteCr1Comp/>
