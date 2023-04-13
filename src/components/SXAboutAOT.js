@@ -6,7 +6,7 @@ const SXAboutAOT = () => {
           <div className="fn_cs_about" id='about'>
         <div className="left_part">
           <div className="img">
-            <div className="img_in" data-bg-img="img/poster1.jpg">
+            <div className="img_in" data-bg-img="../img/poster1.jpg">
               <img src="../img/poster1.jpg" alt="" />
             </div>
           </div>

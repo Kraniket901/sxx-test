@@ -1325,9 +1325,9 @@ a.full_link{
 }
 @media(width<600px){
 	.fn_cs_desc{
-		background: none;
+		background-position: center;
 		padding: 0 1rem;
-		margin: 0;
+		margin: 2rem;
 	}
 }
 .fn_cs_desc p{
