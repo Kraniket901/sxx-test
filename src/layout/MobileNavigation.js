@@ -20,7 +20,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
               className="metaportal_fn_button wallet_opener"
               onClick={() => walletToggle(true)}
             >
-              <span>Watch</span>
+              <span>Donate</span>
             </a>
           </div>
         </div>
