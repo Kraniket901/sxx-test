@@ -10,7 +10,7 @@ const SXUpcomingProject = () => {
           className="fn__maintitle big"
           data-text="UPCOMING PROJECTS"
           data-align="center"
-          style={{ fontFamily:"font1", paddingBottom:"1rem" }}
+          style={{ fontFamily:"font1", paddingBottom:"1rem", paddingTop:"1rem" }}
         >
          UPCOMING PROJECTS
         </h3>
