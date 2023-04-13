@@ -12,7 +12,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
             <div className="trigger" onClick={() => navigationToggle(true)}>
               <span />
             </div>
-            <img src="/img/shinnextream.png" width="100px" style={{marginRight:"25px"}} alt="" />
+            <img src="/img/shinnextream.png" width="100px" style={{marginRight:"30px"}} alt="" />
           </div>
           <div className="wallet">
             <a
