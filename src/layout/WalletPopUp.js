@@ -14,14 +14,12 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
         </a>
         <div className="walletbox">
           <div className="title_holder">
-            <h3>Connect Wallet</h3>
+            <h3>Please Donate</h3>
             <p>
-              Connect with one of our available wallet providers or create a new
-              one.
+             If You Liked Our Work, Please Donate
             </p>
           </div>
-          <div className="list_holder">
-            <ul className="metaportal_fn_items">
+            {/* <ul className="metaportal_fn_items">
               <li>
                 <div className="item">
                   <a href="#" />
@@ -58,8 +56,8 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
                   <span className="text">Venly</span>
                 </div>
               </li>
-            </ul>
-          </div>
+            </ul> */}
+            <img src="/img/qr.jpg" width="100%" alt="" />
         </div>
       </div>
     </Fragment>

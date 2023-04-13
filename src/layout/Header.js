@@ -52,13 +52,13 @@ const Header = ({ walletToggle, navigationToggle }) => {
           <div className="wallet">
             <a
               href="#"
-              // onClick={(e) => {
-              //   e.preventDefault();
-              //   walletToggle(true);
-              // }}
+              onClick={(e) => {
+                e.preventDefault();
+                walletToggle(true);
+              }}
               className="metaportal_fn_button wallet_opener"
             >
-              <span>Watch Now</span>
+              <span>Donate</span>
             </a>
           </div>
         </div>
