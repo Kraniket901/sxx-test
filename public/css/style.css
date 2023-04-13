@@ -6130,7 +6130,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 }
 @media(width<600px){
 	.fn_cs_roadmap .swiper-slide .item_in{
-		padding: 10px;
+		padding: 40px;
 	}
 }
 .fn_cs_roadmap .swiper-slide .date{
