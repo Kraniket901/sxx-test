@@ -5,12 +5,12 @@ import React,{useEffect} from "react";
 const SXUpcomingProject = () => {
   return (
     <section id="upcoming_projects">
-      <div className="container">
+      <div className="container" style={{paddingTop:"1rem"}}>
         <h3
           className="fn__maintitle big"
           data-text="UPCOMING PROJECTS"
           data-align="center"
-          style={{ fontFamily:"font1", paddingBottom:"1rem", paddingTop:"1rem" }}
+          style={{ fontFamily:"font1", paddingBottom:"1rem" }}
         >
          UPCOMING PROJECTS
         </h3>
