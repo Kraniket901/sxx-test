@@ -18,7 +18,7 @@ const video = () => {
     <MobileNavigation/>
     <Header/>
     <MediaComponent/>
-    <SXAboutAOT/>
+    {/* <SXAboutAOT/> */}
     <Footer/>
     <SearchButton/>
     <PreLoader/>

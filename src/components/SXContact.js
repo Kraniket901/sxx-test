@@ -87,16 +87,6 @@ const SXContact = () => {
                   />
                 </li>
                 <li className="full">
-                  <label className="fn__checkbox">
-                    <input type="checkbox" />
-                    <span className="fn__checkmark">
-                      <img src="/svg/checked.svg" alt="" className="fn__svg" />
-                    </span>
-                    <p>
-                      I’m okay with getting emails and having that activity
-                      tracked to improve my experience.
-                    </p>
-                  </label>
                   <div className="mw300">
                     <a
                       id="send_message"

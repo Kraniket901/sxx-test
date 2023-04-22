@@ -24,7 +24,7 @@
 /*	01) Base
 /*------------------------------------------------------------------*/
 :root{
-	--mc1: #04b0ee;
+	--mc1: #09a6df;
 	--mc2: #7000ff;
 	--hc: #ddd;
 	--bc: #9ba0b8;
@@ -2269,6 +2269,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	flex-direction: column;
 }
 .fn_cs_news .left_items{
+	padding-top: 2rem;
 	width: 100%;
 }
 .fn_cs_news .left_items .blog__item{

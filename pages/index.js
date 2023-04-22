@@ -29,8 +29,8 @@ const Index = () => {
       <SXAboutAOT/>
       <SXUpcomingProject/>
       <SectionDivider/>
-      <SXPoll/>
-      <SectionDivider/>
+      {/* <SXPoll/> */}
+      {/* <SectionDivider/> */}
       <SXDesc/>
       <SXVoiceArtist/>
       <SectionDivider/>
