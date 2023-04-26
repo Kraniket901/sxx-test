@@ -9,23 +9,24 @@ import SearchButton from '../src/layout/SearchButton'
 import PreLoader from '../src/layout/PreLoader'
 import ScrollTop from '../src/layout/ScrollTop'
 import WalletPopUp from '../src/layout/WalletPopUp'
+import LikeButton from '../src/components/LikeButton'
 
 const video = () => {
   return (
     <>
     <div>
       <Navigation/>
-    <MobileNavigation/>
-    <Header/>
-    <MediaComponent/>
-    {/* <SXAboutAOT/> */}
-    <Footer/>
-    <SearchButton/>
-    <PreLoader/>
-    <ScrollTop/>
-    <WalletPopUp/>
+      <MobileNavigation/>
+      <Header/>
+      <MediaComponent/>
+      {/* <SXAboutAOT/> */}
+      <LikeButton/>
+      <Footer/>
+      <SearchButton/>
+      <PreLoader/>
+      <ScrollTop/>
+      <WalletPopUp/>
     </div>
-
     </>
   )
 }
