@@ -1,10 +1,10 @@
 import Link from "next/link";
 import { useEffect } from "react";
 import { connect } from "react-redux";
-import { navigationToggle, walletToggle } from "../redux/actions/siteSettings";
+import { navigationToggle, walletToggle, wallet2Toggle } from "../redux/actions/siteSettings";
 import { stickyNav } from "../utilits";
 
-const Header = ({ walletToggle, navigationToggle }) => {
+const Header = ({ walletToggle,wallet2Toggle, navigationToggle }) => {
   useEffect(() => {
     stickyNav();
   }, []);
@@ -49,7 +49,20 @@ const Header = ({ walletToggle, navigationToggle }) => {
               </li>
             </ul>
           </div>
-          <div className="wallet">
+          
+          <div className="wallet" style={{display:"flex"}}>
+              
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                wallet2Toggle(true);
+              }}
+              className="metaportal_fn_button wallet2_opener"
+            >
+              <img src="https://wallpapers.com/images/featured/87h46gcobjl5e4xu.jpg" width="52px" alt="" />
+              
+            </a>
             <a
               href="#"
               onClick={(e) => {
@@ -58,6 +71,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
               }}
               className="metaportal_fn_button wallet_opener"
             >
+              
               <span>Donate</span>
             </a>
           </div>
@@ -69,6 +83,6 @@ const Header = ({ walletToggle, navigationToggle }) => {
 
 const mapStateToProps = (state) => ({});
 
-export default connect(mapStateToProps, { walletToggle, navigationToggle })(
+export default connect(mapStateToProps, { walletToggle,wallet2Toggle, navigationToggle })(
   Header
 );

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
 import {GrInstagram} from 'react-icons/gr';
-import {BsDiscord} from 'react-icons/bs';
+import {FiLogIn} from 'react-icons/fi';
 import { connect } from "react-redux";
 import { navigationToggle } from "../redux/actions/siteSettings";
 const Navigation = ({ navigation, navigationToggle }) => {
@@ -37,18 +37,18 @@ const Navigation = ({ navigation, navigationToggle }) => {
                 </div>
               </li>
               <li>
-                <div className="item">
+                {/* <div className="item">
                   <a
                     href="https://discord.com/"
                     target="_blank"
                     rel="noreferrer"
                   />
                   <span className="icon">
-                    {/* <img src="/img/market/discord.png" alt="" /> */}
-                    <BsDiscord/>
+                    
+                    <FiLogIn/>
                   </span>
-                  <span className="text">Discord</span>
-                </div>
+                  <span className="text">Login</span>
+                </div> */}
               </li>
             </ul>
           </div>

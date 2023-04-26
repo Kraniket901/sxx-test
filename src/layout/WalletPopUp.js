@@ -14,50 +14,14 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
         </a>
         <div className="walletbox">
           <div className="title_holder">
-            <h3>Please Donate</h3>
-            <p>
-             If You Liked Our Work, Please Donate
-            </p>
+            <img src="https://wallpapers.com/images/featured/87h46gcobjl5e4xu.jpg" alt="" />
+            <h3>Aniket Kumar</h3>
           </div>
-            {/* <ul className="metaportal_fn_items">
-              <li>
-                <div className="item">
-                  <a href="#" />
-                  <span className="icon">
-                    <img src="/img/wallet/metamask.png" alt="" />
-                  </span>
-                  <span className="text">Metamask</span>
-                </div>
-              </li>
-              <li>
-                <div className="item">
-                  <a href="#" />
-                  <span className="icon">
-                    <img src="/img/wallet/coinbase.png" alt="" />
-                  </span>
-                  <span className="text">Coinbase</span>
-                </div>
-              </li>
-              <li>
-                <div className="item">
-                  <a href="#" />
-                  <span className="icon">
-                    <img src="/img/wallet/walletconnect.png" alt="" />
-                  </span>
-                  <span className="text">WalletConnect</span>
-                </div>
-              </li>
-              <li>
-                <div className="item">
-                  <a href="#" />
-                  <span className="icon">
-                    <img src="/img/wallet/venly.png" alt="" />
-                  </span>
-                  <span className="text">Venly</span>
-                </div>
-              </li>
-            </ul> */}
+          <button>Edit Name</button>
+            <button>Edit Avatar</button>
+            <h3>Donate</h3>
             <img src="/img/qr.jpg" width="100%" alt="" />
+            <button>Logout</button>
         </div>
       </div>
     </Fragment>
