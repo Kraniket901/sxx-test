@@ -30,11 +30,8 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
           <button>Edit Avatar</button>
           <h3>Donate</h3>
           <img src="/img/qr.jpg" width="100%" alt="" />
-          {!session ? (
-            <button onClick={() => signIn("google")}>Login</button>
-          ) : (
-            <button onClick={() => signOut()}>Logout</button>
-          )}
+          <button onClick={() => signIn("google")}>Login</button>
+          <button onClick={() => signOut()}>Logout</button>
         </div>
       </div>
     </Fragment>
