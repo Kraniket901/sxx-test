@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import { walletToggle } from "../redux/actions/siteSettings";
 import { useSession, signIn, signOut } from "next-auth/react";
 const WalletPopUp = ({ walletToggle, wallet }) => {
-  const { session } = useSession();
+  const { data: session } = useSession();
   // console.log(session);
   return (
     <Fragment>
