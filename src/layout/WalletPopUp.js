@@ -3,7 +3,8 @@ import { connect } from "react-redux";
 import { walletToggle } from "../redux/actions/siteSettings";
 import { useSession, signIn, signOut } from "next-auth/react";
 const WalletPopUp = ({ walletToggle, wallet }) => {
-  const { data: session } = useSession();
+  const { session } = useSession();
+  // console.log(session);
   return (
     <Fragment>
       <div
@@ -29,8 +30,11 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
           <button>Edit Avatar</button>
           <h3>Donate</h3>
           <img src="/img/qr.jpg" width="100%" alt="" />
-          <button onClick={() => signIn("google")}>Login</button>
-          <button onClick={() => signOut()}>Logout</button>
+          {!session ? (
+            <button onClick={() => signIn("google")}>Login</button>
+          ) : (
+            <button onClick={() => signOut()}>Logout</button>
+          )}
         </div>
       </div>
     </Fragment>
