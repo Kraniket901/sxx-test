@@ -1,10 +1,13 @@
-import { Fragment } from "react";
+import { Fragment, useEffect } from "react";
 import { connect } from "react-redux";
 import { walletToggle } from "../redux/actions/siteSettings";
-import { useSession, signIn, signOut } from "next-auth/react";
+import { useSession, signIn, signOut, getSession } from "next-auth/react";
+import Link from "next/link";
+import Avatar from "../components/avatar";
+
 const WalletPopUp = ({ walletToggle, wallet }) => {
   const { data: session } = useSession();
-  // console.log(session);
+
   return (
     <Fragment>
       <div
@@ -27,11 +30,20 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
             <h3>{session?.user.name || "Aniket Kumar"}</h3>
           </div>
           <button>Edit Name</button>
-          <button>Edit Avatar</button>
+          <div>
+            <Avatar />
+          </div>
+          {/* <button>
+            <Link href="/avatar">Edit Avatar</Link>
+          </button> */}
+
           <h3>Donate</h3>
           <img src="/img/qr.jpg" width="100%" alt="" />
-          <button onClick={() => signIn("google")}>Login</button>
-          <button onClick={() => signOut()}>Logout</button>
+          {session ? (
+            <button onClick={() => signOut()}>Logout</button>
+          ) : (
+            <button onClick={() => signIn("google")}>Login</button>
+          )}
         </div>
       </div>
     </Fragment>
