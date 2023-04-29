@@ -1,4 +1,4 @@
-import { useSession, update } from "next-auth/react";
+import { useSession} from "next-auth/react";
 import { useRouter } from "next/router";
 const avatar = [
   {

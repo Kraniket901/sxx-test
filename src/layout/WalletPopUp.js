@@ -2,7 +2,7 @@ import { Fragment, useEffect } from "react";
 import { connect } from "react-redux";
 import { walletToggle } from "../redux/actions/siteSettings";
 import { useSession, signIn, signOut, getSession } from "next-auth/react";
-import Avatar from "../components/avatar";
+import Avatar from "../components/Avatar";
 
 const WalletPopUp = ({ walletToggle, wallet }) => {
   const { data: session } = useSession();
