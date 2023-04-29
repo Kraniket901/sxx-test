@@ -2,7 +2,6 @@ import { Fragment, useEffect } from "react";
 import { connect } from "react-redux";
 import { walletToggle } from "../redux/actions/siteSettings";
 import { useSession, signIn, signOut, getSession } from "next-auth/react";
-import Link from "next/link";
 import Avatar from "../components/avatar";
 
 const WalletPopUp = ({ walletToggle, wallet }) => {
