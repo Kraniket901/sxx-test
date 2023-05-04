@@ -11,39 +11,39 @@ const Avatar = () => {
   const avatarList = [
     {
       title: "Annie",
-      img: "/img/avatar/Annie.png",
+      img: "https://i.postimg.cc/fR5qL6jV/Annie.png",
     },
     {
       title: "Armin",
-      img: "/img/avatar/Armin.png",
+      img: "https://i.postimg.cc/Cx6C9Yss/Armin.png",
     },
     {
       title: "Eren",
-      img: "/img/avatar/Ereh.png",
+      img: "https://i.postimg.cc/zv5TTfq8/Ereh.png",
     },
     {
       title: "Erwin",
-      img: "/img/avatar/Erwin.png",
+      img: "https://i.postimg.cc/k50QXcZV/Erwin.png",
     },
     {
       title: "Hange",
-      img: "/img/avatar/Hange.png",
+      img: "https://i.postimg.cc/SNdf7cX5/Hange.png",
     },
     {
       title: "Jean",
-      img: "/img/avatar/Jean.png",
+      img: "https://i.postimg.cc/HWQ2nqTT/Jean.png",
     },
     {
       title: "Levi",
-      img: "/img/avatar/Levi.png",
+      img: "https://i.postimg.cc/YqMxWdSY/Levi.png",
     },
     {
       title: "Mikasa",
-      img: "/img/avatar/Mikasa.png",
+      img: "https://i.postimg.cc/Xq8dL0vF/Mikasa.png",
     },
     {
       title: "Riner",
-      img: "/img/avatar/Riner.png",
+      img: "https://i.postimg.cc/LXjzqPKx/Riner.png",
     },
   ];
 
