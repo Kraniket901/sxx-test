@@ -2,50 +2,50 @@ import { Card, Grid, Row, Text } from "@nextui-org/react";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
 
-// avatarList smh
-const avatarList = [
-  {
-    title: "Annie",
-    img: "/img/avatar/Annie.png",
-  },
-  {
-    title: "Armin",
-    img: "/img/avatar/Armin.png",
-  },
-  {
-    title: "Eren",
-    img: "/img/avatar/Ereh.png",
-  },
-  {
-    title: "Erwin",
-    img: "/img/avatar/Erwin.png",
-  },
-  {
-    title: "Hange",
-    img: "/img/avatar/Hange.png",
-  },
-  {
-    title: "Jean",
-    img: "/img/avatar/Jean.png",
-  },
-  {
-    title: "Levi",
-    img: "/img/avatar/Levi.png",
-  },
-  {
-    title: "Mikasa",
-    img: "/img/avatar/Mikasa.png",
-  },
-  {
-    title: "Riner",
-    img: "/img/avatar/Riner.png",
-  },
-];
-
 const Avatar = () => {
   const { data: session } = useSession();
   const email = session?.user.email;
   const router = useRouter();
+
+  // avatarList smh
+  const avatarList = [
+    {
+      title: "Annie",
+      img: "/img/avatar/Annie.png",
+    },
+    {
+      title: "Armin",
+      img: "/img/avatar/Armin.png",
+    },
+    {
+      title: "Eren",
+      img: "/img/avatar/Ereh.png",
+    },
+    {
+      title: "Erwin",
+      img: "/img/avatar/Erwin.png",
+    },
+    {
+      title: "Hange",
+      img: "/img/avatar/Hange.png",
+    },
+    {
+      title: "Jean",
+      img: "/img/avatar/Jean.png",
+    },
+    {
+      title: "Levi",
+      img: "/img/avatar/Levi.png",
+    },
+    {
+      title: "Mikasa",
+      img: "/img/avatar/Mikasa.png",
+    },
+    {
+      title: "Riner",
+      img: "/img/avatar/Riner.png",
+    },
+  ];
 
   // handle avatar list
   async function handleAvatar(img) {
