@@ -1,53 +1,44 @@
 import { Card, Grid, Row, Text } from "@nextui-org/react";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
-import axios from "axios";
 
+// avatarList smh
 const avatarList = [
   {
     title: "Annie",
     img: "/img/avatar/Annie.png",
-    price: "$5.50",
   },
   {
     title: "Armin",
     img: "/img/avatar/Armin.png",
-    price: "$5.50",
   },
   {
     title: "Eren",
     img: "/img/avatar/Ereh.png",
-    price: "$3.00",
   },
   {
     title: "Erwin",
     img: "/img/avatar/Erwin.png",
-    price: "$10.00",
   },
   {
     title: "Hange",
     img: "/img/avatar/Hange.png",
-    price: "$5.30",
   },
   {
     title: "Jean",
     img: "/img/avatar/Jean.png",
-    price: "$15.70",
   },
   {
     title: "Levi",
     img: "/img/avatar/Levi.png",
-    price: "$8.00",
   },
   {
     title: "Mikasa",
     img: "/img/avatar/Mikasa.png",
-    price: "$7.50",
   },
   {
     title: "Riner",
     img: "/img/avatar/Riner.png",
-    price: "$12.20",
   },
 ];
 
@@ -56,6 +47,7 @@ const Avatar = () => {
   const email = session?.user.email;
   const router = useRouter();
 
+  // handle avatar list
   async function handleAvatar(img) {
     await fetch("/api/avatar", {
       method: "post",
@@ -68,13 +60,18 @@ const Avatar = () => {
         email: email,
         img: img,
       }),
-    }).then(response => {
-      //do something awesome that makes the world a better place
-      router.push("/");
-      setTimeout(() => {
-        router.reload();
-      }, 500);
-    });
+    })
+      .then(res => {
+        //do something awesome that makes the world a better place
+        router.push("/");
+        setTimeout(() => {
+          router.reload();
+        }, 500);
+      })
+      .catch(err => {
+        // catch them errors
+        console.log(err);
+      });
   }
 
   return (

@@ -29,7 +29,7 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
             />
             <h3>{session?.user.name || "Aniket Kumar"}</h3>
           </div>
-          <button>Edit Name</button>
+          {/* <button>Edit Name</button> */}
           <button>
             <Link href="/avatar">Edit Avatar</Link>
           </button>
