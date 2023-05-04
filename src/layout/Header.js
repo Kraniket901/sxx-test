@@ -1,10 +1,16 @@
 import Link from "next/link";
 import { useEffect } from "react";
 import { connect } from "react-redux";
-import { navigationToggle, walletToggle, wallet2Toggle } from "../redux/actions/siteSettings";
+import {
+  navigationToggle,
+  walletToggle,
+  wallet2Toggle,
+} from "../redux/actions/siteSettings";
 import { stickyNav } from "../utilits";
+import { useSession, signIn } from "next-auth/react";
 
-const Header = ({ walletToggle,wallet2Toggle, navigationToggle }) => {
+const Header = ({ walletToggle, wallet2Toggle, navigationToggle }) => {
+  const { data: session } = useSession();
   useEffect(() => {
     stickyNav();
   }, []);
@@ -16,9 +22,8 @@ const Header = ({ walletToggle,wallet2Toggle, navigationToggle }) => {
           <div className="trigger_logo">
             <div className="trigger" onClick={() => navigationToggle(true)}>
               {/* <img src="/img/logo2.png" alt="" /> */}
-                  <img src="/img/shinnextream.png" width="100px" alt="" />
+              <img src="/img/shinnextream.png" width="100px" alt="" />
             </div>
-
           </div>
           <div className="nav" style={{ opacity: 1 }}>
             <ul>
@@ -49,21 +54,34 @@ const Header = ({ walletToggle,wallet2Toggle, navigationToggle }) => {
               </li>
             </ul>
           </div>
-          
-          <div className="wallet" style={{display:"flex"}}>
-              
-            <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                wallet2Toggle(true);
-              }}
-              className="metaportal_fn_button wallet2_opener"
-            >
-              <img src="https://wallpapers.com/images/featured/87h46gcobjl5e4xu.jpg" width="52px" alt="" />
-              
-            </a>
-            <a
+
+          <div className="wallet" style={{ display: "flex" }}>
+            {session?.user ? (
+              <a
+                href="#"
+                onClick={e => {
+                  e.preventDefault();
+                  wallet2Toggle(true);
+                }}
+                className="wallet2_opener"
+              >
+                <img src={session.user.image} width="52px" alt="" />
+              </a>
+            ) : (
+              <button onClick={() => signIn("google")}>
+                <a
+                  // onClick={e => {
+                  //   e.preventDefault();
+                  //   walletToggle(true);
+                  // }}
+                  className="metaportal_fn_button wallet_opener"
+                >
+                  <span>Login</span>
+                </a>
+              </button>
+            )}
+
+            {/* <a
               href="#"
               onClick={(e) => {
                 e.preventDefault();
@@ -73,7 +91,7 @@ const Header = ({ walletToggle,wallet2Toggle, navigationToggle }) => {
             >
               
               <span>Donate</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -81,8 +99,10 @@ const Header = ({ walletToggle,wallet2Toggle, navigationToggle }) => {
   );
 };
 
-const mapStateToProps = (state) => ({});
+const mapStateToProps = state => ({});
 
-export default connect(mapStateToProps, { walletToggle,wallet2Toggle, navigationToggle })(
-  Header
-);
+export default connect(mapStateToProps, {
+  walletToggle,
+  wallet2Toggle,
+  navigationToggle,
+})(Header);

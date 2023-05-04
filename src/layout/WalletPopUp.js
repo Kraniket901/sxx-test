@@ -2,6 +2,7 @@ import { Fragment, useEffect } from "react";
 import { connect } from "react-redux";
 import { walletToggle } from "../redux/actions/siteSettings";
 import { useSession, signIn, signOut, getSession } from "next-auth/react";
+import Link from "next/link";
 import Avatar from "../components/Avatar";
 
 const WalletPopUp = ({ walletToggle, wallet }) => {
@@ -28,11 +29,10 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
             />
             <h3>{session?.user.name || "Aniket Kumar"}</h3>
           </div>
-          <button>Edit Name</button>
-          <div>{session && <Avatar />}</div>
-          {/* <button>
+          {/* <button>Edit Name</button> */}
+          <button>
             <Link href="/avatar">Edit Avatar</Link>
-          </button> */}
+          </button>
 
           <h3>Donate</h3>
           <img src="/img/qr.jpg" width="100%" alt="" />
