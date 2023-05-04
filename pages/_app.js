@@ -2,11 +2,14 @@ import Head from "next/head";
 import { Provider } from "react-redux";
 import store from "../src/redux/store";
 import "../styles/globals.css";
+import { NextUIProvider } from '@nextui-org/react';
+// import { Loading } from "@nextui-org/react";
 
 import { SessionProvider } from "next-auth/react";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {
   return (
+    <NextUIProvider>
     <SessionProvider session={session}>
       <Provider store={store}>
         <Head>
@@ -34,8 +37,10 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
           />
         </Head>
         <Component {...pageProps} />
+        {/* <Loading type="gradient" /> */}
       </Provider>
     </SessionProvider>
+    </NextUIProvider>
   );
 }
 

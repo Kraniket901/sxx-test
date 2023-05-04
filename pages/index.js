@@ -21,7 +21,9 @@ import SXContact from "../src/components/SXContact";
 import SXHome from "../src/components/SXHome";
 const Index = () => {
   return (
+    
     <Layout pageTitle={"Home"}>
+      
       <SXHome/>
       <InfiniteCr/>
       <SectionDivider/>
