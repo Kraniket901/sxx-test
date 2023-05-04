@@ -2,7 +2,7 @@ import { Card, Grid, Row, Text } from "@nextui-org/react";
 import { useRouter } from 'next/router'
 
 
-const avatar = () => {
+const Avatar = () => {
     const router = useRouter();
     const handleClick = (e) => {
         router.push('/');
@@ -61,9 +61,6 @@ const avatar = () => {
       ];
 
     return (
-        // <div>avatar
-        //     <button onClick={handleClick}>Reload</button>
-        // </div>
         <Grid.Container gap={1} justify="flex-start">
         {list.map((item, index) => (
           <Grid xs={6} sm={3} key={index}>
@@ -103,4 +100,4 @@ const avatar = () => {
     )
 }
 
-export default avatar
+export default Avatar
