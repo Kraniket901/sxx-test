@@ -4,13 +4,12 @@ import { connect } from "react-redux";
 import {
   navigationToggle,
   walletToggle,
-  wallet2Toggle,
 } from "../redux/actions/siteSettings";
 import { stickyNav } from "../utilits";
 import { useSession, signIn } from "next-auth/react";
 import { Button } from "@nextui-org/react";
 
-const Header = ({ walletToggle, wallet2Toggle, navigationToggle }) => {
+const Header = ({ walletToggle, navigationToggle }) => {
   const { data: session } = useSession();
   useEffect(() => {
     stickyNav();
@@ -62,9 +61,9 @@ const Header = ({ walletToggle, wallet2Toggle, navigationToggle }) => {
                 href="#"
                 onClick={e => {
                   e.preventDefault();
-                  wallet2Toggle(true);
+                  walletToggle(true);
                 }}
-                className="wallet2_opener"
+                className="wallet_opener"
               >
                 <img src={session.user.image} width="52px" alt="" />
               </a>
@@ -88,6 +87,5 @@ const mapStateToProps = state => ({});
 
 export default connect(mapStateToProps, {
   walletToggle,
-  wallet2Toggle,
   navigationToggle,
 })(Header);

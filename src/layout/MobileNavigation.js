@@ -32,9 +32,9 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                 href="#"
                 onClick={e => {
                   e.preventDefault();
-                  wallet2Toggle(true);
+                  walletToggle(true);
                 }}
-                className="wallet2_opener"
+                className="wallet_opener"
               >
                 <img src={session.user.image} width="52px" alt="" />
               </a>

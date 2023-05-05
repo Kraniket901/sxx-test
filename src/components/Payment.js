@@ -49,7 +49,7 @@ const Payment = () => {
               width: "300px",
               borderRadius:"0 0 10px 10px"
             }}
-            color="success"
+            color="secondary"
             onClick={() => {
               checkout({
                 lineItems: [
@@ -89,7 +89,7 @@ const Payment = () => {
               width: "300px",
               borderRadius:"0 0 10px 10px"
             }}
-            color="success"
+            color="secondary"
             onClick={() => {
               checkout({
                 lineItems: [
@@ -129,7 +129,7 @@ const Payment = () => {
               width: "300px",
               borderRadius:"0 0 10px 10px"
             }}
-            color="success"
+            color="secondary"
             onClick={() => {
               checkout({
                 lineItems: [
@@ -170,7 +170,7 @@ const Payment = () => {
               width: "300px",
               borderRadius:"0 0 10px 10px"
             }}
-            color="warning"
+            color="secondary"
             onClick={() => {
               checkout({
                 lineItems: [
@@ -211,7 +211,7 @@ const Payment = () => {
               width: "300px",
               borderRadius:"0 0 10px 10px"
             }}
-            color="warning"
+            color="secondary"
             onClick={() => {
               checkout({
                 lineItems: [
@@ -252,7 +252,7 @@ const Payment = () => {
               width: "300px",
               borderRadius:"0 0 10px 10px"
             }}
-            color="warning"
+            color="secondary"
             onClick={() => {
               checkout({
                 lineItems: [
@@ -293,7 +293,7 @@ const Payment = () => {
               width: "300px",
               borderRadius:"0 0 10px 10px"
             }}
-            color="primary"
+            color="secondary"
             onClick={() => {
               checkout({
                 lineItems: [
@@ -334,7 +334,7 @@ const Payment = () => {
               width: "300px",
               borderRadius:"0 0 10px 10px"
             }}
-            color="primary"
+            color="secondary"
             onClick={() => {
               checkout({
                 lineItems: [
@@ -375,7 +375,7 @@ const Payment = () => {
               width: "300px",
               borderRadius:"0 0 10px 10px"
             }}
-            color="primary"
+            color="secondary"
             onClick={() => {
               checkout({
                 lineItems: [

@@ -6,9 +6,6 @@ export const navigationToggle = (value) => (dispatch) => {
 export const walletToggle = (value) => (dispatch) => {
   dispatch({ type: WALLET, payload: value });
 };
-export const wallet2Toggle = (value) => (dispatch) => {
-  dispatch({ type: WALLET, payload: value });
-};
 export const searchToggle = (value) => (dispatch) => {
   dispatch({ type: SEARCH, payload: value });
 };
