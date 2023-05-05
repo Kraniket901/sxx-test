@@ -61,7 +61,7 @@ const Payment = () => {
               });
             }}
           >
-            The Founding Titan Donation
+            Founding Titan Donation
           </Button>
         </div>
 
@@ -101,7 +101,7 @@ const Payment = () => {
               });
             }}
           >
-            The Attack Titan Donation
+            Attack Titan Donation
           </Button>
         </div>
 
@@ -141,7 +141,7 @@ const Payment = () => {
               });
             }}
           >
-            The Armored Titan Donation
+            Armored Titan Donation
           </Button>
         </div>
 
@@ -182,7 +182,7 @@ const Payment = () => {
               });
             }}
           >
-            The Beast Titan Donation
+            Beast Titan Donation
           </Button>
         </div>
 
@@ -223,7 +223,7 @@ const Payment = () => {
               });
             }}
           >
-            The Female Titan Donation
+            Female Titan Donation
           </Button>
         </div>
 
@@ -264,7 +264,7 @@ const Payment = () => {
               });
             }}
           >
-            The War Hammer Titan Donation
+            War Hammer Titan Donation
           </Button>
         </div>
 
@@ -305,7 +305,7 @@ const Payment = () => {
               });
             }}
           >
-            The Colossal Titan Donation
+            Colossal Titan Donation
           </Button>
         </div>
 
@@ -346,7 +346,7 @@ const Payment = () => {
               });
             }}
           >
-            The Jaw Titan Donation
+            Jaw Titan Donation
           </Button>
         </div>
 
@@ -387,7 +387,7 @@ const Payment = () => {
               });
             }}
           >
-            The Cart Titan Donation
+            Cart Titan Donation
           </Button>
         </div>
       </div>
