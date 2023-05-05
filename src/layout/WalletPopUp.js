@@ -6,6 +6,7 @@ import Link from "next/link";
 import Avatar from "../components/Avatar";
 
 const WalletPopUp = ({ walletToggle, wallet }) => {
+  
   const { data: session } = useSession();
 
   return (

@@ -76,6 +76,14 @@ const Avatar = () => {
 
   return (
     <Grid.Container gap={1} justify="flex-start">
+              <h3
+          className="fn__maintitle big"
+          data-text="CHOOSE YOUR AVATAR"
+          data-align="center"
+          style={{ fontFamily:"font1", margin:"1rem", textAlign:"center", width:"100%" }}
+        >
+         CHOOSE YOUR AVATAR
+        </h3>
       {avatarList.map((item, index) => (
         <Grid xs={6} sm={3} key={index}>
           <Card
