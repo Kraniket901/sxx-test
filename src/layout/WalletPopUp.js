@@ -6,6 +6,7 @@ import Link from "next/link";
 import Avatar from "../components/Avatar";
 
 const WalletPopUp = ({ walletToggle, wallet }) => {
+  
   const { data: session } = useSession();
 
   return (
@@ -31,11 +32,9 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
           </div>
           {/* <button>Edit Name</button> */}
           <button>
-            <Link href="/avatar">Edit Avatar</Link>
+            <Link href="/avatar" style={{listStyle:"none", color:"white"}}>Edit Avatar</Link>
           </button>
 
-          <h3>Donate</h3>
-          <img src="/img/qr.jpg" width="100%" alt="" />
           {session ? (
             <button onClick={() => signOut()}>Logout</button>
           ) : (

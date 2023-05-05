@@ -4,12 +4,12 @@ import { connect } from "react-redux";
 import {
   navigationToggle,
   walletToggle,
-  wallet2Toggle,
 } from "../redux/actions/siteSettings";
 import { stickyNav } from "../utilits";
 import { useSession, signIn } from "next-auth/react";
+import { Button } from "@nextui-org/react";
 
-const Header = ({ walletToggle, wallet2Toggle, navigationToggle }) => {
+const Header = ({ walletToggle, navigationToggle }) => {
   const { data: session } = useSession();
   useEffect(() => {
     stickyNav();
@@ -49,7 +49,7 @@ const Header = ({ walletToggle, wallet2Toggle, navigationToggle }) => {
               </li>
               <li>
                 <Link href="/#contact">
-                  <a className="creative_link">Contact</a>
+                  <a className="creative_link">CONTACT</a>
                 </Link>
               </li>
             </ul>
@@ -61,37 +61,21 @@ const Header = ({ walletToggle, wallet2Toggle, navigationToggle }) => {
                 href="#"
                 onClick={e => {
                   e.preventDefault();
-                  wallet2Toggle(true);
+                  walletToggle(true);
                 }}
-                className="wallet2_opener"
+                className="wallet_opener"
               >
                 <img src={session.user.image} width="52px" alt="" />
               </a>
             ) : (
-              <button onClick={() => signIn("google")}>
+              <Button color="secondary" auto onClick={() => signIn("google")}>
                 <a
-                  // onClick={e => {
-                  //   e.preventDefault();
-                  //   walletToggle(true);
-                  // }}
-                  className="metaportal_fn_button wallet_opener"
-                >
-                  <span>Login</span>
+                  style={{fontFamily:"font1", fontSize:"20px", padding:"1rem 2rem"}}
+                  className="wallet_opener"
+                >Login
                 </a>
-              </button>
+              </Button>
             )}
-
-            {/* <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                walletToggle(true);
-              }}
-              className="metaportal_fn_button wallet_opener"
-            >
-              
-              <span>Donate</span>
-            </a> */}
           </div>
         </div>
       </div>
@@ -103,6 +87,5 @@ const mapStateToProps = state => ({});
 
 export default connect(mapStateToProps, {
   walletToggle,
-  wallet2Toggle,
   navigationToggle,
 })(Header);

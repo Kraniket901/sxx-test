@@ -19,6 +19,7 @@ import SXDesc from "../src/components/SXDesc";
 import SXVoiceArtist from "../src/components/SXVoiceArtist";
 import SXContact from "../src/components/SXContact";
 import SXHome from "../src/components/SXHome";
+import Payment from "../src/components/Payment";
 const Index = () => {
   return (
     
@@ -37,6 +38,8 @@ const Index = () => {
       <SXVoiceArtist/>
       <SectionDivider/>
       <InfiniteCr2/>
+      <SectionDivider/>
+      <Payment/>
       <SectionDivider/>
       <SXContact/>
     </Layout>
