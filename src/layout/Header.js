@@ -50,7 +50,7 @@ const Header = ({ walletToggle, wallet2Toggle, navigationToggle }) => {
               </li>
               <li>
                 <Link href="/#contact">
-                  <a className="creative_link">Contact</a>
+                  <a className="creative_link">CONTACT</a>
                 </Link>
               </li>
             </ul>
