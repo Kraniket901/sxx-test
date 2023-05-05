@@ -71,27 +71,37 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
           <ul>
             <li>
               <a className="creative_link" href="#home">
-                Home
+              HOME
               </a>
             </li>
             <li>
               <a className="creative_link" href="#about">
-                About
+                ABOUT
               </a>
             </li>
             <li>
-              <a className="creative_link" href="#collection">
-                Collection
+              <a className="creative_link" href="#upcoming_projects">
+              UPCOMING PROJECTS
               </a>
             </li>
             <li>
-              <a className="creative_link" href="#news">
-                Blog
+              <a className="creative_link" href="#shinnextream">
+              SHINNEXTREAM
+              </a>
+            </li>
+            <li>
+              <a className="creative_link" href="#donation">
+              DONATION
+              </a>
+            </li>
+            <li>
+              <a className="creative_link" href="#avatars">
+              AVATARS
               </a>
             </li>
             <li>
               <a className="creative_link" href="#contact">
-                Contact
+              CONTACT
               </a>
             </li>
           </ul>

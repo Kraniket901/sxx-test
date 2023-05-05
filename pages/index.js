@@ -41,6 +41,8 @@ const Index = () => {
       <SectionDivider/>
       <Payment/>
       <SectionDivider/>
+      <Collection/>
+      <SectionDivider/>
       <SXContact/>
     </Layout>
   );

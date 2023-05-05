@@ -28,11 +28,6 @@ const Header = ({ walletToggle, navigationToggle }) => {
           <div className="nav" style={{ opacity: 1 }}>
             <ul>
               <li>
-                <Link href="/#home">
-                  <a className="creative_link">HOME</a>
-                </Link>
-              </li>
-              <li>
                 <Link href="/#about">
                   <a className="creative_link">ABOUT</a>
                 </Link>
@@ -45,6 +40,16 @@ const Header = ({ walletToggle, navigationToggle }) => {
               <li>
                 <Link href="/#shinnextream">
                   <a className="creative_link">SHINNEXTREAM</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/#donation">
+                  <a className="creative_link">DONATION</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/#avatars">
+                  <a className="creative_link">AVATARS</a>
                 </Link>
               </li>
               <li>

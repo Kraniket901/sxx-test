@@ -2096,9 +2096,6 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 #collection{
 	overflow: hidden;
 }
-#collection .fn__maintitle{
-	margin-bottom: 140px;
-}
 
 .fn_cs_collection{
 	margin-bottom: 102px;
@@ -2204,9 +2201,9 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 }
 
 
-#collection{
+/* #collection{
 	padding: 144px 0 150px;
-}
+} */
 
 
 
