@@ -1,12 +1,34 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { roadMapProps } from "../sliderProps";
 import React,{useState} from "react";
-import {Button ,Progress, Grid, Container } from "@nextui-org/react";
-
+import {Button ,Progress, Grid, Container, Text } from "@nextui-org/react";
+import { BsEmojiHeartEyes,BsEmojiWink, BsEmojiSunglasses, BsEmojiKiss,BsEmojiLaughing } from 'react-icons/bs';
 const SXUpcomingPoll = () => {
 
     const [Voted, setVote] = useState(0);
 
+    
+     const pro1 = {
+        value: 40,
+        name: "Demon Slayer",
+      };
+     const pro2 = {
+        value: 30,
+        name: "Naruto",
+      };
+     const pro3 = {
+        value: 40,
+        name: "Demon Slayer",
+      };
+      const pro4 = {
+        value: 40,
+        name: "Demon Slayer",
+      };
+      const pro5 = {
+        value: 40,
+        name: "Demon Slayer",
+      };
+    
   return (
     <>
     <Container css={{ display: 'block' }}>
@@ -14,11 +36,11 @@ const SXUpcomingPoll = () => {
       <div className="container" style={{paddingTop:"1rem"}}>
         <h3
           className="fn__maintitle big"
-          data-text="UPCOMING PROJECTS"
+          data-text="VOTE OUR UPCOMING PROJECTS"
           data-align="center"
           style={{ fontFamily:"font1", paddingBottom:"1rem" }}
         >
-         UPCOMING PROJECTS
+        VOTE OUR UPCOMING PROJECTS
         </h3>
         <div className="fn_cs_roadmap">
           {/* <div className="step_holder">
@@ -162,21 +184,34 @@ const SXUpcomingPoll = () => {
     </Container>
 
     <Container css={{ display: 'block' }} >
+    <h3
+          className="fn__maintitle big"
+          data-text="Top Voted"
+          data-align="center"
+          style={{ fontFamily:"font1", paddingBottom:"1rem" }}
+        >
+        Top Voted
+        </h3>
     <Grid.Container  xs={12} sm={12} gap={3}>
       <Grid>
-        <Progress value={50} color="primary" size="lg" status="primary" />
+        <Text color="White" h4><span style={{color: '#f31260'}}><BsEmojiHeartEyes/> {pro1.value}%</span> <span style={{color:'#9ba0b8'}}>People Vote for</span> {pro1.name}</Text>
+        <Progress value={pro1.value} color="error" size="md" status="primary" />
       </Grid>
       <Grid>
-        <Progress  value={30} color="secondary" size="lg" status="secondary" />
+      <Text color="white" h4><span style={{color: '#9750dd'}}><BsEmojiSunglasses/> {pro2.value}%</span> <span style={{color:'#9ba0b8'}}>People Vote for</span> {pro2.name}</Text>
+        <Progress  value={pro2.value} color="secondary" size="md" status="secondary" />
       </Grid>
       <Grid>
-        <Progress value={70} color="success" size="lg" status="success" />
+      <Text color="white" h4><span style={{color: '#17c964'}}><BsEmojiKiss/> {pro3.value}%</span> <span style={{color:'#9ba0b8'}}>People Vote for</span> {pro3.name}</Text>
+        <Progress value={pro3.value} color="success" size="md" status="success" />
       </Grid>
       <Grid>
-        <Progress value={90} color="warning" size="lg" status="warning" />
+      <Text color="white" h4><span style={{color: '#f5a524'}}><BsEmojiWink/> {pro4.value}%</span> <span style={{color:'#9ba0b8'}}>People Vote for</span> {pro4.name}</Text>
+        <Progress value={pro4.value} color="warning" size="md" status="warning" />
       </Grid>
       <Grid>
-        <Progress value={10} color="error" size="lg" status="error" />
+      <Text color="white" h4><span style={{color: '#0072f5'}}><BsEmojiLaughing/> {pro5.value}%</span> <span style={{color:'#9ba0b8'}}>People Vote for</span> {pro5.name}</Text>
+        <Progress value={pro5.value} color="primary" size="md" status="error" />
       </Grid>
     </Grid.Container>
     </Container>

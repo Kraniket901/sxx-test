@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { AiFillLike } from 'react-icons/ai';
+import { AiFillHeart } from 'react-icons/ai';
 
 function LikeButton() {
    const [likes, setLikes] = useState(0);
@@ -12,7 +12,7 @@ function LikeButton() {
             setLiked(true);
          }}
       >
-        <AiFillLike/> {likes}
+        <AiFillHeart/> {likes}
       </button>
    );
 }
