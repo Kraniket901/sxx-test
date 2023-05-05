@@ -8,6 +8,7 @@ import {
 } from "../redux/actions/siteSettings";
 import { stickyNav } from "../utilits";
 import { useSession, signIn } from "next-auth/react";
+import { Button } from "@nextui-org/react";
 
 const Header = ({ walletToggle, wallet2Toggle, navigationToggle }) => {
   const { data: session } = useSession();
@@ -68,30 +69,14 @@ const Header = ({ walletToggle, wallet2Toggle, navigationToggle }) => {
                 <img src={session.user.image} width="52px" alt="" />
               </a>
             ) : (
-              <button onClick={() => signIn("google")}>
+              <Button auto onClick={() => signIn("google")}>
                 <a
-                  // onClick={e => {
-                  //   e.preventDefault();
-                  //   walletToggle(true);
-                  // }}
-                  className="metaportal_fn_button wallet_opener"
-                >
-                  <span>Login</span>
+                  style={{fontFamily:"font1", fontSize:"20px", padding:"1rem 2rem"}}
+                  className="wallet_opener"
+                >Login
                 </a>
-              </button>
+              </Button>
             )}
-
-            {/* <a
-              href="#"
-              onClick={(e) => {
-                e.preventDefault();
-                walletToggle(true);
-              }}
-              className="metaportal_fn_button wallet_opener"
-            >
-              
-              <span>Donate</span>
-            </a> */}
           </div>
         </div>
       </div>
