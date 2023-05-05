@@ -35,8 +35,6 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
             <Link href="/avatar">Edit Avatar</Link>
           </button>
 
-          <h3>Donate</h3>
-          <img src="/img/qr.jpg" width="100%" alt="" />
           {session ? (
             <button onClick={() => signOut()}>Logout</button>
           ) : (
