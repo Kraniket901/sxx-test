@@ -69,7 +69,7 @@ const Header = ({ walletToggle, wallet2Toggle, navigationToggle }) => {
                 <img src={session.user.image} width="52px" alt="" />
               </a>
             ) : (
-              <Button auto onClick={() => signIn("google")}>
+              <Button color="secondary" auto onClick={() => signIn("google")}>
                 <a
                   style={{fontFamily:"font1", fontSize:"20px", padding:"1rem 2rem"}}
                   className="wallet_opener"
