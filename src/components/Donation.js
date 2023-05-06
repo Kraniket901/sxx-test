@@ -87,7 +87,6 @@ const Donation = () => {
 
   return (
     <Grid.Container gap={1} justify="flex-start" id="donation">
-      <h1 style={{fontSize:"4rem", cursor:"pointer", display:"flex"}} onClick={() => router.back()}>←</h1>
               <h3
               
           className="fn__maintitle big"
