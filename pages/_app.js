@@ -27,6 +27,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps }  }) {
           href="/css/plugins.css?ver=4.1"
         />
         <link type="text/css" rel="stylesheet" href="/css/style.css?ver=4.1" />
+        <link rel="shortcut icon" href="/img/favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </Provider>
