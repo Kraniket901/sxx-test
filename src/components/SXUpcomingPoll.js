@@ -9,7 +9,7 @@ const SXUpcomingPoll = () => {
 
     
      const pro1 = {
-        value: 40,
+        value: 80,
         name: "Demon Slayer",
       };
      const pro2 = {

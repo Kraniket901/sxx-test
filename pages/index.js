@@ -20,12 +20,14 @@ import SXVoiceArtist from "../src/components/SXVoiceArtist";
 import SXContact from "../src/components/SXContact";
 import SXHome from "../src/components/SXHome";
 import Payment from "../src/components/Payment";
+import Donation from "../src/components/Donation";
 const Index = () => {
   return (
     
     <Layout pageTitle={"Home"}>
       
       <SXHome/>
+      
       <InfiniteCr/>
       <SectionDivider/>
       <SXVideoDesc/>
@@ -39,7 +41,7 @@ const Index = () => {
       <SectionDivider/>
       <InfiniteCr2/>
       <SectionDivider/>
-      <Payment/>
+      <Donation/>
       <SectionDivider/>
       <Collection/>
       <SectionDivider/>

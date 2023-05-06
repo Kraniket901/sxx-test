@@ -11,6 +11,7 @@ import ScrollTop from '../src/layout/ScrollTop'
 import WalletPopUp from '../src/layout/WalletPopUp'
 import LikeButton from '../src/components/LikeButton'
 import SXUpcomingPoll from '../src/components/SXUpcomingPoll'
+import Feedback from '../src/components/Feedback'
 
 const video = () => {
   return (
@@ -21,12 +22,13 @@ const video = () => {
       <Header/>
       <MediaComponent/>
       {/* <SXAboutAOT/> */}
-      <LikeButton/>
-      <SXUpcomingPoll/>
+      {/* <LikeButton/> */}
+      <Feedback/>
+      {/* <SXUpcomingPoll/> */}
       <Footer/>
       <SearchButton/>
       <PreLoader/>
-      <ScrollTop/>
+      {/* <ScrollTop/> */}
       <WalletPopUp/>
     </div>
     </>
