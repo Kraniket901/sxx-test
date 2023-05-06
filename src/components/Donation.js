@@ -86,6 +86,8 @@ const Donation = () => {
   }
 
   return (
+    <div className="container">
+
     <Grid.Container gap={1} justify="flex-start" id="donation">
               <h3
               
@@ -102,9 +104,9 @@ const Donation = () => {
             auto
             isPressable
             css={{
-              margin: "1rem 2rem",
+              margin: "1rem .2rem",
               "@smMax": {
-                margin: ".5rem",
+                margin: ".1rem",
                 // bg: '$yellow100',
               },
             }}
@@ -148,6 +150,8 @@ const Donation = () => {
         </Grid>
       ))}
     </Grid.Container>
+          
+    </div>
   );
 };
 

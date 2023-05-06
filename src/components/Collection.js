@@ -39,6 +39,7 @@ const Collection = () => {
 
   return (
     <section id="avatars">
+      <div className="container">
       <h3
           className="fn__maintitle big"
           data-text="OUR AVATARS"
@@ -148,6 +149,8 @@ const Collection = () => {
               <input type="hidden" defaultValue="img/collection/8.jpg" />
             </div>
           </div>
+      </div>
+              
       </div>
     </section>
   );
