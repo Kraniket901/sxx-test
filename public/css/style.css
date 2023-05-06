@@ -962,7 +962,7 @@ a.full_link{
 	z-index: 5;
 }
 .fn__maintitle.big{
-	font-size: 60px;
+	font-size: 45px;
 	text-transform: uppercase;
 }
 .fn__maintitle[data-align="center"]{

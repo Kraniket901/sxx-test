@@ -134,7 +134,7 @@ const Donation = () => {
                 </Card.Body>
                 <Card.Footer css={{ justifyItems: "flex-start" }}>
                   <Row justify="center" align="center">
-                    <Text h4 size={24} css={{ m: 0 }} style={{fontFamily:"font2"}}>
+                    <Text h4 size={20} css={{ m: 0 }} style={{fontFamily:"font2"}}>
                       {item.title}
                     </Text>
                     {/* <Text css={{ color: "$accents7", fontWeight: "$semibold", fontSize: "$sm" }}>
