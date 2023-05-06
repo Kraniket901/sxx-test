@@ -49,7 +49,7 @@ const Donation = () => {
     {
       title: "Jaw Titan Donation",
       price: "price_1N4ICHSFDWmXpjvIh6Nh5enw",
-      img: "https://www.thenewsfetcher.com/wp-content/uploads/2021/01/fa465df6a552855da45c2e7a4dd5db7c.jpg",
+      img: "https://wallpapercave.com/wp/wp8649124.jpg",
     },
     {
       title: "Cart Titan Donation",
