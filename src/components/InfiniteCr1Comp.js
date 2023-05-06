@@ -10,7 +10,7 @@ const InfiniteCr1Comp = () => {
       </div>
       <div className="codeutsava__sponsers-carousel-item">
         {/* <img src="/img/shinnextream.png"/> */}
-        <div>COMING SOON</div>
+        <div>WATCH NOW</div>
       </div>
     </>
   );
