@@ -26,7 +26,7 @@ const Navigation = ({ navigation, navigationToggle }) => {
               <li>
                 <div className="item">
                   <a
-                    href="https://opensea.io/"
+                    href="https://www.instagram.com/shinnex_production/"
                     target="_blank"
                     rel="noreferrer"
                   />
