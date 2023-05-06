@@ -92,7 +92,7 @@ const Donation = () => {
           className="fn__maintitle big"
           data-text="DONATE US"
           data-align="center"
-          style={{ fontFamily:"font1", marginBottom:"1rem", textAlign:"center", width:"100%" }}
+          style={{ fontFamily:"font1", margin:"4rem", textAlign:"center", width:"100%" }}
         >
          DONATE US
         </h3>
