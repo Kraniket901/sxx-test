@@ -350,6 +350,7 @@ a.full_link{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
+	opacity: 0.5;
 }
 .abs_img{
 	position: absolute;
@@ -938,7 +939,7 @@ a.full_link{
 }
 .header .nav a{
 	font-family: font1;
-	font-size: 22px;
+	font-size: 18px;
 	font-weight: 500;
 	letter-spacing: 0;
 	text-decoration: none;
@@ -1338,7 +1339,7 @@ a.full_link{
 }
 .fn_cs_desc p{
 	margin: 0;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 34px;
 	margin-bottom: 41px;
 	margin-top: 41px;
@@ -1521,8 +1522,8 @@ a.full_link{
 	/* background: #1c1b29; */
     width: 100%;
     overflow: hidden;
-    padding-bottom: 2.5rem;
-    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
   }
   @media(width<600px){
 	.codeutsava__sponsers-carousel-container {
@@ -1534,7 +1535,7 @@ a.full_link{
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    width: 800%;
+    /* width: 100%; */
     animation: scrollInfinite 60s linear infinite;
   }
   
@@ -1545,10 +1546,10 @@ a.full_link{
   .codeutsava__sponsers-carousel-item {
     display: inline-block;
     margin: 1rem 2rem;
-    height: 70px;
+    height: 50px;
     width: auto;
     object-fit: contain;
-	border-radius: 10px;
+	/* border-radius: 10px; */
   }
   @media(width<600px){
 	.codeutsava__sponsers-carousel-item {
@@ -1561,7 +1562,7 @@ a.full_link{
     vertical-align: middle;
     height: 100%;
     object-fit: cover;
-	border-radius: 10px;
+	/* border-radius: 10px; */
   }
   
   .codeutsava__sponsers-carousel-item-block{
@@ -1594,7 +1595,7 @@ a.full_link{
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
-    width: 800%;
+    /* width: 800%; */
     animation: scrollInfinite 60s linear infinite;
   }
   
@@ -1712,7 +1713,9 @@ a.full_link{
 }
 .desc p{
 	margin-bottom: 27px;
-	color: rgba(227, 227, 227, 0.858);
+	font-size: 16px;
+	line-height: 25px;
+	color: rgba(209, 209, 209, 0.901);
 }
 .desc p:last-child{
 	margin-bottom: 0;

@@ -75,7 +75,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
             ) : (
               <Button color="secondary" auto onClick={() => signIn("google")}>
                 <a
-                  style={{fontFamily:"font1", fontSize:"20px", padding:"1rem 2rem"}}
+                  style={{fontFamily:"font1", fontSize:"18px", padding:"1rem 2rem"}}
                   className="wallet_opener"
                 >Login
                 </a>
