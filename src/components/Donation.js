@@ -98,7 +98,7 @@ const Donation = () => {
          DONATE US
         </h3>
       {avatarList.map((item, index) => (
-        <Grid xs={6} sm={3} key={index}>
+        <Grid xs={12} sm={3} key={index}>
           <Card
             auto
             isPressable
