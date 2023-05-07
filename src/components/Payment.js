@@ -4,14 +4,14 @@ import { Button } from "@nextui-org/react";
 
 const Payment = () => {
   return (
-    <div style={{margin:"2rem 0"}}>
+    <div style={{margin:"2rem 0"}} id="donation">
       <h3
         className="fn__maintitle big"
         data-text="DONATE US"
         data-align="center"
         style={{
           fontFamily: "font1",
-          margin: "1rem",
+          margin: "4rem 0",
           textAlign: "center",
           width: "100%",
         }}

@@ -28,7 +28,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
           <div className="nav" style={{ opacity: 1 }}>
             <ul>
               <li>
-                <Link href="/#home">
+                <Link href="/">
                   <a className="creative_link">HOME</a>
                 </Link>
               </li>
@@ -45,6 +45,11 @@ const Header = ({ walletToggle, navigationToggle }) => {
               <li>
                 <Link href="/#shinnextream">
                   <a className="creative_link">SHINNEXTREAM</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/#donation">
+                  <a className="creative_link">DONATION</a>
                 </Link>
               </li>
               <li>
@@ -70,7 +75,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
             ) : (
               <Button color="secondary" auto onClick={() => signIn("google")}>
                 <a
-                  style={{fontFamily:"font1", fontSize:"20px", padding:"1rem 2rem"}}
+                  style={{fontFamily:"font1", fontSize:"18px", padding:"1rem 2rem"}}
                   className="wallet_opener"
                 >Login
                 </a>

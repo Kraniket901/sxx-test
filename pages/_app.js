@@ -4,8 +4,20 @@ import store from "../src/redux/store";
 import "../styles/globals.css";
 import { SessionProvider } from "next-auth/react";
 
+// import Loader from "../src/components/Loader";
+// import { useEffect,useState } from "react";
+// import { Loading } from "@nextui-org/react";
 function MyApp({ Component, pageProps: { session, ...pageProps }  }) {
+  
+//   const [isLoading, setLoading] = useState(false)
+//   useEffect(() => {
+//     setTimeout(() => setLoading(true), 1000);
+//   },[])
+
+
   return (
+    <>
+    {/* {!isLoading?(<Loader/>):(<> */}
     <SessionProvider session={session}>
     <Provider store={store}>
       <Head>
@@ -27,10 +39,16 @@ function MyApp({ Component, pageProps: { session, ...pageProps }  }) {
           href="/css/plugins.css?ver=4.1"
         />
         <link type="text/css" rel="stylesheet" href="/css/style.css?ver=4.1" />
+        <link rel="shortcut icon" href="/img/favicon.ico" />
       </Head>
       <Component {...pageProps} />
     </Provider>
     </SessionProvider>
+    {/* setLoading(false); */}
+    {/* {(isLoading)?(<Loader/>):(<div></div>)} */}
+    {/* </>)} */}
+    
+    </>
   );
 }
 

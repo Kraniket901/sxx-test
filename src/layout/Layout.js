@@ -23,7 +23,7 @@ const Layout = ({ children, pageTitle }) => {
   return (
     <Fragment>
       <Head>
-        <title>Shinnex | {pageTitle}</title>
+        <title>Shinnextream</title>
       </Head>
       <ImageView />
       <VideoPopup />

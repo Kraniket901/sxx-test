@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useEffect } from "react";
+import Image from "next/image";
 
 const Collection = () => {
   useEffect(() => {
@@ -38,14 +39,15 @@ const Collection = () => {
   }, []);
 
   return (
-    <section id="collection">
+    <section id="avatars">
       <div className="container">
-        <h3
+      <h3
           className="fn__maintitle big"
-          data-text="Our Collection"
+          data-text="OUR AVATARS"
           data-align="center"
+          style={{ fontFamily:"font1", margin:"4rem 0" }}
         >
-          Our Collection
+         OUR AVATARS
         </h3>
         <div className="fn_cs_collection">
           <div className="collection_top">
@@ -54,9 +56,9 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/1.jpg"
+                    data-bg-img="/img/wavatar/Annie.webp"
                   />
-                  <img src="/img/1x1.jpg" alt="" />
+                  <img src="/img/wavatar/Annie.webp" alt="" layout="fill"/>
                 </div>
               </div>
               <input type="hidden" defaultValue="img/collection/1.jpg" />
@@ -66,7 +68,7 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/2.jpg"
+                    data-bg-img="/img/collection/2.PNG"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
@@ -78,7 +80,7 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/3.jpg"
+                    data-bg-img="/img/collection/3.PNG"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
@@ -90,7 +92,7 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/4.jpg"
+                    data-bg-img="/img/collection/4.PNG"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
@@ -104,7 +106,7 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/5.jpg"
+                    data-bg-img="/img/collection/5.PNG"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
@@ -116,7 +118,7 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/6.jpg"
+                    data-bg-img="/img/collection/6.PNG"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
@@ -128,7 +130,7 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/7.jpg"
+                    data-bg-img="/img/collection/7.PNG"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
@@ -140,7 +142,7 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/8.jpg"
+                    data-bg-img="/img/collection/8.PNG"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
@@ -148,20 +150,8 @@ const Collection = () => {
               <input type="hidden" defaultValue="img/collection/8.jpg" />
             </div>
           </div>
-        </div>
-        <div className="fn_cs_desc">
-          <p>
-            Meta Legends represent a collection of 17,000 legends categorized by
-            level of rarity and generated with hundreds of elements. The Legends
-            are stored as ERC-721 tokens on the Ethereum blockchain and hosted
-            on IPFS.
-          </p>
-          <Link href="/collection">
-            <a className="metaportal_fn_button">
-              <span>See All Collection</span>
-            </a>
-          </Link>
-        </div>
+      </div>
+              
       </div>
     </section>
   );
