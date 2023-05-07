@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
 import { checkout } from "../../checkout";
 import Link from "next/link";
+import Image from "next/image";
 
 const Donation = () => {
   const { data: session } = useSession();
@@ -14,47 +15,47 @@ const Donation = () => {
     {
       title: "Founding Titan Donation",
       price: "price_1N4I1YSFDWmXpjvIqaR7TYou",
-      img: "https://www.thedigitalfix.com/wp-content/sites/thedigitalfix/2023/03/attack-on-titan-the-founding-titan-explained-1.jpg",
+      img: "img/titans/Founding_Titan.webp",
     },
     {
       title: "Attack Titan Donation",
       price: "price_1N4I3CSFDWmXpjvIQkoSklgs",
-      img: "https://www.cnet.com/a/img/resize/597f8167c5bc132e301df0e4052180b26b5e4c7d/hub/2022/01/07/18439ff0-d202-4d93-b233-3e203a7617fd/aot-f2-pv02-00-01-11-06-still075.jpg?auto=webp&fit=crop&height=675&width=1200",
+      img: "img/titans/Attack_Titan.webp",
     },
     {
       title: "Armored Titan Donation",
       price: "price_1N4I4aSFDWmXpjvIvbcN0qxU",
-      img: "https://sportshub.cbsistatic.com/i/2021/03/17/19d70e71-ca27-45d9-bcf0-9d3e376f1c82/attack-on-titan-armored-titan-1169286.jpg",
+      img: "img/titans/Armored_Titan.webp",
     },
     {
       title: "Beast Titan Donation",
       price: "price_1N4I5zSFDWmXpjvImYoH1HXS",
-      img: "https://www.looper.com/img/gallery/zekes-beast-titan-powers-from-attack-on-titan-explained/intro-1620834206.jpg",
+      img: "img/titans/Beast_Titan.webp",
     },
     {
       title: "Female Titan Donation",
       price: "price_1N4I7wSFDWmXpjvInYPZaFGl",
-      img: "https://m.media-amazon.com/images/M/MV5BYzlmMzY5NjItMWI5Mi00ZDRlLTg3OTItYTNkY2U4MjYxYjQwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
+      img: "img/titans/Female_Titan.webp",
     },
     {
       title: "War Hammer Titan Donation",
       price: "price_1N4I9JSFDWmXpjvIYkqMFmyw",
-      img: "https://64.media.tumblr.com/d4fabd7059f82030d02abd34c6c8ac41/2923e80158c917f0-1c/s1280x1920/1ddfc898d49f431636132f0aae390bf95ce32700.png",
+      img: "img/titans/War_Hammer.webp",
     },
     {
       title: "Colossal Titan Donation",
       price: "price_1N4IAWSFDWmXpjvI91fZtgR3",
-      img: "https://staticg.sportskeeda.com/editor/2021/10/a6a5e-16352433462694-1920.jpg",
+      img: "img/titans/Colossal_Titan.webp",
     },
     {
       title: "Jaw Titan Donation",
       price: "price_1N4ICHSFDWmXpjvIh6Nh5enw",
-      img: "https://wallpapercave.com/wp/wp8649124.jpg",
+      img: "img/titans/Jaw_Titan.webp",
     },
     {
       title: "Cart Titan Donation",
       price: "price_1N4ID4SFDWmXpjvI2MaepC2O",
-      img: "https://fictionhorizon.com/wp-content/uploads/2022/07/CArt.jpg",
+      img: "img/titans/Cart_Titan.webp",
     },
   ];
 
@@ -89,8 +90,7 @@ const Donation = () => {
     <div className="container">
 
     <Grid.Container gap={1} justify="flex-start" id="donation">
-              <h3
-              
+        <h3
           className="fn__maintitle big"
           data-text="DONATE US"
           data-align="center"
@@ -110,7 +110,7 @@ const Donation = () => {
                 // bg: '$yellow100',
               },
             }}
-
+            
           >
             <button
             onClick={() => {
@@ -128,11 +128,18 @@ const Donation = () => {
                 <Card.Body css={{ p: 0 }}>
                   <Card.Image
                     src={item.img}
+                    // src={item.img}
                     objectFit="cover"
                     width="100%"
                     // height={140}
                     alt={item.title}
                   />
+                  {/* <Image
+                    src={item.img}
+                    layout="fill"
+                    objectFit="cover"
+                    alt={item.title}
+                  /> */}
                 </Card.Body>
                 <Card.Footer css={{ justifyItems: "flex-start" }}>
                   <Row justify="center" align="center">

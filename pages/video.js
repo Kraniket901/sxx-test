@@ -22,9 +22,9 @@ const video = () => {
       <Header/>
       <MediaComponent/>
       {/* <SXAboutAOT/> */}
-      {/* <LikeButton/> */}
+      <LikeButton/>
       <Feedback/>
-      {/* <SXUpcomingPoll/> */}
+      <SXUpcomingPoll/>
       <Footer/>
       <SearchButton/>
       <PreLoader/>
