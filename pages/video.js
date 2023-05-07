@@ -15,7 +15,7 @@ import Feedback from "../src/components/Feedback";
 import axios from "axios";
 import { useState, useEffect } from "react";
 
-const video = () => {
+const Video = () => {
   const [videos, setVideos] = useState([]);
   useEffect(() => {
     axios
@@ -45,4 +45,4 @@ const video = () => {
   );
 };
 
-export default video;
+export default Video;
