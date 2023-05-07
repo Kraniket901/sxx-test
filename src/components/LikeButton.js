@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { AiFillHeart } from "react-icons/ai";
-import { useRouter } from "next/router";
 import { useSession, signIn } from "next-auth/react";
 import axios from "axios";
 
@@ -8,6 +7,7 @@ function LikeButton({ vidId }) {
   const [likes, setLikes] = useState(0);
   const [liked, setLiked] = useState(false);
   const { data: session } = useSession();
+  // console.log(session);
 
   useEffect(() => {
     axios
@@ -18,13 +18,20 @@ function LikeButton({ vidId }) {
       .then(res => {
         res = res[0];
         const { likes } = res;
+        if (session) {
+          const userHasLiked = likes.find(user => user === session?.user.email);
+          console.log(userHasLiked);
+          if (userHasLiked) {
+            setLiked(true);
+          }
+        }
         setLikes(likes.length);
       });
-  }, []);
+  }, [session]);
 
   const handleLike = () => {
     if (session) {
-      if (!setLiked) {
+      if (!liked) {
         setLikes(likes + 1);
         setLiked(true);
         fetch("/api/like", {
