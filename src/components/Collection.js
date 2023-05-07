@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { useEffect } from "react";
-import Image from "next/image";
 
 const Collection = () => {
   useEffect(() => {
@@ -56,9 +55,9 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/wavatar/Annie.webp"
+                    data-bg-img="/img/collection/1.PNG"
                   />
-                  <img src="/img/wavatar/Annie.webp" alt="" layout="fill"/>
+                  <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
               <input type="hidden" defaultValue="img/collection/1.jpg" />
