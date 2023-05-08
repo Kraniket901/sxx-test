@@ -18,14 +18,6 @@ const SXVideoDesc = () => {
           WATCH THIS EPIC SHOWDOWN IN YOUR OWN LANGAUGE IN <b /> HINDI <b />{" "}
           Only On
         </p>
-        {/* <a
-          href="#"
-          className="metaportal_fn_button"
-          rel="noreferrer"
-          style={{ marginBottom: "2rem" }}
-        >
-          <span>WATCH NOW</span>
-        </a> */}
       </div>
     </>
   )
