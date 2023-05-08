@@ -21,27 +21,13 @@ const SXUpcomingProject = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="item">
                     <span className="icon" />
-                    <span className="phase">Project 01</span>
-                    <div className="item_in">
-                      <img src="https://images-cdn.ubuy.co.in/634e993163f2507123442456-fgaa-anime-poster-attack-on-titan-poster.jpg" alt="" />
-                      <p className="date">October 09, 2023</p>
-                      <h3 className="title">Attack On Titans</h3>
-                      <p className="desc">
-                      After his hometown is destroyed and his mother is killed, young Eren Jaeger vows to cleanse the earth of the giant humanoid Titans that have brought humanity to the brink of extinction.
-                      </p>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className="swiper-slide">
-                  <div className="item">
-                    <span className="icon" />
                     <span className="phase">Project 02</span>
                     <div className="item_in">
-                      <img src="https://sportshub.cbsistatic.com/i/2023/03/01/2172fd1a-552e-4c09-81ff-2cade2cf7f2f/fqimna-waautyas.jpg?auto=webp&width=849&height=1200&crop=0.708:1,smart" alt="" />
-                      <p className="date">October 17, 2023</p>
-                      <h3 className="title">Demon Slayer Dub</h3>
+                      <img src="/img/upcoming/graveOfTheFireflies.webp" alt="graveOfTheFireflies" />
+                      <p className="date">IMDB - 8.5</p>
+                      <h3 className="title">Grave of the Fireflies</h3>
                       <p className="desc">
-                      A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.
+                      At the peak of World War II, Seita and Setsuko's mother died from severe burns after their house was bombed. Seita, a teenage boy, and his younger sister Setsuko are left without a guardian and do their best to survive on their own in this scary world.
                       </p>
                     </div>
                   </div>
@@ -51,11 +37,11 @@ const SXUpcomingProject = () => {
                     <span className="icon" />
                     <span className="phase">Project 03</span>
                     <div className="item_in">
-                      <img src="https://images-cdn.ubuy.co.in/6359340599ba7c1c010b04dd-jujutsu-kaisen-poster-anime-characters.jpg" alt="" />
-                      <p className="date">October 28, 2023</p>
-                      <h3 className="title">Jujutsu Kaisen Dub</h3>
+                      <img src="/img/upcoming/princessMononoke.webp" alt="princessMononoke" />
+                      <p className="date">IMDB - 8.4</p>
+                      <h3 className="title">Princess Mononoke</h3>
                       <p className="desc">
-                      A boy swallows a cursed talisman - the finger of a demon - and becomes cursed himself. He enters a shaman's school to be able to locate the demon's other body parts and thus exorcise himself.
+                      On a journey to find the cure for a Tatarigami's curse, Ashitaka finds himself in the middle of a war between the forest gods and Tatara, a mining colony. In this quest he also meets San, the Mononoke Hime.
                       </p>
                     </div>
                   </div>
@@ -65,11 +51,11 @@ const SXUpcomingProject = () => {
                     <span className="icon" />
                     <span className="phase">Project 04</span>
                     <div className="item_in">
-                      <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/716ASj7z2GL._SL1000_.jpg" alt="" />
-                      <p className="date">November 11, 2023</p>
-                      <h3 className="title">Death Note Dub</h3>
+                      <img src="/img/upcoming/howlsMovingCastle.webp" alt="howlsMovingCastle" />
+                      <p className="date">IMDB - 8.2</p>
+                      <h3 className="title">Howl's Movie Castle</h3>
                       <p className="desc">
-                      An intelligent high school student goes on a secret crusade to eliminate criminals from the world after discovering a notebook capable of killing anyone whose name is written into it.
+                      When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.
                       </p>
                     </div>
                   </div>
@@ -79,11 +65,11 @@ const SXUpcomingProject = () => {
                     <span className="icon" />
                     <span className="phase">Project 05</span>
                     <div className="item_in">
-                      <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81KVomnzLmL._SL1500_.jpg" alt="" />
-                      <p className="date">November 23, 2023</p>
-                      <h3 className="title">Chain Saw Man Dub</h3>
+                      <img src="/img/upcoming/myNeighbourTotoro.webp" alt="myNeighbourTotoro" />
+                      <p className="date">IMDB - 8.2</p>
+                      <h3 className="title">My Neighbour Totoro</h3>
                       <p className="desc">
-                      Following a betrayal, a young man left for the dead is reborn as a powerful devil-human hybrid after merging with his pet devil and is soon enlisted into an organization dedicated to hunting devils.
+                      For anyone who knows even a little bit of anime movies, it won't come as a surprise to find a few Studio Ghibli movies listed here, and even less of a surprise to see that most of those Studio Ghibli films were directed by Hayao Miyazaki.
                       </p>
                     </div>
                   </div>
@@ -93,11 +79,11 @@ const SXUpcomingProject = () => {
                     <span className="icon" />
                     <span className="phase">Project 06</span>
                     <div className="item_in">
-                      <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/81dwTCF6+XL._SL1500_.jpg" alt="" />
-                      <p className="date">December 02, 2023</p>
-                      <h3 className="title">Naruto Dub</h3>
+                      <img src="/img/upcoming/wolfChildren.webp" alt="wolfChildren" />
+                      <p className="date">IMDB - 8.1</p>
+                      <h3 className="title">Wolf Children</h3>
                       <p className="desc">
-                      Naruto Uzumaki, a mischievous adolescent ninja, struggles as he searches for recognition and dreams of becoming the Hokage, the village's leader and strongest ninja.
+                      After her werewolf lover unexpectedly dies in an accident while hunting for food for their children, a young woman must find ways to raise the werewolf son and daughter that she had with him while keeping their trait hidden from society.
                       </p>
                     </div>
                   </div>
@@ -107,11 +93,11 @@ const SXUpcomingProject = () => {
                     <span className="icon" />
                     <span className="phase">Project 07</span>
                     <div className="item_in">
-                      <img src="https://m.media-amazon.com/images/I/51nwDLVezGL.jpg" alt="" />
-                      <p className="date">January 14, 2025</p>
-                      <h3 className="title">Bleach Dub</h3>
+                      <img src="/img/upcoming/neonGenesisEvangelion.webp" alt="neonGenesisEvangelion" />
+                      <p className="date">IMDB - 8.1</p>
+                      <h3 className="title">Neon Genesis Evangelion: The end of Evangelion</h3>
                       <p className="desc">
-                      High school student Ichigo Kurosaki, who has the ability to see ghosts, gains soul reaper powers from Rukia Kuchiki and sets out to save the world from "Hollows".
+                      Despite its many reboots, retelling and alternative endings that make it a little tough to follow, Neon Genesis Evangelion is one of the most popular mecha series, and for good reasons.
                       </p>
                     </div>
                   </div>
@@ -121,11 +107,11 @@ const SXUpcomingProject = () => {
                     <span className="icon" />
                     <span className="phase">Project 08</span>
                     <div className="item_in">
-                      <img src="https://m.media-amazon.com/images/M/MV5BODEzNjlkMDEtMDViNS00MWE5LWI0YjMtZDRiNjhjNWQ4ZDNlXkEyXkFqcGdeQXVyMjQ3NTQ4MjQ@._V1_FMjpg_UX1000_.jpg" alt="" />
-                      <p className="date">January 28, 2023</p>
-                      <h3 className="title">Hunter X Hunter</h3>
+                      <img src="/img/upcoming/nausicaaOfTheValleyOfTheWind.webp" alt="nausicaaOfTheValleyOfTheWind" />
+                      <p className="date">IMDB - 8.1</p>
+                      <h3 className="title">Nausicaa of the Valley of the Wind</h3>
                       <p className="desc">
-                      Gon Freecss aspires to become a Hunter, an exceptional being capable of greatness. With his friends and his potential, he seeks out his father, who left him when he was younger.
+                      Released in 1984, Nausicaa of the Valley of the Wind tells the touching story of a young princess who dedicates her life to better understanding the world she lives in.
                       </p>
                     </div>
                   </div>
@@ -135,11 +121,11 @@ const SXUpcomingProject = () => {
                     <span className="icon" />
                     <span className="phase">Project 09</span>
                     <div className="item_in">
-                      <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61eyyyGXMKL._SL1500_.jpg" alt="" />
-                      <p className="date">February 12, 2023</p>
-                      <h3 className="title">Full Metal Archemist Dub</h3>
+                      <img src="/img/upcoming/castleInTheSky.webp" alt="castleInTheSky" />
+                      <p className="date">IMDB - 8.0</p>
+                      <h3 className="title">Castle in the Sky</h3>
                       <p className="desc">
-                      Two brothers search for a Philosopher's Stone after an attempt to revive their deceased mother goes awry and leaves them in damaged physical forms.
+                      Castle in the Sky was a technical marvel in the '80s that brings awe-inspiring sites into the movie-watching experience. It tells the story of a boy and a girl in the 19th century and their hope to find the titular castle in the sky.
                       </p>
                     </div>
                   </div>
