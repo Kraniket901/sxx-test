@@ -7,7 +7,7 @@ import Avatar from "../components/Avatar";
 
 const WalletPopUp = ({ walletToggle, wallet }) => {
   
-  const { data: session } = useSession();
+  const { data: session, status } = useSession();
 
   return (
     <Fragment>
@@ -32,14 +32,12 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
           </div>
           {/* <button>Edit Name</button> */}
           <button>
-            <Link href="/avatar" style={{listStyle:"none", color:"white"}}>Edit Avatar</Link>
+            <Link href="/avatar" style={{listStyle:"none", color:"white", background: 'red'}}>Edit Avatar</Link>
           </button>
 
-          {session ? (
             <button onClick={() => signOut()}>Logout</button>
-          ) : (
-            <button onClick={() => signIn("google")}>Login</button>
-          )}
+            {/* <button onClick={() => signIn("google")}>Login</button> */}
+
         </div>
       </div>
     </Fragment>

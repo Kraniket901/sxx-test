@@ -1,16 +1,13 @@
 import Link from "next/link";
 import { useEffect } from "react";
 import { connect } from "react-redux";
-import {
-  navigationToggle,
-  walletToggle,
-} from "../redux/actions/siteSettings";
+import { navigationToggle, walletToggle } from "../redux/actions/siteSettings";
 import { stickyNav } from "../utilits";
 import { useSession, signIn } from "next-auth/react";
 import { Button } from "@nextui-org/react";
 
 const Header = ({ walletToggle, navigationToggle }) => {
-  const { data: session } = useSession();
+  const { data: session, status } = useSession();
   useEffect(() => {
     stickyNav();
   }, []);
@@ -61,7 +58,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
           </div>
 
           <div className="wallet" style={{ display: "flex" }}>
-            {session?.user ? (
+            {status === "authenticated" && (
               <a
                 href="#"
                 onClick={e => {
@@ -72,15 +69,22 @@ const Header = ({ walletToggle, navigationToggle }) => {
               >
                 <img src={session.user.image} width="52px" alt="" />
               </a>
-            ) : (
+            )}
+            {status === "unauthenticated" && (
               <Button color="secondary" auto onClick={() => signIn("google")}>
                 <a
-                  style={{fontFamily:"font1", fontSize:"18px", padding:"1rem 2rem"}}
+                  style={{
+                    fontFamily: "font1",
+                    fontSize: "18px",
+                    padding: "1rem 2rem",
+                  }}
                   className="wallet_opener"
-                >Login
+                >
+                  Login
                 </a>
               </Button>
             )}
+            {status === "loading" && <h1>loading ...</h1>}
           </div>
         </div>
       </div>
