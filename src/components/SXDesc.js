@@ -7,7 +7,7 @@ const SXDesc = () => {
           <div className="news_part">
             <div className="left_items">
               <div className="blog__item">
-                      <img src="/img/Shinnex_Banner.png" alt="" />
+                      <img src="/img/shinnexBanner.webp" alt="" />
               </div>
             </div>
           </div>
