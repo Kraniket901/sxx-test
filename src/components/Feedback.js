@@ -1,6 +1,6 @@
 const Feedback = () => {
     return (
-      <section id="contact" style={{margin:0, padding:0}}>
+      <section id="contact" style={{margin:"1rem", padding:0}}>
         <div className="container">
           <h3
             className="fn__maintitle big"
