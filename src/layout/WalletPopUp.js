@@ -3,11 +3,11 @@ import { connect } from "react-redux";
 import { walletToggle } from "../redux/actions/siteSettings";
 import { useSession, signIn, signOut, getSession } from "next-auth/react";
 import Link from "next/link";
-import Avatar from "../components/Avatar";
+import { useRouter } from "next/router";
 
 const WalletPopUp = ({ walletToggle, wallet }) => {
-  
-  const { data: session } = useSession();
+  const router = useRouter();
+  const { data: session, status } = useSession();
 
   return (
     <Fragment>
@@ -31,15 +31,16 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
             <h3>{session?.user.name || "Aniket Kumar"}</h3>
           </div>
           {/* <button>Edit Name</button> */}
-          <button>
-            <Link href="/avatar" style={{listStyle:"none", color:"white"}}>Edit Avatar</Link>
+          <button
+            onClick={() => {
+              router.push("/avatar");
+            }}
+          >
+            Edit Avatar
           </button>
 
-          {session ? (
-            <button onClick={() => signOut()}>Logout</button>
-          ) : (
-            <button onClick={() => signIn("google")}>Login</button>
-          )}
+          <button onClick={() => signOut()}>Signout</button>
+          {/* <button onClick={() => signIn("google")}>Login</button> */}
         </div>
       </div>
     </Fragment>
