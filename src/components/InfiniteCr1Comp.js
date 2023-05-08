@@ -6,7 +6,7 @@ const InfiniteCr1Comp = () => {
   return (
     <>
       <div className="codeutsava__sponsers-carousel-item">
-        <img src="/img/shinnextream.png" />
+        <img src="/img/shinnextream.webp" />
       </div>
       <div className="codeutsava__sponsers-carousel-item">
         {/* <img src="/img/shinnextream.png"/> */}

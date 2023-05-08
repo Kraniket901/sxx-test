@@ -19,7 +19,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
           <div className="trigger_logo">
             <div className="trigger" onClick={() => navigationToggle(true)}>
               {/* <img src="/img/logo2.png" alt="" /> */}
-              <img src="/img/shinnextream.png" width="100px" alt="" />
+              <img src="/img/shinnextream.webp" width="100px" alt="" />
             </div>
           </div>
           <div className="nav" style={{ opacity: 1 }}>
