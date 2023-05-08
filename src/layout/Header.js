@@ -84,7 +84,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
                 </a>
               </Button>
             )}
-            {status === "loading" && <h1>loading ...</h1>}
+            {status === "loading" && <p>loading ...</p>}
           </div>
         </div>
       </div>
