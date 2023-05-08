@@ -129,6 +129,20 @@ const Navigation = ({ navigation, navigationToggle }) => {
                 </ul>
               </li>
               <li>
+                <Link href="#donation">
+                  <a onClick={() => navigationToggle(false)}>
+                    <span className="creative_link">Donation</span>
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#avatars">
+                  <a onClick={() => navigationToggle(false)}>
+                    <span className="creative_link">Our Avatars</span>
+                  </a>
+                </Link>
+              </li>
+              <li>
                 <Link href="#contact">
                   <a onClick={() => navigationToggle(false)}>
                     <span className="creative_link">Contact</span>

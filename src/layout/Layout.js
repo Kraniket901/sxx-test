@@ -1,11 +1,8 @@
 import Head from "next/head";
 import { Fragment, useEffect } from "react";
-import ImageView from "../components/popup/ImageView";
-import VideoPopup from "../components/popup/VideoPopup";
 import { dataBgImg, holdSection, imgToSVG } from "../utilits";
 import Footer from "./Footer";
 import Header from "./Header";
-import MobileNavigation from "./MobileNavigation";
 import Navigation from "./Navigation";
 import PreLoader from "./PreLoader";
 import ScrollTop from "./ScrollTop";
@@ -25,8 +22,6 @@ const Layout = ({ children, pageTitle }) => {
       <Head>
         <title>Shinnextream</title>
       </Head>
-      <ImageView />
-      <VideoPopup />
       <PreLoader />
       {/* !Preloader */}
       {/* Left Navigation */}
@@ -40,9 +35,6 @@ const Layout = ({ children, pageTitle }) => {
       {/* !Wallet Popup */}
       {/* Main */}
       <div className="metaportal_fn_main">
-        {/* Mobile Navigation */}
-        <MobileNavigation />
-        {/* !Mobile Navigation */}
         {/* Header */}
         <Header />
         {/* !Header */}

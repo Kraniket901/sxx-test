@@ -25,7 +25,7 @@ const Footer = () => {
             </p>
           </div>
           <div className="right_part">
-            {/* <ul>
+            <ul>
               <li>
                 <Link href="/policy">
                   <a className="creative_link">Privacy Policy</a>
@@ -41,7 +41,7 @@ const Footer = () => {
                   <a className="creative_link">Terms &amp; Conditions</a>
                 </Link>
               </li>
-            </ul> */}
+            </ul>
           </div>
         </div>
       </div>
