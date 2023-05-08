@@ -1758,6 +1758,13 @@ a.full_link{
 	line-height: 25px;
 	color: rgba(209, 209, 209, 0.901);
 }
+.descc p{
+	margin-bottom: 27px;
+	font-size: 19px;
+	line-height: 35px;
+	/* color: rgba(209, 209, 209, 0.901); */
+}
+
 .desc p:last-child{
 	margin-bottom: 0;
 }

@@ -25,8 +25,8 @@ function MediaComponent({ videos }) {
           <LikeButton vidId={items.id} />
         </div>
       ))}
-       <div className="desc" style={{padding:"2rem"}}>
-              <p style={{fontSize:"2rem"}}>
+       <div className="descc" style={{padding:"2rem"}}>
+              <p style={{fontSize:"2.5rem",fontWeight:"600"}}>
                 Attack on Titan: The Final Season Part 3 HINDI DUB | Shinnex Production | Shinnextream
               </p>
               <p>
@@ -42,16 +42,16 @@ function MediaComponent({ videos }) {
                 choice: kill – or be devoured!
               </p>
               <p>
-                <b style={{ fontSize: "20px" }}>Type :</b> TV Series
+                <b style={{ fontSize: "23px" }}>Type :</b> TV Series
               </p>
               <p>
-                <b style={{ fontSize: "20px" }}>Studios:</b> MAPPA
+                <b style={{ fontSize: "23px" }}>Studios:</b> MAPPA
               </p>
               <p>
-                <b style={{ fontSize: "20px" }}>Genre:</b> Action, Drama
+                <b style={{ fontSize: "23px" }}>Genre:</b> Action, Drama
               </p>
               <p>
-                <b style={{ fontSize: "20px" }}>Duration:</b> 61 min
+                <b style={{ fontSize: "23px" }}>Duration:</b> 61 min
               </p>
             </div>
     </>
