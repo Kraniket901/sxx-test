@@ -31,8 +31,7 @@ const Video = () => {
         <MobileNavigation />
         <Header />
         <MediaComponent videos={videos} />
-        {/* <SXAboutAOT/> */}
-        {/* <LikeButton/> */}
+        
         <Feedback />
         {/* <SXUpcomingPoll/> */}
         <Footer />

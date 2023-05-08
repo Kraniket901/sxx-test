@@ -25,6 +25,35 @@ function MediaComponent({ videos }) {
           <LikeButton vidId={items.id} />
         </div>
       ))}
+       <div className="desc" style={{padding:"2rem"}}>
+              <p style={{fontSize:"2rem"}}>
+                Attack on Titan: The Final Season Part 3 HINDI DUB | Shinnex Production | Shinnextream
+              </p>
+              <p>
+                Known in Japan as Shingeki no Kyojin, many years ago, the last
+                remnants of humanity were forced to retreat behind the towering
+                walls of a fortified city to escape the massive, man-eating
+                Titans that roamed the land outside their fortress. Only the
+                heroic members of the Scouting Legion dared to stray beyond the
+                safety of the walls – but even those brave warriors seldom
+                returned alive. Those within the city clung to the illusion of a
+                peaceful existence until the day that dream was shattered, and
+                their slim chance at survival was reduced to one horrifying
+                choice: kill – or be devoured!
+              </p>
+              <p>
+                <b style={{ fontSize: "20px" }}>Type :</b> TV Series
+              </p>
+              <p>
+                <b style={{ fontSize: "20px" }}>Studios:</b> MAPPA
+              </p>
+              <p>
+                <b style={{ fontSize: "20px" }}>Genre:</b> Action, Drama
+              </p>
+              <p>
+                <b style={{ fontSize: "20px" }}>Duration:</b> 61 min
+              </p>
+            </div>
     </>
   );
 }
