@@ -74,6 +74,7 @@ function LikeButton({ vidId }) {
     <button
       className={`like-button ${liked ? "liked" : ""}`}
       onClick={handleLike}
+      style={{margin:"2rem"}}
     >
       <AiFillHeart /> {likes}
     </button>
