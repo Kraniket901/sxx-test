@@ -44,14 +44,27 @@ function LikeButton({ vidId }) {
           body: JSON.stringify({
             vidId: vidId,
           }),
-        })
-          .then(res => {
-            //do something awesome that makes the world a better place
-          })
-          .catch(err => {
-            // catch them errors
-            console.log(err);
-          });
+        }).catch(err => {
+          // catch them errors
+          console.log(err);
+        });
+      } else {
+        setLikes(likes - 1);
+        setLiked(false);
+        fetch("/api/unlike", {
+          method: "post",
+          headers: {
+            Accept: "application/json",
+            "Content-Type": "application/json",
+          },
+          //make sure to serialize your JSON body
+          body: JSON.stringify({
+            vidId: vidId,
+          }),
+        }).catch(err => {
+          // catch them errors
+          console.log(err);
+        });
       }
     } else {
       signIn("google");
