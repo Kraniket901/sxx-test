@@ -2,6 +2,7 @@ import React from "react";
 import MediaComponent from "../src/components/MediaComponent";
 import Header from "../src/layout/Header";
 import Footer from "../src/layout/Footer";
+import MobileNavigation from "../src/layout/MobileNavigation";
 import Navigation from "../src/layout/Navigation";
 import SearchButton from "../src/layout/SearchButton";
 import PreLoader from "../src/layout/PreLoader";
@@ -23,6 +24,7 @@ const Video = () => {
     <>
       <div>
         <Navigation />
+        <MobileNavigation />
         <Header />
         <MediaComponent videos={videos} />
         <Feedback />
