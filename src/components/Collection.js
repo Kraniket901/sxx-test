@@ -55,98 +55,104 @@ const Collection = () => {
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/1.PNG"
+                    data-bg-img="/img/wavatar/Ereh.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/1.jpg" />
+              <input type="hidden" defaultValue="/img/wavatar/Ereh.webp" />
             </div>
+
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/2.PNG"
+                    data-bg-img="/img/wavatar/Armin.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/2.jpg" />
+              <input type="hidden" defaultValue="/img/wavatar/Armin.webp" />
             </div>
+
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/3.PNG"
+                    data-bg-img="/img/wavatar/Hange.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/3.jpg" />
+              <input type="hidden" defaultValue="/img/wavatar/Hange.webp"/>
             </div>
+
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/4.PNG"
+                    data-bg-img="/img/wavatar/Levi.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/4.jpg" />
+              <input type="hidden" defaultValue="/img/wavatar/Levi.webp"/>
             </div>
           </div>
           <div className="collection_bottom">
+
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/5.PNG"
+                    data-bg-img="/img/wavatar/Mikasa.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/5.jpg" />
+              <input type="hidden" defaultValue="/img/wavatar/Mikasa.webp" />
+            </div>
+            
+            <div className="item">
+              <div className="item_in">
+                <div className="img">
+                  <div
+                    className="abs_img"
+                    data-bg-img="/img/wavatar/Riner.webp"
+                  />
+                  <img src="/img/1x1.jpg" alt="" />
+                </div>
+              </div>
+              <input type="hidden" defaultValue="/img/wavatar/Riner.webp" />
+            </div>
+
+            <div className="item">
+              <div className="item_in">
+                <div className="img">
+                  <div
+                    className="abs_img"
+                    data-bg-img="/img/wavatar/Erwin.webp"
+                  />
+                  <img src="/img/1x1.jpg" alt="" />
+                </div>
+              </div>
+              <input type="hidden" defaultValue="/img/wavatar/Erwin.webp" />
             </div>
             <div className="item">
               <div className="item_in">
                 <div className="img">
                   <div
                     className="abs_img"
-                    data-bg-img="/img/collection/6.PNG"
+                    data-bg-img="/img/wavatar/Annie.webp"
                   />
                   <img src="/img/1x1.jpg" alt="" />
                 </div>
               </div>
-              <input type="hidden" defaultValue="img/collection/6.jpg" />
-            </div>
-            <div className="item">
-              <div className="item_in">
-                <div className="img">
-                  <div
-                    className="abs_img"
-                    data-bg-img="/img/collection/7.PNG"
-                  />
-                  <img src="/img/1x1.jpg" alt="" />
-                </div>
-              </div>
-              <input type="hidden" defaultValue="img/collection/7.jpg" />
-            </div>
-            <div className="item">
-              <div className="item_in">
-                <div className="img">
-                  <div
-                    className="abs_img"
-                    data-bg-img="/img/collection/8.PNG"
-                  />
-                  <img src="/img/1x1.jpg" alt="" />
-                </div>
-              </div>
-              <input type="hidden" defaultValue="img/collection/8.jpg" />
+              <input type="hidden" defaultValue="/img/wavatar/Annie.webp" />
             </div>
           </div>
       </div>

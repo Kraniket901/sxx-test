@@ -138,23 +138,23 @@ const SXVoiceArtist = () => {
             <ul>
               <li className="prev" data-index={1}>
                 <div className="item">
-                <img src="/img/aot_poster.png" alt="" />
+                <img src="/img/aot_poster.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.png" />
+                    <div className="img" data-bg-img="/img/aot_poster.webp" />
                   </div>
                 </div>
               </li>
               <li className="active" data-index={2}>
                 <div className="item">
-                  <img src="/img/aot_poster.png" alt="" />
+                  <img src="/img/aot_poster.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.png" />
+                    <div className="img" data-bg-img="/img/aot_poster.webp" />
                   </div>
                 </div>
               </li>
               <li className="next" data-index={3}>
                 <div className="item">
-                  <img src="/img/aot_poster.png" alt="" />
+                  <img src="/img/aot_poster.webp" alt="" />
                   {/* <a
                     className="popup-youtube metaportal_fn_videobutton"
                     href="https://www.youtube.com/embed/7e90gBu4pas"
@@ -162,39 +162,39 @@ const SXVoiceArtist = () => {
                     <img src="/svg/play.svg" alt="" className="fn__svg" />
                   </a> */}
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.png" />
+                    <div className="img" data-bg-img="/img/aot_poster.webp" />
                   </div>
                 </div>
               </li>
               <li className="next2" data-index={4}>
                 <div className="item">
-                  <img src="/img/aot_poster.png" alt="" />
+                  <img src="/img/aot_poster.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.png" />
+                    <div className="img" data-bg-img="/img/aot_poster.webp" />
                   </div>
                 </div>
               </li>
               <li data-index={5}>
                 <div className="item">
-                  <img src="/img/aot_poster.png" alt="" />
+                  <img src="/img/aot_poster.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.png" />
+                    <div className="img" data-bg-img="/img/aot_poster.webp" />
                   </div>
                 </div>
               </li>
               <li data-index={6}>
                 <div className="item">
-                  <img src="/img/aot_poster.png" alt="" />
+                  <img src="/img/aot_poster.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.png" />
+                    <div className="img" data-bg-img="/img/aot_poster.webp" />
                   </div>
                 </div>
               </li>
               <li className="prev2" data-index={7}>
                 <div className="item">
-                  <img src="/img/aot_poster.png" alt="" />
+                  <img src="/img/aot_poster.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.png" />
+                    <div className="img" data-bg-img="/img/aot_poster.webp" />
                   </div>
                 </div>
               </li>

@@ -11,7 +11,7 @@ const SearchButton = ({ searchToggle }) => {
       }}
     >
       <span className="icon">
-        <img src="../img/logo2.png" alt="" />
+        <img src="../img/logo2.webp" alt="" />
       </span>
     </a>
   );

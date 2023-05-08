@@ -12,39 +12,39 @@ const Avatar = () => {
   const avatarList = [
     {
       title: "Annie",
-      img: "https://i.postimg.cc/fR5qL6jV/Annie.png",
+      img: "https://i.postimg.cc/pdT1BhdB/Annie.webp",
     },
     {
       title: "Armin",
-      img: "https://i.postimg.cc/Cx6C9Yss/Armin.png",
+      img: "https://i.postimg.cc/Bbxhv2hJ/Armin.webp",
     },
     {
       title: "Eren",
-      img: "https://i.postimg.cc/zv5TTfq8/Ereh.png",
+      img: "https://i.postimg.cc/d3MHv5jW/Ereh.webp",
     },
     {
       title: "Erwin",
-      img: "https://i.postimg.cc/k50QXcZV/Erwin.png",
+      img: "https://i.postimg.cc/vHrj8wj5/Erwin.webp",
     },
     {
       title: "Hange",
-      img: "https://i.postimg.cc/SNdf7cX5/Hange.png",
+      img: "https://i.postimg.cc/yx9GSMN4/Hange.webp",
     },
     {
       title: "Jean",
-      img: "https://i.postimg.cc/HWQ2nqTT/Jean.png",
+      img: "https://i.postimg.cc/CKQrrhBp/Jean.webp",
     },
     {
       title: "Levi",
-      img: "https://i.postimg.cc/YqMxWdSY/Levi.png",
+      img: "https://i.postimg.cc/L8VrDF3m/Levi.webp",
     },
     {
       title: "Mikasa",
-      img: "https://i.postimg.cc/Xq8dL0vF/Mikasa.png",
+      img: "https://i.postimg.cc/4dHLrDV7/Mikasa.webp",
     },
     {
       title: "Riner",
-      img: "https://i.postimg.cc/LXjzqPKx/Riner.png",
+      img: "https://i.postimg.cc/y69pnz72/Riner.webp",
     },
   ];
 
