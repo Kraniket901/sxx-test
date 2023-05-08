@@ -1330,9 +1330,38 @@ a.full_link{
 	padding: 3rem;
 	border-radius: 7px;
 }
+.fn_cs_desc2{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+	max-width: 1100px;
+	max-height: 1000px;
+	margin: 1rem auto 4rem auto;
+	text-align: center;
+	/* background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.40)), url('https://media.tenor.com/BtxDe73qdjQAAAAd/aot-the-rumbling.gif'); */
+	/* background-repeat: no-repeat; */
+	/* background-size:cover; */
+	/* background-attachment: fixed; */
+	/* padding: 3rem; */
+	border-radius: 7px;
+}
 @media(width<600px){
 	.fn_cs_desc{
 		background-position: center;
+		padding: 0 1rem;
+		margin: 1rem;
+	}
+	.fn_cs_desc2{
+		/* background-position: center; */
 		padding: 0 1rem;
 		margin: 1rem;
 	}
@@ -1342,11 +1371,23 @@ a.full_link{
 	font-size: 20px;
 	line-height: 34px;
 	margin-bottom: 41px;
+	/* margin-top: 41px; */
+	font-family: font2;
+}
+.fn_cs_desc2 p{
+	margin: 0;
+	font-size: 20px;
+	line-height: 34px;
+	margin-bottom: 41px;
 	margin-top: 41px;
 	font-family: font2;
 }
 @media(width<600px){
 	.fn_cs_desc p{
+		font-size: 17px;
+		line-height: 25px;
+	}
+	.fn_cs_desc2 p{
 		font-size: 17px;
 		line-height: 25px;
 	}
@@ -1885,7 +1926,7 @@ a.full_link{
 .fn_cs_video{
 	position: relative;
 	height: 80vh;
-	background: url("../img/shinnextream.com.png");
+	background: url("../img/homeImage.webp");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;

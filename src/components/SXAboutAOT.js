@@ -6,8 +6,8 @@ const SXAboutAOT = () => {
           <div className="fn_cs_about" id='about'>
         <div className="left_part">
           <div className="img">
-            <div className="img_in" data-bg-img="../img/poster1.jpg">
-              <img src="../img/poster1.jpg" alt="" />
+            <div className="img_in" data-bg-img="../img/poster1.webp">
+              <img src="../img/poster1.webp" alt="" />
             </div>
           </div>
           <div className="right_in">
@@ -67,7 +67,7 @@ const SXAboutAOT = () => {
           </div>
           <div className="bg_overlay">
             <div className="bg_color" />
-            <div className="bg_image" data-bg-img="/img/aot_poster2.png" />
+            <div className="bg_image" data-bg-img="/img/aot_poster2.webp" />
           </div>
         </div>
       </div>

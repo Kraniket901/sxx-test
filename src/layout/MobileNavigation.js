@@ -6,8 +6,7 @@ import { stickyNav } from "../utilits";
 import { useSession, signIn } from "next-auth/react";
 import { Button } from "@nextui-org/react";
 const MobileNavigation = ({ walletToggle, navigationToggle }) => {
-
-  const { data: session } = useSession();
+  const { data: session, status } = useSession();
   useEffect(() => {
     stickyNav();
   }, []);
@@ -16,18 +15,28 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
   return (
     <Fragment>
       <div className="metaportal_fn_mobnav">
-        <div className="mob_top" style={{display:"flex", justifyContent:"space-between"}}>
+        <div
+          className="mob_top"
+          style={{ display: "flex", justifyContent: "space-between" }}
+        >
           <div className="social_trigger">
-            <div className="trigger" style={{width:"20px"}} onClick={() => navigationToggle(true)}>
+            <div
+              className="trigger"
+              style={{ width: "20px" }}
+              onClick={() => navigationToggle(true)}
+            >
               <span />
             </div>
           </div>
-            <img src="/img/shinnextream.png" width="100px" style={{margin:"0 35px"}} alt="" />
-
-
+          <img
+            src="/img/shinnextream.png"
+            width="100px"
+            style={{ margin: "0 35px" }}
+            alt=""
+          />
 
           <div className="wallet" style={{ display: "flex" }}>
-            {session?.user ? (
+            {status === "authenticated" && (
               <a
                 href="#"
                 onClick={e => {
@@ -38,19 +47,23 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
               >
                 <img src={session.user.image} width="52px" alt="" />
               </a>
-            ) : (
+            )}
+            {status === "unauthenticated" && (
               <Button color="secondary" auto onClick={() => signIn("google")}>
                 <a
-                  style={{fontFamily:"font1", fontSize:"20px", padding:"1rem 0rem"}}
+                  style={{
+                    fontFamily: "font1",
+                    fontSize: "20px",
+                    padding: "1rem 0rem",
+                  }}
                   className="wallet_opener"
-                >Login
+                >
+                  Login
                 </a>
               </Button>
             )}
+            {status === "loading" && <p>loading ...</p>}
           </div>
-
-
-
         </div>
         <div className="mob_mid">
           <div className="logo">
@@ -71,7 +84,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
           <ul>
             <li>
               <a className="creative_link" href="#home">
-              HOME
+                HOME
               </a>
             </li>
             <li>
@@ -81,27 +94,27 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
             </li>
             <li>
               <a className="creative_link" href="#upcoming_projects">
-              UPCOMING PROJECTS
+                UPCOMING PROJECTS
               </a>
             </li>
             <li>
               <a className="creative_link" href="#shinnextream">
-              SHINNEXTREAM
+                SHINNEXTREAM
               </a>
             </li>
             <li>
               <a className="creative_link" href="#donation">
-              DONATION
+                DONATION
               </a>
             </li>
             <li>
               <a className="creative_link" href="#avatars">
-              AVATARS
+                AVATARS
               </a>
             </li>
             <li>
               <a className="creative_link" href="#contact">
-              CONTACT
+                CONTACT
               </a>
             </li>
           </ul>
@@ -111,7 +124,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
   );
 };
 
-const mapStateToProps = (state) => ({
+const mapStateToProps = state => ({
   navigation: state.site.navigation,
 });
 
