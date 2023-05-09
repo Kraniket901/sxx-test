@@ -45,7 +45,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                 }}
                 className="wallet_opener"
               >
-                <img src={session.user.image} width="52px" style={{borderRadius:"50%"}} alt="" />
+                <img src={session.user.image} width="48px" style={{borderRadius:"50%"}} alt="" />
               </a>
             )}
             {status === "unauthenticated" && (
