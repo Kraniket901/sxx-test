@@ -7053,6 +7053,9 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 		font-size: 13px;
 		line-height: 20px;
 	}
+	.descc{
+		padding: 0 16px;
+	}
 	.desccp{
 		font-size: 1.5rem !important;
 		line-height: 33px !important;
