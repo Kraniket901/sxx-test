@@ -53,7 +53,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                 <a
                   style={{
                     fontFamily: "font1",
-                    fontSize: "18px",
+                    fontSize: "16px",
                     padding: "0.7rem 0rem",
                   }}
                   className="wallet_opener"
