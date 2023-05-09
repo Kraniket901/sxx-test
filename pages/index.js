@@ -27,11 +27,12 @@ const Index = () => {
       <SXDesc/>
       <SXVoiceArtist/>
       <SectionDivider/>
-      <InfiniteCr2/>
-      <SectionDivider/>
+      
       <Donation/>
       <SectionDivider/>
       <Collection/>
+      <SectionDivider/>
+      <InfiniteCr2/>
       <SectionDivider/>
       <SXContact/>
     </Layout>
