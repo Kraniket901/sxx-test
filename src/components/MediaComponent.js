@@ -26,32 +26,54 @@ function MediaComponent({ videos }) {
         </div>
       ))}
        <div className="descc" style={{padding:"2rem"}}>
-              <p style={{fontSize:"2.5rem",fontWeight:"600"}}>
-                Attack on Titan: The Final Season Part 3 HINDI DUB | Shinnex Production | Shinnextream
+              <p className="desccp">
+                Attack on Titan: The Final Season Part 3 HINDI DUB TRAILER | 14th MAY | Shinnex Production | Shinnextream
               </p>
               <p>
-                Known in Japan as Shingeki no Kyojin, many years ago, the last
-                remnants of humanity were forced to retreat behind the towering
-                walls of a fortified city to escape the massive, man-eating
-                Titans that roamed the land outside their fortress. Only the
-                heroic members of the Scouting Legion dared to stray beyond the
-                safety of the walls – but even those brave warriors seldom
-                returned alive. Those within the city clung to the illusion of a
-                peaceful existence until the day that dream was shattered, and
-                their slim chance at survival was reduced to one horrifying
-                choice: kill – or be devoured!
+              The Final Run Looks Set To Bring About An End To The Long Conflict Between Paradis And Marley.
+              This amazing epic special episode is brought in hindi by <a target="_blank" style={{color:"white", textDecoration:"none"}} href="https://www.instagram.com/shinnex_production/">@shinnex_production</a> . Shinnex is an initiative taken by fans to take hindi Fan-Dubbings of anime to the next level. We will provide the best possible quality of Anime in hindi so that anime could reach the parts of country where English is not majorly spoken. <br /> AUR AAKHIR ME BAS YEH BOLNA CHAHUNGA KI APNI BHASHA KI BAAT HI KUCH AUR HA.
               </p>
               <p>
-                <b style={{ fontSize: "23px" }}>Type :</b> TV Series
+                <b style={{ fontSize: "21px" }}>Type : </b> TV Series
               </p>
               <p>
-                <b style={{ fontSize: "23px" }}>Studios:</b> MAPPA
+                <b style={{ fontSize: "21px" }}>Studios : </b> MAPPA
               </p>
               <p>
-                <b style={{ fontSize: "23px" }}>Genre:</b> Action, Drama
+                <b style={{ fontSize: "21px" }}>Genre : </b> Action, Drama
               </p>
               <p>
-                <b style={{ fontSize: "23px" }}>Duration:</b> 61 min
+                <b style={{ fontSize: "21px" }}>Duration : </b> 61 min
+              </p>
+              <p>
+                <b style={{ fontSize: "21px" }}>Casts : </b>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/enter_nutshell/">@enter_nutshell </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/bhumikavalmike/">@bhumikavalmike </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/gaayiika/">@gaayiika </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/kaumudi_voiceovers/">@kaumudi_voiceovers </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/narugami_kenji/">@narugami_kenji </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/neuro.noise/">@neuro.noise </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/payal_vishal/">@payal_vishal </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/rishirajpandeyofficial/">@rishirajpandeyofficial </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/akshdeep_singh_vohra/">@akshdeep_singh_vohra </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/rubysnita/">@rubysnita </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/shikhashivi/">@shikhashivi </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/viraj_dub/">@viraj_dub </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/_its_me_vaibhavi_02/">@_its_me_vaibhavi_02 </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/introvert_banda_/">@introvert_banda_ </a>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/raj_naam.toh.suna.hoga/">@raj_naam.toh.suna.hoga </a>
+              </p>
+              <p>
+                <b>Trailer By :</b>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/sp4de.baka/">@sp4de.baka </a>
+              </p>
+              <p>
+                <b>Posters and Thumbnail By : </b>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/mrp_network/">@mrp_network </a>
+              </p>
+              <p>
+                <b>Mixing and Mastering By : </b>
+                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/er.sam_23/">@er.sam_23 </a>
               </p>
             </div>
     </>
