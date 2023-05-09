@@ -37,18 +37,6 @@ const Navigation = ({ navigation, navigationToggle }) => {
                 </div>
               </li>
               <li>
-                {/* <div className="item">
-                  <a
-                    href="https://discord.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  />
-                  <span className="icon">
-                    
-                    <FiLogIn/>
-                  </span>
-                  <span className="text">Login</span>
-                </div> */}
               </li>
             </ul>
           </div>
@@ -64,21 +52,21 @@ const Navigation = ({ navigation, navigationToggle }) => {
               }}
             >
               <li>
-                <Link href="#">
+                <Link href="/">
                   <a onClick={() => navigationToggle(false)}>
                     <span className="creative_link">Home</span>
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#about">
+                <Link href="/#about">
                   <a onClick={() => navigationToggle(false)}>
                     <span className="creative_link">About</span>
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#upcoming_projects">
+                <Link href="/#upcoming_projects">
                   <a onClick={() => navigationToggle(false)}>
                     <span className="creative_link">Upcoming Projects</span>
                   </a>
@@ -101,7 +89,7 @@ const Navigation = ({ navigation, navigationToggle }) => {
                 <ul className="sub-menu">
                   <li>
                     <a
-                      href="#shinnextream"
+                      href="/#shinnextream"
                       className="prev"
                       onClick={() => setSubMenu(null)}
                     >
@@ -113,14 +101,14 @@ const Navigation = ({ navigation, navigationToggle }) => {
                   </li>
 
                   <li>
-                    <Link href="#shinnextream">
+                    <Link href="/#shinnextream">
                       <a onClick={() => navigationToggle(false)}>
                         <span className="creative_link">About</span>
                       </a>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#voice_artists">
+                    <Link href="/#voice_artists">
                       <a onClick={() => navigationToggle(false)}>
                         <span className="creative_link">Voice Artists</span>
                       </a>
@@ -129,21 +117,21 @@ const Navigation = ({ navigation, navigationToggle }) => {
                 </ul>
               </li>
               <li>
-                <Link href="#donation">
+                <Link href="/#donation">
                   <a onClick={() => navigationToggle(false)}>
                     <span className="creative_link">Donation</span>
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#avatars">
+                <Link href="/#avatars">
                   <a onClick={() => navigationToggle(false)}>
                     <span className="creative_link">Our Avatars</span>
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href="#contact">
+                <Link href="/#contact">
                   <a onClick={() => navigationToggle(false)}>
                     <span className="creative_link">Contact</span>
                   </a>
@@ -161,7 +149,14 @@ const Navigation = ({ navigation, navigationToggle }) => {
                   rel="noreferrer"
                 >
                   Aniket
-                </a>
+                </a> &
+                <a
+                  href="https://themeforest.net/user/codeefly/portfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Harsh{" "}
+                </a> &
               </p>
             </div>
             <div className="social_icons">
