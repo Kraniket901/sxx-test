@@ -27,7 +27,7 @@ function LikeButton({ vidId }) {
         }
         setLikes(likes.length);
       });
-  }, [session]);
+  }, [session, vidId]);
 
   const handleLike = () => {
     if (session) {

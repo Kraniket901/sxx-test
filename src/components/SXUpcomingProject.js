@@ -27,7 +27,7 @@ const SXUpcomingProject = () => {
         }
       });
     }
-  }, [session]);
+  }, [session, projects]);
 
   const handleVote = (phase, projectId) => {
     // console.log(phase, projectId);
