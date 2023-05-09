@@ -7,8 +7,8 @@ const Cookies = () => {
 
       <div className="metaportal_fn_privacy">
         <div className="container small">
-          <h3 className="fn__maintitle" data-text="What is a Cookies Policy?">
-            What is a Cookies Policy?
+          <h3 className="fn__maintitle" data-text="Cookie Policy for Shinnextream">
+          Cookie Policy for Shinnextream
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -16,15 +16,12 @@ const Cookies = () => {
               <span />
             </div>
           </div>
-          <p>
-            <strong>Suggested text:</strong> Our website address is:
-            https://frenify.net/envato/frenify/html/meta-portal/1/
-          </p>
+          <p>This is the Cookie Policy for Shinnextream, accessible from shinnextream.vercel.app</p>
           <h3
             className="fn__maintitle"
-            data-text="Do You Legally Need a Cookies Policy?"
+            data-text="What Are Cookies ?"
           >
-            Do You Legally Need a Cookies Policy?
+           What Are Cookies ?
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -32,21 +29,10 @@ const Cookies = () => {
               <span />
             </div>
           </div>
-          <p>
-            Suggested text: When visitors leave comments on the site we collect
-            the data shown in the comments form, and also the{` visitor’s`} IP
-            address and browser user agent string to help spam detection.
-          </p>
-          <p>
-            An anonymized string created from your email address (also called a
-            hash) may be provided to the Gravatar service to see if you are
-            using it. The Gravatar service privacy policy is available here:
-            https://automattic.com/privacy/. After approval of your comment,
-            your profile picture is visible to the public in the context of your
-            comment.
-          </p>
-          <h3 className="fn__maintitle" data-text="United States">
-            United States
+          <p>As is common practice with almost all professional websites this site uses cookies, which are tiny files that are downloaded to your computer, to improve your experience. This page describes what information they gather, how we use it and why we sometimes need to store these cookies. We will also share how you can prevent these cookies from being stored however this may downgrade or 'break' certain elements of the sites functionality.</p>
+
+          <h3 className="fn__maintitle" data-text="How We Use Cookies ?">
+          How We Use Cookies ?
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -54,14 +40,9 @@ const Cookies = () => {
               <span />
             </div>
           </div>
-          <p>
-            <strong>Suggested text:</strong> If you upload images to the
-            website, you should avoid uploading images with embedded location
-            data (EXIF GPS) included. Visitors to the website can download and
-            extract any location data from images on the website.
-          </p>
-          <h3 className="fn__maintitle" data-text="European Union">
-            European Union
+          <p>We use cookies for a variety of reasons detailed below. Unfortunately in most cases there are no industry standard options for disabling cookies without completely disabling the functionality and features they add to this site. It is recommended that you leave on all cookies if you are not sure whether you need them or not in case they are used to provide a service that you use.</p>
+          <h3 className="fn__maintitle" data-text="Disabling Cookies">
+          Disabling Cookies
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -69,36 +50,13 @@ const Cookies = () => {
               <span />
             </div>
           </div>
-          <p>
-            Suggested text: If you leave a comment on our site you may opt-in to
-            saving your name, email address and website in cookies. These are
-            for your convenience so that you do not have to fill in your details
-            again when you leave another comment. These cookies will last for
-            one year.
-          </p>
-          <p>
-            If you visit our login page, we will set a temporary cookie to
-            determine if your browser accepts cookies. This cookie contains no
-            personal data and is discarded when you close your browser.
-          </p>
-          <p>
-            When you log in, we will also set up several cookies to save your
-            login information and your screen display choices. Login cookies
-            last for two days, and screen options cookies last for a year. If
-            you select {`"Remember Me"`}, your login will persist for two weeks.
-            If you log out of your account, the login cookies will be removed.
-          </p>
-          <p>
-            If you edit or publish an article, an additional cookie will be
-            saved in your browser. This cookie includes no personal data and
-            simply indicates the post ID of the article you just edited. It
-            expires after 1 day.
-          </p>
+          <p>You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies. This Cookies Policy was created with the help of the <a href="https://www.termsfeed.com/cookies-policy-generator/">Cookies Policy Generator</a>.</p>
+
           <h3
             className="fn__maintitle"
-            data-text="What Should be Included in Your Cookies Policy?"
+            data-text="The Cookies We Set"
           >
-            What Should be Included in Your Cookies Policy?
+           The Cookies We Set
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -106,21 +64,35 @@ const Cookies = () => {
               <span />
             </div>
           </div>
-          <p>
-            <strong>Suggested text:</strong> Articles on this site may include
-            embedded content (e.g. videos, images, articles, etc.). Embedded
-            content from other websites behaves in the exact same way as if the
-            visitor has visited the other website.
-          </p>
-          <p>
-            These websites may collect data about you, use cookies, embed
-            additional third-party tracking, and monitor your interaction with
-            that embedded content, including tracking your interaction with the
-            embedded content if you have an account and are logged in to that
-            website.
-          </p>
-          <h3 className="fn__maintitle" data-text="Definition of Cookies">
-            Definition of Cookies
+          <ul>
+
+<li>
+    <p>Account related cookies</p>
+    <p>If you create an account with us then we will use cookies for the management of the signup process and general administration. These cookies will usually be deleted when you log out however in some cases they may remain afterwards to remember your site preferences when logged out.</p>
+</li>
+
+<li>
+    <p>Login related cookies</p>
+    <p>We use cookies when you are logged in so that we can remember this fact. This prevents you from having to log in every single time you visit a new page. These cookies are typically removed or cleared when you log out to ensure that you can only access restricted features and areas when logged in.</p>
+</li>
+
+
+
+
+<li>
+    <p>Forms related cookies</p>
+    <p>When you submit data to through a form such as those found on contact pages or comment forms cookies may be set to remember your user details for future correspondence.</p>
+</li>
+
+
+</ul>
+
+
+
+
+
+          <h3 className="fn__maintitle" data-text="Third Party Cookies">
+          Third Party Cookies
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -128,15 +100,31 @@ const Cookies = () => {
               <span />
             </div>
           </div>
-          <p>
-            <strong>Suggested text:</strong> If you request a password reset,
-            your IP address will be included in the reset email.
-          </p>
+          <p>In some special cases we also use cookies provided by trusted third parties. The following section details which third party cookies you might encounter through this site.</p>
+          <ul>
+
+
+
+<li>
+    <p>From time to time we test new features and make subtle changes to the way that the site is delivered. When we are still testing new features these cookies may be used to ensure that you receive a consistent experience whilst on the site whilst ensuring we understand which optimisations our users appreciate the most.</p>
+</li>
+
+
+
+
+
+
+
+<li>
+    <p>We also use social media buttons and/or plugins on this site that allow you to connect with your social network in various ways. For these to work the following social media sites including; Instagram, Gmail, Youtube will set cookies through our site which may be used to enhance your profile on their site or contribute to the data they hold for various purposes outlined in their respective privacy policies.</p>
+</li>
+
+</ul>
           <h3
             className="fn__maintitle"
-            data-text="What You Use the Cookies For"
+            data-text="More Information"
           >
-            What You Use the Cookies For
+            More Information
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -144,55 +132,17 @@ const Cookies = () => {
               <span />
             </div>
           </div>
-          <p>
-            <strong>Suggested text:</strong> If you leave a comment, the comment
-            and its metadata are retained indefinitely. This is so we can
-            recognize and approve any follow-up comments automatically instead
-            of holding them in a moderation queue.
-          </p>
-          <p>
-            For users that register on our website (if any), we also store the
-            personal information they provide in their user profile. All users
-            can see, edit, or delete their personal information at any time
-            (except they cannot change their username). Website administrators
-            can also see and edit that information.
-          </p>
-          <h3
-            className="fn__maintitle"
-            data-text="How Users can Opt Out or Adjust Settings"
-          >
-            How Users can Opt Out or Adjust Settings
-          </h3>
-          <div className="fn_cs_divider">
-            <div className="divider">
-              <span />
-              <span />
-            </div>
-          </div>
-          <p>
-            <strong>Suggested text:</strong> If you have an account on this
-            site, or have left comments, you can request to receive an exported
-            file of the personal data we hold about you, including any data you
-            have provided to us. You can also request that we erase any personal
-            data we hold about you. This does not include any data we are
-            obliged to keep for administrative, legal, or security purposes.
-          </p>
-          <h3
-            className="fn__maintitle"
-            data-text="Cookies Notice When Asking for Consent"
-          >
-            Cookies Notice When Asking for Consent
-          </h3>
-          <div className="fn_cs_divider">
-            <div className="divider">
-              <span />
-              <span />
-            </div>
-          </div>
-          <p>
-            <strong>Suggested text:</strong> Visitor comments may be checked
-            through an automated spam detection service.
-          </p>
+          <p>Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.</p>
+
+<p>For more general information on cookies, please read <a href="https://www.cookiepolicygenerator.com/sample-cookies-policy/">the Cookies Policy article</a>.</p>
+
+<p>However if you are still looking for more information then you can contact us through one of our preferred contact methods:</p>
+
+<ul>
+<li>Email: shinnextream@gmail.com</li>
+<li>By visiting this link: </li> <a href="https://shinnextream.vercel.app/">shinnextream.vercel.app</a>
+</ul>
+          
         </div>
       </div>
     </Layout>
