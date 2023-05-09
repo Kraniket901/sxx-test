@@ -25,7 +25,7 @@ function MediaComponent({ videos }) {
           <LikeButton vidId={items.id} />
         </div>
       ))}
-       <div className="descc" style={{padding:"2rem"}}>
+       <div className="descc">
               <p className="desccp">
                 Attack on Titan: The Final Season Part 3 HINDI DUB TRAILER | 14th MAY | Shinnex Production | Shinnextream
               </p>

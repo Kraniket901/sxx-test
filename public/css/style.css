@@ -7047,6 +7047,9 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	font-weight: 600 !important;
 	line-height: 60px !important;
 }
+.descc{
+	padding: 2rem;
+}
 @media(width<600px){
 	.descc p{
 		margin-bottom: 27px;
