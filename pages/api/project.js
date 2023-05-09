@@ -6,25 +6,28 @@ export default async function handler(req, res) {
   if (req.method === "POST") {
     const session = await getServerSession(req, res, authOptions);
     const email = session.user.email;
-    const vidId = req.body.vidId;
-    const { likes } = await prisma.video.findUnique({
+    const projectId = req.body.projectId;
+    const { votes } = await prisma.project.findUnique({
       where: {
-        id: `${vidId}`,
+        id: `${projectId}`,
       },
       select: {
-        likes: true,
+        votes: true,
       },
     });
-    const videos = await prisma.video.update({
+    const projects = await prisma.project.update({
       where: {
-        id: `${vidId}`,
+        id: `${projectId}`,
       },
       data: {
-        likes: {
-          set: [...likes, email],
+        votes: {
+          set: [...votes, email],
         },
       },
     });
-    res.json(videos);
+    res.json(projects);
+  } else {
+    const data = await prisma.project.findMany();
+    res.json(data);
   }
 }
