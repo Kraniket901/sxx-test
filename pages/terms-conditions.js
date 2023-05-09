@@ -9,9 +9,9 @@ const TermsConditions = () => {
         <div className="container small">
           <h3
             className="fn__maintitle"
-            data-text="Ownership of Site; Agreement to Terms of Use"
+            data-text="Welcome to Shinnextream!"
           >
-            Ownership of Site; Agreement to Terms of Use
+           Welcome to Shinnextream!
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -20,8 +20,7 @@ const TermsConditions = () => {
             </div>
           </div>
           <p>
-            <strong>Suggested text:</strong> Our website address is:
-            https://frenify.net/envato/frenify/html/meta-portal/1/
+          These terms and conditions outline the rules and regulations for the use of Shinnex Production's Website, located at shinnextream.vercel.app.
           </p>
           <h3 className="fn__maintitle" data-text="Content">
             Content
@@ -33,20 +32,13 @@ const TermsConditions = () => {
             </div>
           </div>
           <p>
-            Suggested text: When visitors leave comments on the site we collect
-            the data shown in the comments form, and also the {`visitor’s`} IP
-            address and browser user agent string to help spam detection.
+          By accessing this website we assume you accept these terms and conditions. Do not continue to use Shinnextream if you do not agree to take all of the terms and conditions stated on this page.
           </p>
           <p>
-            An anonymized string created from your email address (also called a
-            hash) may be provided to the Gravatar service to see if you are
-            using it. The Gravatar service privacy policy is available here:
-            https://automattic.com/privacy/. After approval of your comment,
-            your profile picture is visible to the public in the context of your
-            comment.
+          The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client", "You" and "Your" refers to you, the person log on this website and compliant to the Company's terms and conditions. "The Company", "Ourselves", "We", "Our" and "Us", refers to our Company. "Party", "Parties", or "Us", refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client's needs in respect of provision of the Company's stated services, in accordance with and subject to, prevailing law of in. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.
           </p>
-          <h3 className="fn__maintitle" data-text="Your Use of the Site">
-            Your Use of the Site
+          <h3 className="fn__maintitle" data-text="Cookies">
+          Cookies
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -55,16 +47,16 @@ const TermsConditions = () => {
             </div>
           </div>
           <p>
-            <strong>Suggested text:</strong> If you upload images to the
-            website, you should avoid uploading images with embedded location
-            data (EXIF GPS) included. Visitors to the website can download and
-            extract any location data from images on the website.
+          We employ the use of cookies. By accessing Shinnextream, you agreed to use cookies in agreement with the Shinnex Production's Privacy Policy.
+          </p>
+          <p>
+          Most interactive websites use cookies to let us retrieve the user's details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.
           </p>
           <h3
             className="fn__maintitle"
-            data-text="Purchases; Other Terms and Conditions"
+            data-text="License"
           >
-            Purchases; Other Terms and Conditions
+            License
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -73,35 +65,13 @@ const TermsConditions = () => {
             </div>
           </div>
           <p>
-            Suggested text: If you leave a comment on our site you may opt-in to
-            saving your name, email address and website in cookies. These are
-            for your convenience so that you do not have to fill in your details
-            again when you leave another comment. These cookies will last for
-            one year.
-          </p>
-          <p>
-            If you visit our login page, we will set a temporary cookie to
-            determine if your browser accepts cookies. This cookie contains no
-            personal data and is discarded when you close your browser.
-          </p>
-          <p>
-            When you log in, we will also set up several cookies to save your
-            login information and your screen display choices. Login cookies
-            last for two days, and screen options cookies last for a year. If
-            you select {`"Remember Me"`}, your login will persist for two weeks.
-            If you log out of your account, the login cookies will be removed.
-          </p>
-          <p>
-            If you edit or publish an article, an additional cookie will be
-            saved in your browser. This cookie includes no personal data and
-            simply indicates the post ID of the article you just edited. It
-            expires after 1 day.
+          Unless otherwise stated, Shinnex Production and/or its licensors own the intellectual property rights for all material on Shinnextream. All intellectual property rights are reserved. You may access this from Shinnextream for your own personal use subjected to restrictions set in these terms and conditions.
           </p>
           <h3
             className="fn__maintitle"
-            data-text="Accounts, Passwords and Security"
+            data-text="You Must Not:"
           >
-            Accounts, Passwords and Security
+            You Must Not:
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -110,20 +80,23 @@ const TermsConditions = () => {
             </div>
           </div>
           <p>
-            <strong>Suggested text:</strong> Articles on this site may include
-            embedded content (e.g. videos, images, articles, etc.). Embedded
-            content from other websites behaves in the exact same way as if the
-            visitor has visited the other website.
+          <ul>
+    <li>Republish material from Shinnextream</li>
+    <li>Sell, rent or sub-license material from Shinnextream</li>
+    <li>Reproduce, duplicate or copy material from Shinnextream</li>
+    <li>Redistribute content from Shinnextream</li>
+</ul>
           </p>
           <p>
-            These websites may collect data about you, use cookies, embed
-            additional third-party tracking, and monitor your interaction with
-            that embedded content, including tracking your interaction with the
-            embedded content if you have an account and are logged in to that
-            website.
+          This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the <a href="https://www.termsfeed.com/terms-conditions-generator/">Terms and Conditions Generator</a>.
           </p>
-          <h3 className="fn__maintitle" data-text="Privacy">
-            Privacy
+          <p>
+          Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Shinnex Production does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Shinnex Production,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Shinnex Production shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.
+          </p>
+          <p>Shinnex Production reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.</p>
+
+          <h3 className="fn__maintitle" data-text="You Warrant And Represent That:">
+          You Warrant And Represent That:
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -132,11 +105,16 @@ const TermsConditions = () => {
             </div>
           </div>
           <p>
-            <strong>Suggested text:</strong> If you request a password reset,
-            your IP address will be included in the reset email.
+          <ul>
+    <li>You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;</li>
+    <li>The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;</li>
+    <li>The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy</li>
+    <li>The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.</li>
+</ul>
           </p>
-          <h3 className="fn__maintitle" data-text="Disclaimers">
-            Disclaimers
+          <p>You hereby grant Shinnex Production a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.</p>
+          <h3 className="fn__maintitle" data-text="Hyperlinking To Our Content">
+          Hyperlinking To Our Content
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -144,24 +122,53 @@ const TermsConditions = () => {
               <span />
             </div>
           </div>
+          <p>The following organizations may link to our Website without prior written approval:</p>
           <p>
-            <strong>Suggested text:</strong> If you leave a comment, the comment
-            and its metadata are retained indefinitely. This is so we can
-            recognize and approve any follow-up comments automatically instead
-            of holding them in a moderation queue.
+          <ul>
+    <li>Government agencies;</li>
+    <li>Search engines;</li>
+    <li>News organizations;</li>
+    <li>Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and</li>
+    <li>System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.</li>
+</ul>
           </p>
-          <p>
-            For users that register on our website (if any), we also store the
-            personal information they provide in their user profile. All users
-            can see, edit, or delete their personal information at any time
-            (except they cannot change their username). Website administrators
-            can also see and edit that information.
-          </p>
+
+          <p>These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party's site.</p>
+
+<p>We may consider and approve other link requests from the following types of organizations:</p>
+
+          <ul>
+    <li>commonly-known consumer and/or business information sources;</li>
+    <li>dot.com community sites;</li>
+    <li>associations or other groups representing charities;</li>
+    <li>online directory distributors;</li>
+    <li>internet portals;</li>
+    <li>accounting, law and consulting firms; and</li>
+    <li>educational institutions and trade associations.</li>
+</ul>
+
+<p>We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Shinnex Production; and (d) the link is in the context of general resource information.</p>
+
+<p>These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party's site.</p>
+
+<p>If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to Shinnex Production. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.</p>
+
+<p>Approved organizations may hyperlink to our Website as follows:</p>
+
+<ul>
+    <li>By use of our corporate name; or</li>
+    <li>By use of the uniform resource locator being linked to; or</li>
+    <li>By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party's site.</li>
+</ul>
+
+<p>No use of Shinnex Production's logo or other artwork will be allowed for linking absent a trademark license agreement.</p>
+
+
           <h3
             className="fn__maintitle"
-            data-text="Violation of These Terms of Use"
+            data-text="iFrames"
           >
-            Violation of These Terms of Use
+            iFrames
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -169,16 +176,9 @@ const TermsConditions = () => {
               <span />
             </div>
           </div>
-          <p>
-            <strong>Suggested text:</strong> If you have an account on this
-            site, or have left comments, you can request to receive an exported
-            file of the personal data we hold about you, including any data you
-            have provided to us. You can also request that we erase any personal
-            data we hold about you. This does not include any data we are
-            obliged to keep for administrative, legal, or security purposes.
-          </p>
-          <h3 className="fn__maintitle" data-text="Miscellaneous">
-            Miscellaneous
+          <p>Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.</p>
+          <h3 className="fn__maintitle" data-text="Content Liability">
+          Content Liability
           </h3>
           <div className="fn_cs_divider">
             <div className="divider">
@@ -186,10 +186,50 @@ const TermsConditions = () => {
               <span />
             </div>
           </div>
-          <p>
-            <strong>Suggested text:</strong> Visitor comments may be checked
-            through an automated spam detection service.
-          </p>
+          <p>We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.</p>
+          <h3 className="fn__maintitle" data-text="Reservation of Rights">
+          Reservation of Rights
+          </h3>
+          <div className="fn_cs_divider">
+            <div className="divider">
+              <span />
+              <span />
+            </div>
+          </div>
+          <p>We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it's linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.</p>
+          <h3 className="fn__maintitle" data-text="Removal of Links From Our Website">
+          Removal of Links From Our Website
+          </h3>
+          <div className="fn_cs_divider">
+            <div className="divider">
+              <span />
+              <span />
+            </div>
+          </div>
+          <p>If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.</p>
+
+<p>We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.</p>
+          <h3 className="fn__maintitle" data-text="Disclaimer">
+          Disclaimer
+          </h3>
+          <div className="fn_cs_divider">
+            <div className="divider">
+              <span />
+              <span />
+            </div>
+          </div>
+          <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:</p>
+
+<ul>
+    <li>limit or exclude our or your liability for death or personal injury;</li>
+    <li>limit or exclude our or your liability for fraud or fraudulent misrepresentation;</li>
+    <li>limit any of our or your liabilities in any way that is not permitted under applicable law; or</li>
+    <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
+</ul>
+
+<p>The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.</p>
+
+<p>As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.</p>
         </div>
       </div>
     </Layout>
