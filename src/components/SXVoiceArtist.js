@@ -8,7 +8,7 @@ const SXVoiceArtist = () => {
       let sliderTop = element.getElementsByClassName("slider_top")[0],
         sliderBottom = element.getElementsByClassName("slider_content"),
         activeIndex = 2,
-        speed = 6000;
+        speed = 10000;
 
       let myInterval = setInterval(function () {
         activeIndex++;
@@ -138,63 +138,121 @@ const SXVoiceArtist = () => {
             <ul>
               <li className="prev" data-index={1}>
                 <div className="item">
-                <img src="/img/aot_poster.webp" alt="" />
+                <img src="/img/va/1.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.webp" />
+                    <div className="img" data-bg-img="/img/va/1.webp" />
                   </div>
                 </div>
               </li>
               <li className="active" data-index={2}>
                 <div className="item">
-                  <img src="/img/aot_poster.webp" alt="" />
+                  <img src="/img/va/2.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.webp" />
+                    <div className="img" data-bg-img="/img/va/2.webp" />
                   </div>
                 </div>
               </li>
               <li className="next" data-index={3}>
                 <div className="item">
-                  <img src="/img/aot_poster.webp" alt="" />
-                  {/* <a
-                    className="popup-youtube metaportal_fn_videobutton"
-                    href="https://www.youtube.com/embed/7e90gBu4pas"
-                  >
-                    <img src="/svg/play.svg" alt="" className="fn__svg" />
-                  </a> */}
+                  <img src="/img/va/3.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.webp" />
+                    <div className="img" data-bg-img="/img/va/3.webp" />
                   </div>
                 </div>
               </li>
               <li className="next2" data-index={4}>
                 <div className="item">
-                  <img src="/img/aot_poster.webp" alt="" />
+                  <img src="/img/va/4.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.webp" />
+                    <div className="img" data-bg-img="/img/va/4.webp" />
                   </div>
                 </div>
               </li>
               <li data-index={5}>
                 <div className="item">
-                  <img src="/img/aot_poster.webp" alt="" />
+                  <img src="/img/va/5.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.webp" />
+                    <div className="img" data-bg-img="/img/va/5.webp" />
                   </div>
                 </div>
               </li>
               <li data-index={6}>
                 <div className="item">
-                  <img src="/img/aot_poster.webp" alt="" />
+                  <img src="/img/va/6.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.webp" />
+                    <div className="img" data-bg-img="/img/va/6.webp" />
                   </div>
                 </div>
               </li>
-              <li className="prev2" data-index={7}>
+              <li data-index={7}>
                 <div className="item">
-                  <img src="/img/aot_poster.webp" alt="" />
+                  <img src="/img/va/7.webp" alt="" />
                   <div className="item_in">
-                    <div className="img" data-bg-img="/img/aot_poster.webp" />
+                    <div className="img" data-bg-img="/img/va/7.webp" />
+                  </div>
+                </div>
+              </li>
+              <li data-index={8}>
+                <div className="item">
+                  <img src="/img/va/8.webp" alt="" />
+                  <div className="item_in">
+                    <div className="img" data-bg-img="/img/va/8.webp" />
+                  </div>
+                </div>
+              </li>
+              <li data-index={9}>
+                <div className="item">
+                  <img src="/img/va/9.webp" alt="" />
+                  <div className="item_in">
+                    <div className="img" data-bg-img="/img/va/9.webp" />
+                  </div>
+                </div>
+              </li>
+              <li data-index={10}>
+                <div className="item">
+                  <img src="/img/va/10.webp" alt="" />
+                  <div className="item_in">
+                    <div className="img" data-bg-img="/img/va/10.webp" />
+                  </div>
+                </div>
+              </li>
+              <li data-index={11}>
+                <div className="item">
+                  <img src="/img/va/11.webp" alt="" />
+                  <div className="item_in">
+                    <div className="img" data-bg-img="/img/va/11.webp" />
+                  </div>
+                </div>
+              </li>
+              <li data-index={12}>
+                <div className="item">
+                  <img src="/img/va/12.webp" alt="" />
+                  <div className="item_in">
+                    <div className="img" data-bg-img="/img/va/12.webp" />
+                  </div>
+                </div>
+              </li>
+              <li data-index={13}>
+                <div className="item">
+                  <img src="/img/va/13.webp" alt="" />
+                  <div className="item_in">
+                    <div className="img" data-bg-img="/img/va/13.webp" />
+                  </div>
+                </div>
+              </li>
+              <li data-index={14}>
+                <div className="item">
+                  <img src="/img/va/14.webp" alt="" />
+                  <div className="item_in">
+                    <div className="img" data-bg-img="/img/va/14.webp" />
+                  </div>
+                </div>
+              </li>
+              <li className="prev2" data-index={15}>
+                <div className="item">
+                  <img src="/img/va/15.webp" alt="" />
+                  <div className="item_in">
+                    <div className="img" data-bg-img="/img/va/15.webp" />
                   </div>
                 </div>
               </li>

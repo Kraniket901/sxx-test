@@ -1099,7 +1099,7 @@ a.full_link{
 	opacity: 0;
 }
 .fn_cs_slider .slider_top{
-	padding: 59px 0 60px;
+	padding: 190px 0 60px;
 	position: relative;
 }
 .fn_cs_slider .slider_top ul{
@@ -1176,7 +1176,7 @@ a.full_link{
 	top: 0;
 	left: 0;
 	right: 0;
-	bottom: 0;
+	bottom: -15px;
 	transform: scaleX(0.85) scaleY(0.85) rotateY(180deg);
 }
 
@@ -1194,6 +1194,11 @@ a.full_link{
 	left: 20px;
 	right: 20px;
 	bottom: 20px;
+}
+.texty{
+	display: flex;
+	justify-content: center;
+	text-align: center;
 }
 .fn_cs_slider .slider_top .img:after{
 	content: '';
