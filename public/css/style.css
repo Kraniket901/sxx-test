@@ -8,6 +8,10 @@
 	src: url('../font/Manga-4vx6.ttf');
  }
 
+ * {
+    -webkit-tap-highlight-color: transparent !important;
+}
+
 /*
 /*	Copyright (c) 2022 Frenify
 /*	Author: Frenify
