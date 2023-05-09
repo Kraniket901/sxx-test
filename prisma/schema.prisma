@@ -71,3 +71,14 @@ model Comment {
   videoId   String? @db.ObjectId
   userId    String  @db.ObjectId
 }
+
+model Project {
+  id     String   @id @default(auto()) @map("_id") @db.ObjectId
+  phase  String
+  src    String
+  alt    String
+  rating String
+  title  String
+  desc   String
+  votes  String[]
+}

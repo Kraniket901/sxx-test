@@ -29,7 +29,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
             </div>
           </div>
           <img
-            src="/img/shinnextream.webp"
+            src="/img/shinnextream.png"
             width="100px"
             style={{ margin: "0 35px" }}
             alt=""
