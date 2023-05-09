@@ -3,7 +3,6 @@ import { roadMapProps } from "../sliderProps";
 import React, { useState, useEffect } from "react";
 import { useSession, signIn } from "next-auth/react";
 import { Button } from "@nextui-org/react";
-import SXUpcomingPoll from "./SXUpcomingPoll";
 import axios from "axios";
 
 const SXUpcomingProject = () => {
@@ -27,7 +26,7 @@ const SXUpcomingProject = () => {
         }
       });
     }
-  }, [session, projects]);
+  }, [session]);
 
   const handleVote = (phase, projectId) => {
     // console.log(phase, projectId);

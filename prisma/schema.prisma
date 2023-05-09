@@ -44,7 +44,6 @@ model User {
   image         String?
   accounts      Account[]
   sessions      Session[]
-  Comments      Comment[]
 }
 
 model VerificationToken {
@@ -59,17 +58,7 @@ model Video {
   id       String    @id @default(auto()) @map("_id") @db.ObjectId
   title    String
   url      String    @unique
-  comments Comment[]
   likes    String[]
-}
-
-model Comment {
-  id        String  @id @default(auto()) @map("_id") @db.ObjectId
-  comment   String
-  commentby User    @relation(fields: [userId], references: [id])
-  video     Video?  @relation(fields: [videoId], references: [id])
-  videoId   String? @db.ObjectId
-  userId    String  @db.ObjectId
 }
 
 model Project {
