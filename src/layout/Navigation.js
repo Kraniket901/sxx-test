@@ -88,8 +88,9 @@ const Navigation = ({ navigation, navigationToggle }) => {
                 </a>
                 <ul className="sub-menu">
                   <li>
+                    <Link href="/#shinnextream">
                     <a
-                      href="/#shinnextream"
+                      href="#shinnextream"
                       className="prev"
                       onClick={() => setSubMenu(null)}
                     >
@@ -98,6 +99,8 @@ const Navigation = ({ navigation, navigationToggle }) => {
                         Shinnextream
                       </span>
                     </a>
+                    </Link>
+
                   </li>
 
                   <li>
