@@ -3,6 +3,7 @@ import { roadMapProps } from "../sliderProps";
 import React,{useState} from "react";
 import {Button ,Progress, Grid, Container, Text } from "@nextui-org/react";
 import { BsEmojiHeartEyes,BsEmojiWink, BsEmojiSunglasses, BsEmojiKiss,BsEmojiLaughing } from 'react-icons/bs';
+import Link from "next/link";
 const SXUpcomingPoll = () => {
 
     const [Voted, setVote] = useState(0);
