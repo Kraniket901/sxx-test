@@ -11,7 +11,7 @@ function LikeButton({ vidId }) {
 
   useEffect(() => {
     axios
-      .get("/api/like")
+      .get("/api/video")
       .then(res => res.data)
       .then(res => res.filter(item => item.id === vidId))
       // .then(res => res.likes)
