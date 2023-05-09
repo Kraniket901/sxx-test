@@ -3,7 +3,8 @@ function MediaComponent({ videos }) {
   // console.log(videos);
   return (
     <>
-      {videos.map(items => (
+    <div className="container">
+    {videos.map(items => (
         <div key={items.id}>
           <div style={{ paddingTop: "56%", position: "relative" }}>
             <iframe
@@ -76,6 +77,8 @@ function MediaComponent({ videos }) {
                 <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/er.sam_23/">@er.sam_23 </a>
               </p>
             </div>
+    </div>
+
     </>
   );
 }
