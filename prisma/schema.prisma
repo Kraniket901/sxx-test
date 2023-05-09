@@ -55,10 +55,10 @@ model VerificationToken {
 }
 
 model Video {
-  id       String    @id @default(auto()) @map("_id") @db.ObjectId
-  title    String
-  url      String    @unique
-  likes    String[]
+  id    String   @id @default(auto()) @map("_id") @db.ObjectId
+  title String
+  url   String   @unique
+  likes String[]
 }
 
 model Project {
@@ -70,4 +70,13 @@ model Project {
   title  String
   desc   String
   votes  String[]
+}
+
+model Feedback {
+  id       String @id @default(auto()) @map("_id") @db.ObjectId
+  name     String
+  city     String
+  phone    String
+  topic    String
+  feedback String
 }

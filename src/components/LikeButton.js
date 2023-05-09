@@ -20,7 +20,7 @@ function LikeButton({ vidId }) {
         const { likes } = res;
         if (session) {
           const userHasLiked = likes.find(user => user === session?.user.email);
-          console.log(userHasLiked);
+          // console.log(userHasLiked);
           if (userHasLiked) {
             setLiked(true);
           }

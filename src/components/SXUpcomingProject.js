@@ -16,6 +16,9 @@ const SXUpcomingProject = () => {
       .then(res => res.data)
       .then(res => setProjects(res))
       .catch(err => console.log(err));
+  }, []);
+
+  useEffect(() => {
     if (session) {
       projects.map(item => {
         const phase = item.phase;

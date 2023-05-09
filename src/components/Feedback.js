@@ -5,6 +5,29 @@ const Feedback = () => {
   const [phone, setPhone] = useState("");
   const [topic, setTopic] = useState("");
   const [feedback, setFeedback] = useState("");
+
+  async function handleForm(e) {
+    e.preventDefault();
+    await fetch("/api/feedback", {
+      method: "post",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      //make sure to serialize your JSON body
+      body: JSON.stringify({
+        name: name,
+        city: city,
+        phone: phone,
+        topic: topic,
+        feedback: feedback,
+      }),
+    }).catch(err => {
+      // catch them errors
+      console.log(err);
+    });
+  }
+
   return (
     <section id="contact" style={{ margin: "1rem", padding: 0 }}>
       <div className="container">
@@ -18,8 +41,7 @@ const Feedback = () => {
         </h3>
         <div className="fn_cs_contact_form">
           <form
-            action="/"
-            method="post"
+            onSubmit={handleForm}
             className="contact_form"
             id="contact_form"
             autoComplete="off"
@@ -27,16 +49,36 @@ const Feedback = () => {
             <div className="input_list">
               <ul>
                 <li>
-                  <input id="name" type="text" placeholder="Your Name *" />
+                  <input
+                    id="name"
+                    type="text"
+                    value={name}
+                    onInput={({ target }) => {
+                      setName(target.value);
+                    }}
+                    placeholder="Your Name *"
+                  />
                 </li>
                 <li>
-                  <input id="email" type="text" placeholder="Your City" />
+                  <input
+                    id="city"
+                    type="text"
+                    value={city}
+                    onInput={({ target }) => {
+                      setCity(target.value);
+                    }}
+                    placeholder="Your City"
+                  />
                 </li>
                 <li>
                   <input
                     id="tel"
                     type="text"
                     placeholder="Your Phone (optional)"
+                    value={phone}
+                    onInput={({ target }) => {
+                      setPhone(target.value);
+                    }}
                   />
                 </li>
                 <li>
@@ -44,6 +86,10 @@ const Feedback = () => {
                     id="subject"
                     type="text"
                     placeholder="Topic (optional)"
+                    value={topic}
+                    onInput={({ target }) => {
+                      setTopic(target.value);
+                    }}
                   />
                 </li>
                 <li className="full">
@@ -51,17 +97,20 @@ const Feedback = () => {
                     id="message"
                     placeholder="Your Valuable Feedback *"
                     defaultValue={""}
+                    value={feedback}
+                    onInput={({ target }) => {
+                      setFeedback(target.value);
+                    }}
                   />
                 </li>
                 <li className="full">
                   <div className="mw300">
-                    <a
+                    <button
                       id="send_message"
-                      href="#"
                       className="metaportal_fn_button full"
                     >
                       <span>Send</span>
-                    </a>
+                    </button>
                   </div>
                 </li>
               </ul>
