@@ -8,7 +8,7 @@ const SXVoiceArtist = () => {
       let sliderTop = element.getElementsByClassName("slider_top")[0],
         sliderBottom = element.getElementsByClassName("slider_content"),
         activeIndex = 2,
-        speed = 10000;
+        speed = 3000;
 
       let myInterval = setInterval(function () {
         activeIndex++;
