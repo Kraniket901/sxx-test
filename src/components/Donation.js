@@ -13,23 +13,18 @@ const Donation = () => {
   const avatarList = [
     {
       title: "Founding Titan Donation",
-      price: "price_1N4I1YSFDWmXpjvIqaR7TYou",
+      price: "price_1N5n6WSFDWmXpjvIukkLLJrq",
       img: "img/titans/Founding_Titan.webp",
     },
     {
       title: "Attack Titan Donation",
-      price: "price_1N4I3CSFDWmXpjvIQkoSklgs",
+      price: "price_1N5n7eSFDWmXpjvIEoXtnekv",
       img: "img/titans/Attack_Titan.webp",
     },
     {
       title: "Armored Titan Donation",
-      price: "price_1N4I4aSFDWmXpjvIvbcN0qxU",
+      price: "price_1N5nA6SFDWmXpjvIKh6EduWI",
       img: "img/titans/Armored_Titan.webp",
-    },
-    {
-      title: "Beast Titan Donation",
-      price: "price_1N4I5zSFDWmXpjvImYoH1HXS",
-      img: "img/titans/Beast_Titan.webp",
     },
     {
       title: "Female Titan Donation",
@@ -37,9 +32,9 @@ const Donation = () => {
       img: "img/titans/Female_Titan.webp",
     },
     {
-      title: "War Hammer Titan Donation",
-      price: "price_1N4I9JSFDWmXpjvIYkqMFmyw",
-      img: "img/titans/War_Hammer.webp",
+      title: "Beast Titan Donation",
+      price: "price_1N5nBxSFDWmXpjvIuWaxRH49",
+      img: "img/titans/Beast_Titan.webp",
     },
     {
       title: "Colossal Titan Donation",
@@ -55,6 +50,11 @@ const Donation = () => {
       title: "Cart Titan Donation",
       price: "price_1N4ID4SFDWmXpjvI2MaepC2O",
       img: "img/titans/Cart_Titan.webp",
+    },
+    {
+      title: "War Hammer Titan Donation",
+      price: "price_1N5nE2SFDWmXpjvIArqZ5EeJ",
+      img: "img/titans/War_Hammer.webp",
     },
   ];
 
