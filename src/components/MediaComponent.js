@@ -31,7 +31,7 @@ function MediaComponent({ videos }) {
               </p>
               <p>
               The Final Run Looks Set To Bring About An End To The Long Conflict Between Paradis And Marley.
-              This amazing epic special episode is brought in hindi by <a target="_blank" style={{color:"white", textDecoration:"none"}} href="https://www.instagram.com/shinnex_production/">@shinnex_production</a> . Shinnex is an initiative taken by fans to take hindi Fan-Dubbings of anime to the next level. We will provide the best possible quality of Anime in hindi so that anime could reach the parts of country where English is not majorly spoken. <br /> AUR AAKHIR ME BAS YEH BOLNA CHAHUNGA KI APNI BHASHA KI BAAT HI KUCH AUR HA.
+              This amazing epic special episode is brought in hindi by <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none"}} href="https://www.instagram.com/shinnex_production/">@shinnex_production</a> . Shinnex is an initiative taken by fans to take hindi Fan-Dubbings of anime to the next level. We will provide the best possible quality of Anime in hindi so that anime could reach the parts of country where English is not majorly spoken. <br /> AUR AAKHIR ME BAS YEH BOLNA CHAHUNGA KI APNI BHASHA KI BAAT HI KUCH AUR HA.
               </p>
               <p>
                 <b style={{ fontSize: "21px" }}>Type : </b> TV Series
@@ -47,33 +47,33 @@ function MediaComponent({ videos }) {
               </p>
               <p>
                 <b style={{ fontSize: "21px" }}>Casts : </b>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/enter_nutshell/">@enter_nutshell </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/bhumikavalmike/">@bhumikavalmike </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/gaayiika/">@gaayiika </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/kaumudi_voiceovers/">@kaumudi_voiceovers </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/narugami_kenji/">@narugami_kenji </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/neuro.noise/">@neuro.noise </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/payal_vishal/">@payal_vishal </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/rishirajpandeyofficial/">@rishirajpandeyofficial </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/akshdeep_singh_vohra/">@akshdeep_singh_vohra </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/rubysnita/">@rubysnita </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/shikhashivi/">@shikhashivi </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/viraj_dub/">@viraj_dub </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/_its_me_vaibhavi_02/">@_its_me_vaibhavi_02 </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/introvert_banda_/">@introvert_banda_ </a>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/raj_naam.toh.suna.hoga/">@raj_naam.toh.suna.hoga </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/enter_nutshell/">@enter_nutshell </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/bhumikavalmike/">@bhumikavalmike </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/gaayiika/">@gaayiika </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/kaumudi_voiceovers/">@kaumudi_voiceovers </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/narugami_kenji/">@narugami_kenji </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/neuro.noise/">@neuro.noise </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/payal_vishal/">@payal_vishal </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/rishirajpandeyofficial/">@rishirajpandeyofficial </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/akshdeep_singh_vohra/">@akshdeep_singh_vohra </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/rubysnita/">@rubysnita </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/shikhashivi/">@shikhashivi </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/viraj_dub/">@viraj_dub </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/_its_me_vaibhavi_02/">@_its_me_vaibhavi_02 </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/introvert_banda_/">@introvert_banda_ </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/raj_naam.toh.suna.hoga/">@raj_naam.toh.suna.hoga </a>
               </p>
               <p>
                 <b>Trailer By :</b>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/sp4de.baka/">@sp4de.baka </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/sp4de.baka/">@sp4de.baka </a>
               </p>
               <p>
                 <b>Posters and Thumbnail By : </b>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/mrp_network/">@mrp_network </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/mrp_network/">@mrp_network </a>
               </p>
               <p>
                 <b>Mixing and Mastering By : </b>
-                <a target="_blank" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/er.sam_23/">@er.sam_23 </a>
+                <a target="_blank" rel="noopener noreferrer" style={{color:"white", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/er.sam_23/">@er.sam_23 </a>
               </p>
             </div>
     </>
