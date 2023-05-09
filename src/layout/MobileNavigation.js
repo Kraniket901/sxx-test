@@ -83,40 +83,91 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
         <div className="mob_bot" style={{ display: toggle ? "block" : "none" }}>
           <ul>
             <li>
-              <a className="creative_link" href="#home">
-                HOME
-              </a>
-            </li>
-            <li>
-              <a className="creative_link" href="#about">
-                ABOUT
-              </a>
-            </li>
-            <li>
-              <a className="creative_link" href="#upcoming_projects">
-                UPCOMING PROJECTS
-              </a>
-            </li>
-            <li>
-              <a className="creative_link" href="#shinnextream">
-                SHINNEXTREAM
-              </a>
-            </li>
-            <li>
-              <a className="creative_link" href="#donation">
-                DONATION
-              </a>
-            </li>
-            <li>
-              <a className="creative_link" href="#avatars">
-                AVATARS
-              </a>
-            </li>
-            <li>
-              <a className="creative_link" href="#contact">
-                CONTACT
-              </a>
-            </li>
+                <Link href="#">
+                  <a onClick={() => navigationToggle(false)}>
+                    <span className="creative_link">Home</span>
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#about">
+                  <a onClick={() => navigationToggle(false)}>
+                    <span className="creative_link">About</span>
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#upcoming_projects">
+                  <a onClick={() => navigationToggle(false)}>
+                    <span className="creative_link">Upcoming Projects</span>
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setSubMenu("pages");
+                  }}
+                  className={`${subMenu == "pages" ? "active" : ""}`}
+                >
+                  <span className="creative_link">
+                    Shinnextream
+                    <img src="/svg/down.svg" alt="" className="fn__svg" />
+                  </span>
+                </a>
+                <ul className="sub-menu">
+                  <li>
+                    <a
+                      href="#shinnextream"
+                      className="prev"
+                      onClick={() => setSubMenu(null)}
+                    >
+                      <span className="creative_link">
+                        <img src="/svg/down.svg" alt="" className="fn__svg" />
+                        Shinnextream
+                      </span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <Link href="#shinnextream">
+                      <a onClick={() => navigationToggle(false)}>
+                        <span className="creative_link">About</span>
+                      </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#voice_artists">
+                      <a onClick={() => navigationToggle(false)}>
+                        <span className="creative_link">Voice Artists</span>
+                      </a>
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <Link href="#donation">
+                  <a onClick={() => navigationToggle(false)}>
+                    <span className="creative_link">Donation</span>
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#avatars">
+                  <a onClick={() => navigationToggle(false)}>
+                    <span className="creative_link">Our Avatars</span>
+                  </a>
+                </Link>
+              </li>
+              <li>
+                <Link href="#contact">
+                  <a onClick={() => navigationToggle(false)}>
+                    <span className="creative_link">Contact</span>
+                  </a>
+                </Link>
+              </li>
           </ul>
         </div>
       </div>
