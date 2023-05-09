@@ -1,42 +1,13 @@
+import Link from "next/link";
+import { GiHeartWings } from "react-icons/gi";
+
 const Social = () => {
   return (
     <div id="social" className="hold">
       <div className="social">
-        <h4 className="title">Follow Us:</h4>
-        <ul>
-          <li>
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Fb.
-            </a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com/" target="_blank" rel="noreferrer">
-              Tw.
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              In.
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Ln.
-            </a>
-          </li>
-        </ul>
+        <h4 className="title" style={{fontFamily:"font1", fontSize:"1.5rem", letterSpacing:"2px", display:"flex"}}>
+          Shinzo &nbsp;wo &nbsp;Sasageyo &nbsp;<GiHeartWings size={50} color="#9543e7"/>
+        </h4>
       </div>
     </div>
   );
