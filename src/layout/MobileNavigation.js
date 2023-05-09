@@ -10,7 +10,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
   useEffect(() => {
     stickyNav();
   }, []);
-
+  const [subMenu, setSubMenu] = useState(null);
   const [toggle, setToggle] = useState(false);
   return (
     <Fragment>
