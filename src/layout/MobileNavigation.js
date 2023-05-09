@@ -31,7 +31,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
           <img
             src="/img/shinnextream.webp"
             width="100px"
-            style={{ margin: "0 35px" }}
+            style={{ margin: "0 25px" }}
             alt=""
           />
 
@@ -45,7 +45,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                 }}
                 className="wallet_opener"
               >
-                <img src={session.user.image} width="48px" style={{borderRadius:"50%"}} alt="" />
+                <img src={session.user.image} width="45px" style={{borderRadius:"50%"}} alt="" />
               </a>
             )}
             {status === "unauthenticated" && (
@@ -54,7 +54,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                   style={{
                     fontFamily: "font1",
                     fontSize: "16px",
-                    padding: "0.7rem 0rem",
+                    padding: "0.4rem 0rem",
                   }}
                   className="wallet_opener"
                 >
