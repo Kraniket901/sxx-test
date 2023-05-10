@@ -4,15 +4,14 @@ import Header from "../src/layout/Header";
 import Footer from "../src/layout/Footer";
 import MobileNavigation from "../src/layout/MobileNavigation";
 import Navigation from "../src/layout/Navigation";
-import SearchButton from "../src/layout/SearchButton";
 import PreLoader from "../src/layout/PreLoader";
 import WalletPopUp from "../src/layout/WalletPopUp";
 import Feedback from "../src/components/Feedback";
 import axios from "axios";
 import { useState, useEffect } from "react";
-import Social from "./Social";
-import Searchbox from "./Searchbox";
-import SearchButton from "./SearchButton";
+import Social from "../src/layout/Social";
+import SearchButton from "../src/layout/SearchButton";
+import Searchbox from "../src/layout/Searchbox";
 
 const Video = () => {
   const [videos, setVideos] = useState([]);
