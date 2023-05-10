@@ -39,7 +39,7 @@ const Collection = () => {
 
   return (
     <section id="avatars">
-      <div className="container">
+      <div data-aos="fade-up" className="container">
       <h3
           className="fn__maintitle big"
           data-text="OUR AVATARS"

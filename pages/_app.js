@@ -3,8 +3,19 @@ import { Provider } from "react-redux";
 import store from "../src/redux/store";
 import "../styles/globals.css";
 import { SessionProvider } from "next-auth/react";
+import { useEffect } from "react";
+import AOS from "aos";
+
+import "aos/dist/aos.css";
 
 function MyApp({ Component, pageProps: { session, ...pageProps }  }) {
+  useEffect(() => {
+    AOS.init({
+      easing: "ease-out-cubic",
+      once: true,
+      offset: 50,
+    });
+  }, []);
   return (
     <SessionProvider session={session}>
     <Provider store={store}>

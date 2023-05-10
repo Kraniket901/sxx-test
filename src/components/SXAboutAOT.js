@@ -5,12 +5,12 @@ const SXAboutAOT = () => {
     <>
           <div className="fn_cs_about" id='about'>
         <div className="left_part">
-          <div className="img">
+          <div data-aos="fade-right" className="img">
             <div className="img_in" data-bg-img="../img/poster1.webp">
               <img src="../img/poster1.webp" alt="" />
             </div>
           </div>
-          <div className="right_in">
+          <div data-aos="fade-left" className="right_in">
             <h3
               style={{ lineHeight: "45px", fontFamily:"font1" }}
               className="fn__maintitle"

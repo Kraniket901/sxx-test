@@ -6,13 +6,13 @@ const SXDesc = () => {
         <div className="fn_cs_news">
           <div className="news_part">
             <div className="left_items">
-              <div className="blog__item">
+              <div data-aos="fade-up" className="blog__item">
                       <img src="/img/shinnexBanner.webp" alt="" />
               </div>
             </div>
             
           </div>
-      <div className="fn_cs_desc2" >
+      <div data-aos="fade-up" className="fn_cs_desc2" >
         <p>
           "मैं इस नफ़रत को इस दुनिया के साथ खत्म कर दूंगा"
           <br />
