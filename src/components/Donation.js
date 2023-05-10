@@ -72,83 +72,89 @@ const Donation = () => {
         img: img,
       }),
     })
-      .then(res => {
+      .then((res) => {
         //do something awesome that makes the world a better place
         router.push("/");
         setTimeout(() => {
           router.reload();
         }, 500);
       })
-      .catch(err => {
+      .catch((err) => {
         // catch them errors
         console.log(err);
       });
   }
 
   return (
-    <div className="container">
-
-    <Grid.Container gap={1} justify="flex-start" id="donation">
-              <h3
-              
+    <div data-aos="fade-up" className="container">
+      <Grid.Container gap={1} justify="flex-start" id="donation">
+        <h3
           className="fn__maintitle big"
           data-text="DONATE US"
           data-align="center"
-          style={{ fontFamily:"font1", margin:"4rem", textAlign:"center", width:"100%" }}
+          style={{
+            fontFamily: "font1",
+            margin: "4rem",
+            textAlign: "center",
+            width: "100%",
+          }}
         >
-         DONATE US
+          DONATE US
         </h3>
-      {avatarList.map((item, index) => (
-        <Grid xs={12} sm={3} key={index}>
-          <Card
-            auto
-            isPressable
-            css={{
-              margin: "1rem .2rem",
-              "@smMax": {
-                margin: ".1rem",
-                // bg: '$yellow100',
-              },
-            }}
-            className="donationCard glitch"
-
-          >
-            <button
-            onClick={() => {
-                checkout({
-                  lineItems: [
-                    {
-                      price: item.price,
-                      quantity: 1,
-                    },
-                  ],
-                });
+        {avatarList.map((item, index) => (
+          <Grid xs={12} sm={3} key={index}>
+            <Card
+              auto
+              isPressable
+              css={{
+                margin: "1rem .2rem",
+                "@smMax": {
+                  margin: ".1rem",
+                  // bg: '$yellow100',
+                },
               }}
+              className="donationCard glitch"
             >
-              <>
-                <Card.Body css={{ p: 0 }}>
-                  <Card.Image
-                    src={item.img}
-                    objectFit="cover"
-                    width="100%"
-                    // height={140}
-                    alt={item.title}
-                  />
-                </Card.Body>
-                <Card.Footer css={{ justifyItems: "flex-start" }}>
-                  <Row justify="center" align="center">
-                    <Text h4 size={20} css={{ m: 0 }} style={{fontFamily:"font2"}}>
-                      {item.title}
-                    </Text>
-                  </Row>
-                </Card.Footer>
-              </>
-            </button>
-          </Card>
-        </Grid>
-      ))}
-    </Grid.Container>
-          
+              <button
+                onClick={() => {
+                  checkout({
+                    lineItems: [
+                      {
+                        price: item.price,
+                        quantity: 1,
+                      },
+                    ],
+                  });
+                }}
+              >
+                <>
+                  <Card.Body css={{ p: 0 }}>
+                    <Card.Image
+                      src={item.img}
+                      objectFit="cover"
+                      width="100%"
+                      // height={140}
+                      alt={item.title}
+                    />
+                  </Card.Body>
+                  <Card.Footer css={{ justifyItems: "flex-start" }}>
+                    <Row justify="center" align="center">
+                      <Text
+                        h4
+                        size={20}
+                        css={{ m: 0 }}
+                        style={{ fontFamily: "font2" }}
+                      >
+                        {item.title}
+                      </Text>
+                    </Row>
+                  </Card.Footer>
+                </>
+              </button>
+            </Card>
+          </Grid>
+        ))}
+      </Grid.Container>
     </div>
   );
 };
