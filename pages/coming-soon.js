@@ -29,6 +29,7 @@ const ComingSoon = () => {
               data-hours={9}
               data-minutes={20}
               data-seconds={10}
+              style={{textAlign:"center"}}
             >
               0d: 0h: 0m: 0s
             </h3>
