@@ -11,6 +11,7 @@ import SXVoiceArtist from "../src/components/SXVoiceArtist";
 import SXContact from "../src/components/SXContact";
 import SXHome from "../src/components/SXHome";
 import Donation from "../src/components/Donation";
+import SXAOTTwo from "../src/components/SXAOTTwo";
 const Index = () => {
   return (
     
@@ -21,10 +22,11 @@ const Index = () => {
       <SectionDivider/>
       <SXVideoDesc/>
       <SXAboutAOT/>
-      <SXUpcomingProject/>
       <SectionDivider/>
       <SXDesc/>
       <SXVoiceArtist/>
+      <SXAOTTwo/>
+      <SXUpcomingProject/>
       <SectionDivider/>
       <Donation/>
       <SectionDivider/>

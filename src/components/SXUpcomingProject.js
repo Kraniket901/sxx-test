@@ -61,12 +61,12 @@ const SXUpcomingProject = () => {
       <section id="upcoming_projects">
         <div data-aos="fade-up" className="container" style={{ paddingTop: "1rem" }}>
           <h3
-            className="fn__maintitle big"
-            data-text="UPCOMING PROJECTS"
+            className="fn__maintitle big AnimePollTitle"
+            data-text="Anime Poll"
             data-align="center"
-            style={{ fontFamily: "font1", paddingBottom: "1rem" }}
+            style={{ fontFamily: "font1" }}
           >
-            UPCOMING PROJECTS
+           Anime Poll
           </h3>
           <div className="fn_cs_roadmap">
             <div className="slider_holder">

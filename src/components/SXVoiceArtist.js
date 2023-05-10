@@ -276,12 +276,22 @@ const SXVoiceArtist = () => {
                   </a>
                 </div>
               </li>
-              <li className="prev2" data-index={15}>
+              <li data-index={15}>
                 <div className="item vaCard">
-                  <img src="/img/va/15.webp" alt="viraj_dub" />
+                  <img src="/img/va/14.webp" alt="viraj_dub" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/viraj_dub/">
                   <div className="item_in">
                     <div className="img" data-bg-img="/img/va/15.webp" />
+                  </div>
+                  </a>
+                </div>
+              </li>
+              <li className="prev2" data-index={16}>
+                <div className="item vaCard">
+                  <img src="/img/va/15.webp" alt="_itsmevaibhavi_" />
+                  <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_itsmevaibhavi_/">
+                  <div className="item_in">
+                    <div className="img" data-bg-img="/img/va/16.webp" />
                   </div>
                   </a>
                 </div>

@@ -89,12 +89,11 @@ const Donation = () => {
     <div data-aos="fade-up" className="container">
       <Grid.Container gap={1} justify="flex-start" id="donation">
         <h3
-          className="fn__maintitle big"
+          className="fn__maintitle big AnimePollTitle"
           data-text="DONATE US"
           data-align="center"
           style={{
             fontFamily: "font1",
-            margin: "4rem",
             textAlign: "center",
             width: "100%",
           }}

@@ -7119,3 +7119,12 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	color:#7828c8;
 	background-color: white;
 }
+
+.AnimePollTitle{
+	margin: 4rem;
+}
+@media(width<1000px){
+	.AnimePollTitle{
+		margin: 2rem 0;
+	}
+}
