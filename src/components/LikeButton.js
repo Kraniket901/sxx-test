@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { AiFillHeart } from "react-icons/ai";
+import { AiFillEye } from "react-icons/ai";
 import { useSession, signIn } from "next-auth/react";
 import axios from "axios";
 
@@ -72,6 +73,7 @@ function LikeButton({ vidId }) {
     }
   };
   return (
+    <div style={{display:"flex", justifyContent:"space-between", width:"100%"}}>
     <button
       className={`like-button ${liked ? "liked" : ""}`}
       onClick={handleLike}
@@ -79,6 +81,8 @@ function LikeButton({ vidId }) {
     >
       <AiFillHeart /> {likes}
     </button>
+    <AiFillEye color="#FFFFFF"/>
+    </div>
   );
 }
 export default LikeButton;

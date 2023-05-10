@@ -71,7 +71,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
               </a>
             )}
             {status === "unauthenticated" && (
-              <Button color="secondary" auto onClick={() => signIn("google")}>
+              <Button className="loginBtn" color="secondary" auto onClick={() => signIn("google")}>
                 <a
                   style={{
                     fontFamily: "font1",

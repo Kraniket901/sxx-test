@@ -28,7 +28,7 @@
 /*	01) Base
 /*------------------------------------------------------------------*/
 :root{
-	--mc1: #9543e7;
+	--mc1: #b162ff;
 	--mc2: #7000ff;
 	--hc: #ddd;
 	--bc: #9ba0b8;
@@ -982,7 +982,7 @@ a.full_link{
 	padding-top: 0px;
 	padding-bottom: 50px;
 }
-@media(width<600px){
+@media(width<1000px){
 	#home{
 	padding: 0;
 	}
@@ -1328,7 +1328,7 @@ a.full_link{
 	align-items: center;
 	max-width: 1100px;
 	max-height: 1000px;
-	margin: 1rem auto 4rem auto;
+	margin: 1rem auto 3rem auto;
 	text-align: center;
 	/* background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.40)), url('https://media.tenor.com/BtxDe73qdjQAAAAd/aot-the-rumbling.gif'); */
 	/* background-repeat: no-repeat; */
@@ -1337,7 +1337,7 @@ a.full_link{
 	/* padding: 3rem; */
 	border-radius: 7px;
 }
-@media(width<600px){
+@media(width<1000px){
 	.fn_cs_desc{
 		background-position: center;
 		padding: 0 1rem;
@@ -1346,7 +1346,7 @@ a.full_link{
 	.fn_cs_desc2{
 		/* background-position: center; */
 		padding: 0 1rem;
-		margin: 1rem;
+		/* margin: 1rem; */
 	}
 }
 .fn_cs_desc p{
@@ -1365,7 +1365,7 @@ a.full_link{
 	margin-top: 41px;
 	font-family: font2;
 }
-@media(width<600px){
+@media(width<1000px){
 	.fn_cs_desc p{
 		font-size: 17px;
 		line-height: 25px;
@@ -1373,6 +1373,7 @@ a.full_link{
 	.fn_cs_desc2 p{
 		font-size: 17px;
 		line-height: 25px;
+		margin: 0;
 	}
 }
 
@@ -1549,7 +1550,7 @@ a.full_link{
     padding-bottom: 1rem;
     padding-top: 1rem;
   }
-  @media(width<600px){
+  @media(width<1000px){
 	.codeutsava__sponsers-carousel-container {
 		padding: 0;
 	}
@@ -1575,7 +1576,7 @@ a.full_link{
     object-fit: contain;
 	/* border-radius: 10px; */
   }
-  @media(width<600px){
+  @media(width<1000px){
 	.codeutsava__sponsers-carousel-item {
 		height: 40px;
 	}
@@ -1636,7 +1637,7 @@ a.full_link{
 	border-radius: 10px;
 	box-shadow: 2px 2px 3px rgb(19, 134, 206);
   }
-  @media(width<600px){
+  @media(width<1000px){
 	.codeutsava__sponsers-carousel-item2 {
 		height: 200px;
 	}
@@ -1848,7 +1849,7 @@ a.full_link{
     position: relative;
 	box-shadow: 0px 5px 20px rgba(0,0,0,0.25);
 }
-@media(width<600px){
+@media(width<1000px){
 	.fn_cs_steps .item{
 		padding: 0px;
 	}
@@ -1929,7 +1930,7 @@ a.full_link{
 	
 	/* padding: 3rem; */
 }
-@media(width<600px){
+@media(width<1000px){
 	.fn_cs_video{
 		height: 40vh;
 	}
@@ -1937,7 +1938,7 @@ a.full_link{
 		height: 20vh;
 	}
 }
-@media(width<600px){
+@media(width<1000px){
 	.fn_cs_video{
 		padding: 1rem 0.5rem;
 	}
@@ -2033,7 +2034,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 #about{
 	padding: 0 0 4rem 0;
 }
-@media(width<600px){
+@media(width<1000px){
 	#about{
 		padding: 0;
 	}
@@ -2144,7 +2145,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	border-radius: 10px;
 }
 .fn_cs_collection .ready .abs_img{
-	transform: rotateY(-30deg) translateZ(0);
+	transform: rotateY(-40deg) translateZ(0);
 }
 .fn_cs_collection .img{
 	position: relative;
@@ -2285,7 +2286,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	display: -o-flex;
 	display: flex;
 	column-gap: 40px;
-	margin-bottom: 40px;
+	/* margin-bottom: 40px; */
 }
 .fn_cs_news .right_items{
 	display: -webkit-flex;
@@ -2317,7 +2318,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	border-radius: 10px;
 	box-shadow: 0px 5px 20px rgba(0,0,0,0.25);
 }
-@media(width<600px){
+@media(width<1000px){
 	.blog__item{
 		padding: 0;
 	}
@@ -2545,7 +2546,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	scroll-behavior: smooth;
 	/* transition: 0.2 ease-in-out; */
 }
-@media(width<600px){
+@media(width<1000px){
 	#contact{
 		padding: 100px 0 50px 0;
 	}
@@ -2558,7 +2559,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 .fn_cs_contact_info{
 	padding: 100px 0 32px;
 }
-@media(width<600px){
+@media(width<1000px){
 	.fn_cs_contact_info{
 		padding: 50px 0 32px;
 	}
@@ -5837,7 +5838,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 		-ms-flex-direction: column;
 		-o-flex-direction: column;
 		flex-direction: column;
-		margin-bottom: 20px;
+		/* margin-bottom: 20px; */
 	}
 	.fn_cs_news .left_items{
 		width: 100%;
@@ -6088,7 +6089,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 #roadmap{
 	padding: 50px 0 150px 0;
 }
-@media(width<600px){
+@media(width<1000px){
 	#roadmap{
 		padding: 50px 0 50px 0;
 	}
@@ -6189,7 +6190,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 .fn_cs_roadmap .swiper-slide .item_in{
 	padding: 10px 15px 20px;
 }
-@media(width<600px){
+@media(width<1000px){
 	.fn_cs_roadmap .swiper-slide .item_in{
 		padding: 20px;
 	}
@@ -7059,7 +7060,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 .descc{
 	padding: 0 2rem;
 }
-@media(width<600px){
+@media(width<1000px){
 	.descc p{
 		margin-bottom: 27px;
 		font-size: 13px;
@@ -7072,4 +7073,49 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 		font-size: 1.5rem !important;
 		line-height: 33px !important;
 	}
+}
+
+.contactUsSocial{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 4rem 0 3rem 0;
+}
+
+.contactUsSocial a{
+	text-decoration: none;
+	color: #9ba0b8;
+}
+.contactUsSocial a:hover{
+	transform: rotateZ(10deg);
+}
+.contactUsSocial a div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contactUsSocialIcon{
+	font-size: 70px;
+}
+@media(width<1000px){
+	.contactUsSocial{
+		margin: 2rem 0 2rem 0;
+	}
+	.contactUsSocialIcon{
+		font-size: 40px;
+	}
+	.contactUsSocial a div p{
+		display: none;
+	}
+}
+
+.donationCard:hover{
+	transform: translateY(-20px);
+}
+.fn_cs_slider .slider_top .item_in:hover{
+	border: 4px solid rgba(255,255,255,.5);
+}
+
+.loginBtn:hover{
+	color:#7828c8;
+	background-color: white;
 }

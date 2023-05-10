@@ -58,7 +58,7 @@ const SXUpcomingProject = () => {
   return (
     <>
       <section id="upcoming_projects">
-        <div className="container" style={{ paddingTop: "1rem" }}>
+        <div data-aos="fade-up" className="container" style={{ paddingTop: "1rem" }}>
           <h3
             className="fn__maintitle big"
             data-text="UPCOMING PROJECTS"
@@ -134,10 +134,7 @@ const SXUpcomingProject = () => {
                       <p className="date">IMDB - 8.2</p>
                       <h3 className="title">Howl's Movie Castle</h3>
                       <p className="desc">
-                        When an unconfident young woman is cursed with an old
-                        body by a spiteful witch, her only chance of breaking
-                        the spell lies with a self-indulgent yet insecure young
-                        wizard and his companions in his legged, walking castle.
+                        When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.
                       </p>
                     </div>
                   </div>
@@ -263,11 +260,12 @@ const SXUpcomingProject = () => {
                           <p className="desc">{item.desc}</p>
                           <Button
                             type="submit"
+                            style={{margin:"0.5rem 0"}}
                             onClick={() => handleVote(item.phase, item.id)}
                             color={vote === item.phase ? "gradient" : ""}
                             auto
                           >
-                            {vote === item.phase ? "Thanks for Vote" : "Vote"}
+                            {vote === item.phase ? "Thanks for Voting" : "Vote"}
                           </Button>
                         </div>
                       </div>

@@ -49,7 +49,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
               </a>
             )}
             {status === "unauthenticated" && (
-              <Button color="secondary" auto onClick={() => signIn("google")} style={{padding:"0 10px"}}>
+              <Button className="loginBtn" color="secondary" auto onClick={() => signIn("google")} style={{padding:"0 10px"}}>
                 <a
                   style={{
                     fontFamily: "font1",
