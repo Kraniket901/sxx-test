@@ -13,6 +13,7 @@ import { useState, useEffect } from "react";
 import Social from "../src/layout/Social";
 import SearchButton from "../src/layout/SearchButton";
 import Searchbox from "../src/layout/Searchbox";
+import Layout from "../src/layout/Layout";
 
 const Video = () => {
   const [videos, setVideos] = useState([]);
@@ -26,20 +27,19 @@ const Video = () => {
   return (
     <>
       <div>
-        <Navigation />
-        <MobileNavigation />
-        <Header />
+      <Layout pageTitle={"Video"}>
+       
+        {/* <Navigation /> */}
+        {/* <MobileNavigation /> */}
+        {/* <Header /> */}
         <MediaComponent videos={videos} />
         <Feedback />
         {/* <SXUpcomingPoll/> */}
-        <Footer />
-        <SearchButton />
-        <PreLoader />
-        <Social/>
-        <SearchButton/>
-        <Searchbox/>
-        <ScrollTop/>
-        <WalletPopUp />
+        {/* <Footer /> */}
+        {/* <SearchButton /> */}
+        {/* <PreLoader /> */}
+        {/* <WalletPopUp /> */}
+        </Layout>
       </div>
     </>
   );
