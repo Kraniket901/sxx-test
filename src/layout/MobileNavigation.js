@@ -62,7 +62,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                 </a>
               </Button>
             )}
-            {status === "loading" && <p>loading ...</p>}
+            {status === "loading" && <p>...</p>}
           </div>
         </div>
         <div className="mob_mid">
