@@ -1688,7 +1688,12 @@ a.full_link{
 	justify-content:left;
 	-ms-align-items: center;
 	align-items: center;
-	padding: 110px 0;
+	padding: 80px 0;
+}
+@media(width<900px){
+	.fn_cs_about .left_part{
+		padding: 50px 0;
+	}
 }
 .fn_cs_about .left_part .img_in{
 	background-size: cover;
@@ -1698,7 +1703,7 @@ a.full_link{
 	
 }
 .fn_cs_about .left_part .img{
-	width: 542px;
+	width: 450px;
 	max-width: 100%;
 	padding: 15px;
     border-radius: 10px;
@@ -1706,7 +1711,7 @@ a.full_link{
 	background-color: rgba(255,255,255,.05);
 	position: relative;
 	z-index: 5;
-	margin: 2rem;
+	margin: 0 8rem;
 }
 .fn_cs_about .left_part .img img{
 	min-width: 100%;
@@ -1738,7 +1743,7 @@ a.full_link{
 	margin-bottom: 25px;
 }
 .desc p{
-	margin-bottom: 27px;
+	margin-bottom: 15px;
 	font-size: 16px;
 	line-height: 25px;
 	color: rgba(209, 209, 209, 0.901);

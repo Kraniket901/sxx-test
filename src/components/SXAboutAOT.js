@@ -26,12 +26,6 @@ const SXAboutAOT = () => {
             </div>
             <div className="desc">
               <p>
-                Attack on Titan: The Final Season Part 3, Shingeki no Kyojin:
-                The Final Season - Kanketsu-hen, Shingeki no Kyojin: The Final
-                Season Part 3, Shingeki no Kyojin Season 4, Attack on Titan
-                Season 4, 進撃の巨人 The Final Season 完結編
-              </p>
-              <p>
                 Known in Japan as Shingeki no Kyojin, many years ago, the last
                 remnants of humanity were forced to retreat behind the towering
                 walls of a fortified city to escape the massive, man-eating
