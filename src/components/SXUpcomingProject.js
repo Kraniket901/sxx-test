@@ -58,7 +58,7 @@ const SXUpcomingProject = () => {
   };
   return (
     <>
-      <section id="upcoming_projects">
+      <section id="anime_poll">
         <div data-aos="fade-up" className="container" style={{ paddingTop: "1rem" }}>
           <h3
             className="fn__maintitle big AnimePollTitle"
