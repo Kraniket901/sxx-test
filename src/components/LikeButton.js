@@ -73,7 +73,7 @@ function LikeButton({ vidId }) {
     }
   };
   return (
-    <div style={{display:"flex", justifyContent:"space-between", width:"100%"}}>
+    <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between", width:"100%"}}>
 
 
     <button
