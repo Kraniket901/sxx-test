@@ -1353,7 +1353,7 @@ a.full_link{
 	margin: 0;
 	font-size: 20px;
 	line-height: 34px;
-	margin-bottom: 41px;
+	/* margin-bottom: 41px; */
 	/* margin-top: 41px; */
 	font-family: font2;
 }
@@ -1367,8 +1367,9 @@ a.full_link{
 }
 @media(width<1000px){
 	.fn_cs_desc p{
-		font-size: 17px;
-		line-height: 25px;
+		font-size: 13px;
+		line-height: 20px;
+		margin: 1rem 0;
 	}
 	.fn_cs_desc2 p{
 		font-size: 17px;
