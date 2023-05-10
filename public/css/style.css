@@ -28,7 +28,7 @@
 /*	01) Base
 /*------------------------------------------------------------------*/
 :root{
-	--mc1: #9543e7;
+	--mc1: #9d53e7;
 	--mc2: #7000ff;
 	--hc: #ddd;
 	--bc: #9ba0b8;
@@ -7109,4 +7109,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 
 .donationCard:hover{
 	transform: translateY(-20px);
+}
+.fn_cs_slider .slider_top .item_in:hover{
+	border: 4px solid rgba(255,255,255,.5);
 }
