@@ -35,13 +35,13 @@ const Header = ({ walletToggle, navigationToggle }) => {
                 </Link>
               </li>
               <li>
-                <Link href="/#anime_poll">
-                  <a className="creative_link">ANIME POLL</a>
+                <Link href="/#shinnextream">
+                  <a className="creative_link">SHINNEXTREAM</a>
                 </Link>
               </li>
               <li>
-                <Link href="/#shinnextream">
-                  <a className="creative_link">SHINNEXTREAM</a>
+                <Link href="/#anime_poll">
+                  <a className="creative_link">ANIME POLL</a>
                 </Link>
               </li>
               <li>
