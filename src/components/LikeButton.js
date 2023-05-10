@@ -17,7 +17,8 @@ function LikeButton({ vidId }) {
       // .then(res => res.likes)
       .then(res => {
         res = res[0];
-        const { likes } = res;
+        let { likes } = res;
+        likes = [...new Set(likes)];
         if (session) {
           const userHasLiked = likes.find(user => user === session?.user.email);
           // console.log(userHasLiked);
@@ -74,7 +75,7 @@ function LikeButton({ vidId }) {
     <button
       className={`like-button ${liked ? "liked" : ""}`}
       onClick={handleLike}
-      style={{margin:"1rem"}}
+      style={{ margin: "1rem" }}
     >
       <AiFillHeart /> {likes}
     </button>
