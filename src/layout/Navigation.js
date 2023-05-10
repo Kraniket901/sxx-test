@@ -147,63 +147,45 @@ const Navigation = ({ navigation, navigationToggle }) => {
               <p>
                 Copyright 2023 - Designed &amp; Developed by{" "}
                 <a
-                  href="https://themeforest.net/user/codeefly/portfolio"
+                  href="https://www.instagram.com/kraniket901/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Aniket
-                </a> &
+                </a> & {" "}
                 <a
-                  href="https://themeforest.net/user/codeefly/portfolio"
+                  href="https://www.instagram.com/harshdew16/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Harsh{" "}
-                </a> &
+                </a>
               </p>
             </div>
             <div className="social_icons">
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="https://www.youtube.com/@shinnex_production">
                     <img
-                      src="/svg/social/twitter-1.svg"
+                      src="/svg/social/youtube-1.svg"
                       alt=""
                       className="fn__svg"
                     />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="mailto:shinnextream@gmail.com">
                     <img
-                      src="/svg/social/facebook-1.svg"
+                      src="/svg/social/wechat-1.svg"
                       alt=""
                       className="fn__svg"
                     />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/shinnex_production/">
                     <img
                       src="/svg/social/instagram-1.svg"
-                      alt=""
-                      className="fn__svg"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="/svg/social/pinterest-1.svg"
-                      alt=""
-                      className="fn__svg"
-                    />
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <img
-                      src="/svg/social/behance-1.svg"
                       alt=""
                       className="fn__svg"
                     />

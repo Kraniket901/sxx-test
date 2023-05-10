@@ -7073,3 +7073,36 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 		line-height: 33px !important;
 	}
 }
+
+.contactUsSocial{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 4rem 0 3rem 0;
+}
+
+.contactUsSocial a{
+	text-decoration: none;
+	color: #9ba0b8;
+}
+.contactUsSocial a:hover{
+	transform: rotateZ(10deg);
+}
+.contactUsSocial a div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contactUsSocialIcon{
+	font-size: 70px;
+}
+@media(width<600px){
+	.contactUsSocial{
+		margin: 2rem 0 2rem 0;
+	}
+	.contactUsSocialIcon{
+		font-size: 40px;
+	}
+	.contactUsSocial a div p{
+		display: none;
+	}
+}
