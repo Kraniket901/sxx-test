@@ -10,6 +10,9 @@ import WalletPopUp from "../src/layout/WalletPopUp";
 import Feedback from "../src/components/Feedback";
 import axios from "axios";
 import { useState, useEffect } from "react";
+import Social from "./Social";
+import Searchbox from "./Searchbox";
+import SearchButton from "./SearchButton";
 
 const Video = () => {
   const [videos, setVideos] = useState([]);
@@ -32,6 +35,9 @@ const Video = () => {
         <Footer />
         <SearchButton />
         <PreLoader />
+        <Social/>
+        <SearchButton/>
+        <Searchbox/>
         {/* <ScrollTop/> */}
         <WalletPopUp />
       </div>
