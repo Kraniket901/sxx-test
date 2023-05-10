@@ -32,6 +32,7 @@ const SXUpcomingPoll = () => {
 
   return (
     <>
+    <div className="container">
       <Container data-aos="fade-up" css={{ display: "block" }}>
         <h3
           className="fn__maintitle big"
@@ -119,6 +120,8 @@ const SXUpcomingPoll = () => {
           </Grid>
         </Grid.Container>
       </Container>
+    </div>
+
     </>
   );
 };
