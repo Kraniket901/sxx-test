@@ -1328,7 +1328,7 @@ a.full_link{
 	align-items: center;
 	max-width: 1100px;
 	max-height: 1000px;
-	margin: 1rem auto 4rem auto;
+	margin: 1rem auto 3rem auto;
 	text-align: center;
 	/* background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.40)), url('https://media.tenor.com/BtxDe73qdjQAAAAd/aot-the-rumbling.gif'); */
 	/* background-repeat: no-repeat; */
@@ -1346,7 +1346,7 @@ a.full_link{
 	.fn_cs_desc2{
 		/* background-position: center; */
 		padding: 0 1rem;
-		margin: 1rem;
+		/* margin: 1rem; */
 	}
 }
 .fn_cs_desc p{
@@ -1373,6 +1373,7 @@ a.full_link{
 	.fn_cs_desc2 p{
 		font-size: 17px;
 		line-height: 25px;
+		margin: 0;
 	}
 }
 
@@ -2285,7 +2286,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	display: -o-flex;
 	display: flex;
 	column-gap: 40px;
-	margin-bottom: 40px;
+	/* margin-bottom: 40px; */
 }
 .fn_cs_news .right_items{
 	display: -webkit-flex;
@@ -5837,7 +5838,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 		-ms-flex-direction: column;
 		-o-flex-direction: column;
 		flex-direction: column;
-		margin-bottom: 20px;
+		/* margin-bottom: 20px; */
 	}
 	.fn_cs_news .left_items{
 		width: 100%;
