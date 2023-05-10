@@ -2,7 +2,7 @@ import Link from "next/link";
 const SXAOTTwo = () => {
   return (
     <section id="shinnextream">
-      <div className="container">
+      <div data-aos="fade-up" className="container">
       <h3
             className="fn__maintitle big"
             data-text="OUR UPCOMING PROJECT"
@@ -14,7 +14,7 @@ const SXAOTTwo = () => {
         <div className="fn_cs_news">
           <div className="news_part">
             <div className="left_items">
-              <div data-aos="fade-up" className="blog__item">
+              <div  className="blog__item">
                       <img src="/img/shinnexBanner.webp" alt="" />
               </div>
             </div>
