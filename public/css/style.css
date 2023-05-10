@@ -1565,7 +1565,7 @@ a.full_link{
     width: 100%;
     animation: scrollInfinite 60s linear infinite;
 	animation-play-state: paused;
-	height: 60px;
+	height: 70px;
   }
   
   .codeutsava__sponsers-carousel:hover {
@@ -1574,16 +1574,16 @@ a.full_link{
   
   .codeutsava__sponsers-carousel-item {
     display: inline-block;
-    margin: 16px 2rem;
-    height: 50px;
+    margin: 16px 2.5rem;
+    height: 45px;
     width: auto;
     object-fit: contain;
 	/* border-radius: 10px; */
   }
   @media(width<1000px){
 	.codeutsava__sponsers-carousel-item {
-		height: 37px;
-		margin: 16px 1.5rem;
+		height: 34px;
+		margin: 24px 1.5rem;
 	}
   }
   
