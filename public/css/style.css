@@ -7113,3 +7113,8 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 .fn_cs_slider .slider_top .item_in:hover{
 	border: 4px solid rgba(255,255,255,.5);
 }
+
+.loginBtn:hover{
+	color:#7828c8;
+	background-color: white;
+}
