@@ -8,7 +8,7 @@ const Footer = () => {
             <p>
               Copyright 2023 — Designed &amp; Developed by{" "}
               <a
-                href="https://www.linkedin.com/in/kraniket901/"
+                href="https://www.instagram.com/kraniket901/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -16,7 +16,7 @@ const Footer = () => {
               </a>
               &{" "}
               <a
-                href="https://www.linkedin.com/in/harshdew16/"
+                href="https://www.instagram.com/harshdew16/"
                 target="_blank"
                 rel="noreferrer"
               >
