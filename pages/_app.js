@@ -11,9 +11,9 @@ import "aos/dist/aos.css";
 function MyApp({ Component, pageProps: { session, ...pageProps }  }) {
   useEffect(() => {
     AOS.init({
-      easing: "ease-out-cubic",
-      once: true,
-      offset: 50,
+      easing: "ease-out-sine",
+      once: false,
+      offset: 0,
     });
   }, []);
   return (
