@@ -134,10 +134,7 @@ const SXUpcomingProject = () => {
                       <p className="date">IMDB - 8.2</p>
                       <h3 className="title">Howl's Movie Castle</h3>
                       <p className="desc">
-                        When an unconfident young woman is cursed with an old
-                        body by a spiteful witch, her only chance of breaking
-                        the spell lies with a self-indulgent yet insecure young
-                        wizard and his companions in his legged, walking castle.
+                        When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle.
                       </p>
                     </div>
                   </div>
