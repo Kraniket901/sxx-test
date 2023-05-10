@@ -35,10 +35,10 @@ const Feedback = () => {
     <section id="contact" style={{ margin: "1rem", padding: 0 }}>
       <div className="container">
         <h3
-          className="fn__maintitle big"
+          className="fn__maintitle big AnimePollTitle"
           data-text="Give Your Feedback"
           data-align="center"
-          style={{ fontFamily: "font1", margin: "4rem" }}
+          style={{ fontFamily: "font1" }}
         >
           Give Your Feedback
         </h3>

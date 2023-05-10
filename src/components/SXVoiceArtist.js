@@ -137,7 +137,7 @@ const SXVoiceArtist = () => {
             <img src="/img/1x1.jpg" alt="" />
             <ul>
               <li className="prev" data-index={1}>
-                <div className="item vaCard">
+                <div className="item ">
                 <img src="/img/va/1.webp" alt="vomaharaja" />
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/vomaharaja/">
                 <div className="item_in">
@@ -147,7 +147,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li className="active" data-index={2}>
-                <div className="item vaCard">
+                <div className="item ">
                   <img src="/img/va/2.webp" alt="narugami_kenji" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/narugami_kenji/">
                   <div className="item_in">
@@ -157,7 +157,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li className="next" data-index={3}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/3.webp" alt="bhumikavalmike" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/bhumikavalmike/">
                   <div className="item_in">
@@ -167,7 +167,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li className="next2" data-index={4}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/4.webp" alt="enter_nutshell" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/enter_nutshell/">
                   <div className="item_in">
@@ -177,7 +177,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li data-index={5}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/5.webp" alt="kaumudi_voiceovers" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kaumudi_voiceovers/">
                   <div className="item_in">
@@ -187,7 +187,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li data-index={6}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/6.webp" alt="neuro.noise" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/neuro.noise/">
                   <div className="item_in">
@@ -197,7 +197,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li data-index={7}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/7.webp" alt="payal_vishal" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/payal_vishal/">
                   <div className="item_in">
@@ -207,7 +207,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li data-index={8}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/8.webp" alt="raj_naam.toh.suna.hoga" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/raj_naam.toh.suna.hoga/">
                   <div className="item_in">
@@ -217,7 +217,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li data-index={9}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/9.webp" alt="rishirajpandeyofficial" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rishirajpandeyofficial/">
                   <div className="item_in">
@@ -227,7 +227,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li data-index={10}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/10.webp" alt="sahil07_x" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sahil07_x/">
                   <div className="item_in">
@@ -237,7 +237,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li data-index={11}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/11.webp" alt="rubysnita" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/rubysnita/">
                   <div className="item_in">
@@ -247,7 +247,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li data-index={12}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/12.webp" alt="shikhashivi" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/shikhashivi/">
                   <div className="item_in">
@@ -257,7 +257,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li data-index={13}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/13.webp" alt="gaayiika" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gaayiika/">
                   <div className="item_in">
@@ -267,7 +267,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li data-index={14}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/14.webp" alt="introvert_banda_" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/introvert_banda_/">
                   <div className="item_in">
@@ -277,7 +277,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li data-index={15}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/15.webp" alt="viraj_dub" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/viraj_dub/">
                   <div className="item_in">
@@ -287,7 +287,7 @@ const SXVoiceArtist = () => {
                 </div>
               </li>
               <li className="prev2" data-index={16}>
-                <div className="item vaCard">
+                <div className="item">
                   <img src="/img/va/16.webp" alt="_itsmevaibhavi_" />
                   <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/_itsmevaibhavi_/">
                   <div className="item_in">
