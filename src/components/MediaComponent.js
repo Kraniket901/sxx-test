@@ -31,7 +31,7 @@ function MediaComponent({ videos }) {
               </p>
               <p>
               The Final Run Looks Set To Bring About An End To The Long Conflict Between Paradis And Marley.
-              This amazing epic special episode is brought in hindi by <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none"}} href="https://www.instagram.com/shinnex_production/">@shinnex_production</a> . Shinnex is an initiative taken by fans to take hindi Fan-Dubbings of anime to the next level. We will provide the best possible quality of Anime in hindi so that anime could reach the parts of country where English is not majorly spoken. <br /> AUR AAKHIR ME BAS YEH BOLNA CHAHUNGA KI APNI BHASHA KI BAAT HI KUCH AUR HA.
+              This amazing epic special episode is brought in hindi by <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none"}} href="https://www.instagram.com/shinnex_production/">@shinnex_production</a> . Shinnex is an initiative taken by fans to take hindi Fan-Dubbings of anime to the next level. We will provide the best possible quality of Anime in hindi so that anime could reach the parts of country where English is not majorly spoken. <br /> <i>"AUR AAKHIR ME BAS YEH BOLNA CHAHUNGA KI APNI BHASHA KI BAAT HI KUCH AUR HAI"</i>.
               </p>
               <p>
                 <b style={{ fontSize: "21px" }}>Type : </b> TV Series

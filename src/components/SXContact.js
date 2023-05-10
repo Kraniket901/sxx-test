@@ -1,4 +1,6 @@
 import { useState } from "react";
+import {AiOutlineInstagram, AiOutlineYoutube, AiOutlineMail} from "react-icons/ai";
+
 const SXContact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -37,48 +39,20 @@ const SXContact = () => {
           className="fn__maintitle big"
           data-text="Contact Us"
           data-align="center"
-          style={{ fontFamily: "font1" }}
+          style={{ fontFamily: "font1"}}
         >
           Contact Us
         </h3>
-        <div className="fn_cs_contact_info">
-          <ul>
-            <li>
-              <div className="item">
-                <p>
-                  Duis suscipit egestas ullamcorper. Cras porta nulla et
-                  tristique pellentesque. Praesent finibus mauris eu
-                  sollicitudin interdum. Morbi et blandit quam. Donec vitae
-                  massa purus. Curabitur nunc mauris, iaculis a nibh at,
-                  ultricies sodales dolor.
-                </p>
-                <p>
-                  Curabitur pharetra velit eget dignissim varius. In vulputate
-                  elit at tortor pellentesque, non pulvinar neque consequat.
-                </p>
-              </div>
-            </li>
-            <li>
-              <div className="item">
-                <h4 className="label">Phone</h4>
-                <h3>
-                  <a href="tel:+770221770505">7717789081</a>
-                </h3>
-                <h4 className="lable">Email</h4>
-                <h3>
-                  <a href="mailto:frenifyteam@gmail.com">
-                    kraniket123654@gmail.com
-                  </a>
-                </h3>
-              </div>
-            </li>
-            <li>
-              <div className="item">
-                <h4 className="label">Office</h4>
-                <h3>New Delhi, India</h3>
-              </div>
-            </li>
-          </ul>
+        <div className="contactUsSocial">
+          <a href="https://www.instagram.com/shinnex_production/">
+          <div><AiOutlineInstagram className="contactUsSocialIcon"/><p>@shinnex_production</p></div>
+          </a>
+          <a href="https://www.youtube.com/@shinnex_production">
+          <div><AiOutlineYoutube className="contactUsSocialIcon"/><p>@shinnex_production</p></div>
+          </a>
+          <a href="mailto:shinnextream@gmail.com">
+          <div><AiOutlineMail className="contactUsSocialIcon"/><p>shinnextream@gmail.com</p></div>
+          </a>
         </div>
         <div className="fn_cs_contact_form">
           <form
