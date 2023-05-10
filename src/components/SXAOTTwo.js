@@ -11,14 +11,17 @@ const SXAOTTwo = () => {
           >
             OUR UPCOMING PROJECT
           </h3>
-        <div className="fn_cs_news">
+        <div className="fn_cs_news container">
           <div className="news_part">
             <div className="left_items">
               <div  className="blog__item">
-                      <img src="/img/shinnexBanner.webp" alt="" />
+                      <img src="/img/homeImage.webp" alt="AOT S-3 P-3 P-2" />
               </div>
             </div>
             
+          </div>
+          <div className="AOT2">
+            Attack On Titan Final Season Part 3 Part 2
           </div>
         </div>
       </div>

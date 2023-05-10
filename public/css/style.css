@@ -7128,3 +7128,16 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 		margin: 2rem 0;
 	}
 }
+
+.AOT2{
+	font-size: 2rem;
+	text-align: center;
+	margin: 0.5rem;
+	font-family:'Courier New', Courier, monospace;
+}
+@media(width<1000px){
+	.AOT2{
+		font-size: 15px;
+		margin: 0;
+	}
+}
