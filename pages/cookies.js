@@ -50,7 +50,7 @@ const Cookies = () => {
               <span />
             </div>
           </div>
-          <p>You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies. This Cookies Policy was created with the help of the <a href="https://www.termsfeed.com/cookies-policy-generator/">Cookies Policy Generator</a>.</p>
+          <p>You can prevent the setting of cookies by adjusting the settings on your browser (see your browser Help for how to do this). Be aware that disabling cookies will affect the functionality of this and many other websites that you visit. Disabling cookies will usually result in also disabling certain functionality and features of the this site. Therefore it is recommended that you do not disable cookies. This Cookies Policy was created with the help of the <a style={{color:"#9ba0b8"}} href="https://www.termsfeed.com/cookies-policy-generator/">Cookies Policy Generator</a>.</p>
 
           <h3
             className="fn__maintitle"
@@ -134,13 +134,13 @@ const Cookies = () => {
           </div>
           <p>Hopefully that has clarified things for you and as was previously mentioned if there is something that you aren't sure whether you need or not it's usually safer to leave cookies enabled in case it does interact with one of the features you use on our site.</p>
 
-<p>For more general information on cookies, please read <a href="https://www.cookiepolicygenerator.com/sample-cookies-policy/">the Cookies Policy article</a>.</p>
+<p>For more general information on cookies, please read <a style={{color:"#9ba0b8"}} href="https://www.cookiepolicygenerator.com/sample-cookies-policy/">the Cookies Policy article</a>.</p>
 
 <p>However if you are still looking for more information then you can contact us through one of our preferred contact methods:</p>
 
 <ul>
 <li>Email: shinnextream@gmail.com</li>
-<li>By visiting this link: </li> <a href="https://shinnextream.vercel.app/">shinnextream.vercel.app</a>
+<li>By visiting this link: </li> <a style={{color:"#9ba0b8"}} href="https://shinnextream.vercel.app/">shinnextream.vercel.app</a>
 </ul>
           
         </div>
