@@ -84,7 +84,7 @@ function LikeButton({ vidId }) {
       <AiFillHeart /> {likes}
     </button>
 
-    <div>
+    <div style={{display:"flex"}}>
     <AiFillEye style={
       {
         fontSize: "20px",
