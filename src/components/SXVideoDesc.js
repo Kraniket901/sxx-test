@@ -16,7 +16,6 @@ const SXVideoDesc = () => {
           <br />
           <br /> Will Eren Get The Freedom he wants For his People? <br />
           WATCH THIS EPIC SHOWDOWN IN YOUR OWN LANGAUGE IN <b /> HINDI <b />{" "}
-          Only On
         </p>
       </div>
     </>
