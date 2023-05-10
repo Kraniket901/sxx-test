@@ -1,9 +1,10 @@
 import LikeButton from "./LikeButton";
+import { AiFillEye } from "react-icons/ai";
 function MediaComponent({ videos }) {
   // console.log(videos);
   return (
     <>
-    {videos.map(items => (
+      {videos.map((items) => (
         <div key={items.id}>
           <div style={{ paddingTop: "56%", position: "relative" }}>
             <iframe
@@ -25,58 +26,276 @@ function MediaComponent({ videos }) {
           <LikeButton vidId={items.id} />
         </div>
       ))}
-       <div className="descc">
-              <p className="desccp">
-                Attack on Titan: The Final Season Part 3 HINDI DUB TRAILER | 14th MAY | Shinnex Production | Shinnextream
-              </p>
-              <p>
-              The Final Run Looks Set To Bring About An End To The Long Conflict Between Paradis And Marley.
-              This amazing epic special episode is brought in hindi by <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none"}} href="https://www.instagram.com/shinnex_production/">@shinnex_production</a> . Shinnex is an initiative taken by fans to take hindi Fan-Dubbings of anime to the next level. We will provide the best possible quality of Anime in hindi so that anime could reach the parts of country where English is not majorly spoken. <br /> <i>"AUR AAKHIR ME BAS YEH BOLNA CHAHUNGA KI APNI BHASHA KI BAAT HI KUCH AUR HAI"</i>.
-              </p>
-              <p>
-                <b style={{ fontSize: "21px" }}>Type : </b> TV Series
-              </p>
-              <p>
-                <b style={{ fontSize: "21px" }}>Studios : </b> MAPPA
-              </p>
-              <p>
-                <b style={{ fontSize: "21px" }}>Genre : </b> Action, Drama
-              </p>
-              <p>
-                <b style={{ fontSize: "21px" }}>Duration : </b> 61 min
-              </p>
-              <p>
-                <b style={{ fontSize: "21px" }}>Casts : </b>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/enter_nutshell/">@enter_nutshell </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/bhumikavalmike/">@bhumikavalmike </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/gaayiika/">@gaayiika </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/kaumudi_voiceovers/">@kaumudi_voiceovers </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/narugami_kenji/">@narugami_kenji </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/neuro.noise/">@neuro.noise </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/payal_vishal/">@payal_vishal </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/rishirajpandeyofficial/">@rishirajpandeyofficial </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/akshdeep_singh_vohra/">@akshdeep_singh_vohra </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/rubysnita/">@rubysnita </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/shikhashivi/">@shikhashivi </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/viraj_dub/">@viraj_dub </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/_its_me_vaibhavi_02/">@_its_me_vaibhavi_02 </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/introvert_banda_/">@introvert_banda_ </a>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/raj_naam.toh.suna.hoga/">@raj_naam.toh.suna.hoga </a>
-              </p>
-              <p>
-                <b>Trailer By :</b>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/sp4de.baka/">@sp4de.baka </a>
-              </p>
-              <p>
-                <b>Posters and Thumbnail By : </b>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/mrp_network/">@mrp_network </a>
-              </p>
-              <p>
-                <b>Mixing and Mastering By : </b>
-                <a target="_blank" rel="noopener noreferrer" style={{color:"#CDCDCD", textDecoration:"none", margin:"0.5rem"}} href="https://www.instagram.com/er.sam_23/">@er.sam_23 </a>
-              </p>
-            </div>
+      <div className="descc">
 
+        
+        <p className="desccp">
+          Attack on Titan: The Final Season Part 3 HINDI DUB TRAILER | 14th MAY
+          | Shinnex Production | Shinnextream
+        </p>
+        <p>
+          The Final Run Looks Set To Bring About An End To The Long Conflict
+          Between Paradis And Marley. This amazing epic special episode is
+          brought in hindi by{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "#CDCDCD", textDecoration: "none" }}
+            href="https://www.instagram.com/shinnex_production/"
+          >
+            @shinnex_production
+          </a>{" "}
+          . Shinnex is an initiative taken by fans to take hindi Fan-Dubbings of
+          anime to the next level. We will provide the best possible quality of
+          Anime in hindi so that anime could reach the parts of country where
+          English is not majorly spoken. <br />{" "}
+          <i>
+            "AUR AAKHIR ME BAS YEH BOLNA CHAHUNGA KI APNI BHASHA KI BAAT HI KUCH
+            AUR HAI"
+          </i>
+          .
+        </p>
+        <p>
+          <b style={{ fontSize: "21px" }}>Type : </b> TV Series
+        </p>
+        <p>
+          <b style={{ fontSize: "21px" }}>Studios : </b> MAPPA
+        </p>
+        <p>
+          <b style={{ fontSize: "21px" }}>Genre : </b> Action, Drama
+        </p>
+        <p>
+          <b style={{ fontSize: "21px" }}>Duration : </b> 61 min
+        </p>
+        <p>
+          <b style={{ fontSize: "21px" }}>Casts : </b>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/enter_nutshell/"
+          >
+            @enter_nutshell{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/bhumikavalmike/"
+          >
+            @bhumikavalmike{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/gaayiika/"
+          >
+            @gaayiika{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/kaumudi_voiceovers/"
+          >
+            @kaumudi_voiceovers{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/narugami_kenji/"
+          >
+            @narugami_kenji{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/neuro.noise/"
+          >
+            @neuro.noise{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/payal_vishal/"
+          >
+            @payal_vishal{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/rishirajpandeyofficial/"
+          >
+            @rishirajpandeyofficial{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/akshdeep_singh_vohra/"
+          >
+            @akshdeep_singh_vohra{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/rubysnita/"
+          >
+            @rubysnita{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/shikhashivi/"
+          >
+            @shikhashivi{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/viraj_dub/"
+          >
+            @viraj_dub{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/_its_me_vaibhavi_02/"
+          >
+            @_its_me_vaibhavi_02{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/introvert_banda_/"
+          >
+            @introvert_banda_{" "}
+          </a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/raj_naam.toh.suna.hoga/"
+          >
+            @raj_naam.toh.suna.hoga{" "}
+          </a>
+        </p>
+        <p>
+          <b>Trailer By :</b>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/sp4de.baka/"
+          >
+            @sp4de.baka{" "}
+          </a>
+        </p>
+        <p>
+          <b>Posters and Thumbnail By : </b>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/mrp_network/"
+          >
+            @mrp_network{" "}
+          </a>
+        </p>
+        <p>
+          <b>Mixing and Mastering By : </b>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#CDCDCD",
+              textDecoration: "none",
+              margin: "0.5rem",
+            }}
+            href="https://www.instagram.com/er.sam_23/"
+          >
+            @er.sam_23{" "}
+          </a>
+        </p>
+      </div>
     </>
   );
 }

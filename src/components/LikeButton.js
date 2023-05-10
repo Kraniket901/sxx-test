@@ -72,6 +72,7 @@ function LikeButton({ vidId }) {
     }
   };
   return (
+    <div style={{display:"flex", justifyContent:"space-between", width:"100%"}}>
     <button
       className={`like-button ${liked ? "liked" : ""}`}
       onClick={handleLike}
@@ -79,6 +80,8 @@ function LikeButton({ vidId }) {
     >
       <AiFillHeart /> {likes}
     </button>
+    <AiFillEye color="#FFFFFF"/>
+    </div>
   );
 }
 export default LikeButton;
