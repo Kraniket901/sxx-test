@@ -110,6 +110,7 @@ const Donation = () => {
                 // bg: '$yellow100',
               },
             }}
+            className="donationCard glitch"
 
           >
             <button
@@ -139,9 +140,6 @@ const Donation = () => {
                     <Text h4 size={20} css={{ m: 0 }} style={{fontFamily:"font2"}}>
                       {item.title}
                     </Text>
-                    {/* <Text css={{ color: "$accents7", fontWeight: "$semibold", fontSize: "$sm" }}>
-                    {item.price}
-                  </Text> */}
                   </Row>
                 </Card.Footer>
               </>
