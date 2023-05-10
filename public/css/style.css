@@ -1564,12 +1564,13 @@ a.full_link{
     white-space: nowrap;
     width: 100%;
     animation: scrollInfinite 60s linear infinite;
-	animation-play-state: paused;
+	
 	height: 70px;
   }
   
   .codeutsava__sponsers-carousel:hover {
     /*  */
+	/* animation-play-state: paused; */
   }
   
   .codeutsava__sponsers-carousel-item {
