@@ -36,6 +36,7 @@ const SXUpcomingProject = () => {
     if (session) {
       if (!voted) {
         setVote(phase);
+        setVoted(true);
         fetch("/api/project", {
           method: "post",
           headers: {
