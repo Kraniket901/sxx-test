@@ -6,6 +6,7 @@ import axios from "axios";
 
 function LikeButton({ vidId }) {
   const [likes, setLikes] = useState(0);
+  const [views, setViews] = useState(0);
   const [liked, setLiked] = useState(false);
   const { data: session } = useSession();
   // console.log(session);
@@ -13,17 +14,15 @@ function LikeButton({ vidId }) {
   useEffect(() => {
     axios
       .get("/api/video")
-      .then((res) => res.data)
-      .then((res) => res.filter((item) => item.id === vidId))
+      .then(res => res.data)
+      .then(res => res.filter(item => item.id === vidId))
       // .then(res => res.likes)
-      .then((res) => {
+      .then(res => {
         res = res[0];
         let { likes } = res;
         likes = [...new Set(likes)];
         if (session) {
-          const userHasLiked = likes.find(
-            (user) => user === session?.user.email
-          );
+          const userHasLiked = likes.find(user => user === session?.user.email);
           // console.log(userHasLiked);
           if (userHasLiked) {
             setLiked(true);
@@ -32,6 +31,15 @@ function LikeButton({ vidId }) {
         setLikes(likes.length);
       });
   }, [session, vidId]);
+
+  useEffect(() => {
+    axios
+      .get("/api/view")
+      .then(res => res.data)
+      .then(res => {
+        setViews(res.count);
+      });
+  }, []);
 
   const handleLike = () => {
     if (session) {
@@ -48,7 +56,7 @@ function LikeButton({ vidId }) {
           body: JSON.stringify({
             vidId: vidId,
           }),
-        }).catch((err) => {
+        }).catch(err => {
           // catch them errors
           console.log(err);
         });
@@ -65,7 +73,7 @@ function LikeButton({ vidId }) {
           body: JSON.stringify({
             vidId: vidId,
           }),
-        }).catch((err) => {
+        }).catch(err => {
           // catch them errors
           console.log(err);
         });
@@ -91,14 +99,14 @@ function LikeButton({ vidId }) {
         <AiFillHeart /> {likes}
       </button>
 
-      <div style={{ display: "flex",  margin: "1rem" }}>
+      <div style={{ display: "flex", margin: "1rem" }}>
         <AiFillEye
           style={{
             fontSize: "40px",
           }}
           color="#FFFFFF"
         />
-        <div>10</div>
+        <div>{views}</div>
       </div>
     </div>
   );
