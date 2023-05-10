@@ -7143,5 +7143,19 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 }
 
 .pollingDiv{
+padding: 4rem;
+}
+
+@media(width<1000px){
+.pollingDiv{
+	padding: 0 0 2rem 0 !important;
+}
+.pollingDiv2{
+	margin: 0 !important;
 	padding: 0 !important;
+}
+.pollingDiv3{
+	font-size: 1.2rem !important;
+	margin-bottom: 0.5rem !important; 
+}
 }

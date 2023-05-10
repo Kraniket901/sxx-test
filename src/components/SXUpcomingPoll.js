@@ -42,9 +42,9 @@ const SXUpcomingPoll = () => {
         >
           Top Voted
         </h3>
-        <Grid.Container xs={12} sm={12} gap={3}>
+        <Grid.Container xs={12} sm={12} gap={3} className="pollingDiv2">
           <Grid>
-            <Text color="White" h4>
+            <Text color="White" className="pollingDiv3" h4>
               <span style={{ color: "#f31260" }}>
                 <BsEmojiHeartEyes /> {pollData[0]?.value}%
               </span>{" "}
@@ -59,7 +59,7 @@ const SXUpcomingPoll = () => {
             />
           </Grid>
           <Grid>
-            <Text color="white" h4>
+            <Text color="white" className="pollingDiv3" h4>
               <span style={{ color: "#9750dd" }}>
                 <BsEmojiSunglasses /> {pollData[1]?.value}%
               </span>{" "}
@@ -74,7 +74,7 @@ const SXUpcomingPoll = () => {
             />
           </Grid>
           <Grid>
-            <Text color="white" h4>
+            <Text color="white" className="pollingDiv3" h4>
               <span style={{ color: "#17c964" }}>
                 <BsEmojiKiss /> {pollData[2]?.value}%
               </span>{" "}
@@ -89,7 +89,7 @@ const SXUpcomingPoll = () => {
             />
           </Grid>
           <Grid>
-            <Text color="white" h4>
+            <Text color="white" className="pollingDiv3" h4>
               <span style={{ color: "#f5a524" }}>
                 <BsEmojiWink /> {pollData[3]?.value}%
               </span>{" "}
@@ -104,7 +104,7 @@ const SXUpcomingPoll = () => {
             />
           </Grid>
           <Grid>
-            <Text color="white" h4>
+            <Text color="white" className="pollingDiv3" h4>
               <span style={{ color: "#0072f5" }}>
                 <BsEmojiLaughing /> {pollData[4]?.value}%
               </span>{" "}
