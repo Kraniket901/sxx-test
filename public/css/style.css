@@ -2144,7 +2144,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	border-radius: 10px;
 }
 .fn_cs_collection .ready .abs_img{
-	transform: rotateY(-30deg) translateZ(0);
+	transform: rotateY(-40deg) translateZ(0);
 }
 .fn_cs_collection .img{
 	position: relative;
@@ -7105,4 +7105,8 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 	.contactUsSocial a div p{
 		display: none;
 	}
+}
+
+.donationCard:hover{
+	transform: translateY(-20px);
 }
