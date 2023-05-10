@@ -6,6 +6,7 @@ import InfiniteCr2 from "../src/components/InfiniteCr2";
 import SXVideoDesc from "../src/components/SXVideoDesc";
 import SXAboutAOT from "../src/components/SXAboutAOT";
 import SXUpcomingProject from "../src/components/SXUpcomingProject";
+import SXUpcomingPoll from "../src/components/SXUpcomingPoll";
 import SXDesc from "../src/components/SXDesc";
 import SXVoiceArtist from "../src/components/SXVoiceArtist";
 import SXContact from "../src/components/SXContact";
@@ -27,6 +28,7 @@ const Index = () => {
       <SXVoiceArtist/>
       <SXAOTTwo/>
       <SXUpcomingProject/>
+      <SXUpcomingPoll/>
       <SectionDivider/>
       <Donation/>
       <SectionDivider/>
