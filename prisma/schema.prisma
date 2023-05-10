@@ -69,7 +69,7 @@ model Project {
   rating String
   title  String
   desc   String
-  votes  String[]
+  votes  String[] @unique
 }
 
 model Feedback {

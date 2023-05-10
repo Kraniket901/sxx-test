@@ -1,7 +1,6 @@
 import { Card, Grid, Row, Text } from "@nextui-org/react";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
-import Link from "next/link";
 
 const Avatar = () => {
   const { data: session } = useSession();
