@@ -13,15 +13,17 @@ function LikeButton({ vidId }) {
   useEffect(() => {
     axios
       .get("/api/video")
-      .then(res => res.data)
-      .then(res => res.filter(item => item.id === vidId))
+      .then((res) => res.data)
+      .then((res) => res.filter((item) => item.id === vidId))
       // .then(res => res.likes)
-      .then(res => {
+      .then((res) => {
         res = res[0];
         let { likes } = res;
         likes = [...new Set(likes)];
         if (session) {
-          const userHasLiked = likes.find(user => user === session?.user.email);
+          const userHasLiked = likes.find(
+            (user) => user === session?.user.email
+          );
           // console.log(userHasLiked);
           if (userHasLiked) {
             setLiked(true);
@@ -46,7 +48,7 @@ function LikeButton({ vidId }) {
           body: JSON.stringify({
             vidId: vidId,
           }),
-        }).catch(err => {
+        }).catch((err) => {
           // catch them errors
           console.log(err);
         });
@@ -63,7 +65,7 @@ function LikeButton({ vidId }) {
           body: JSON.stringify({
             vidId: vidId,
           }),
-        }).catch(err => {
+        }).catch((err) => {
           // catch them errors
           console.log(err);
         });
@@ -73,27 +75,31 @@ function LikeButton({ vidId }) {
     }
   };
   return (
-    <div style={{display:"flex", flexDirection:"row", justifyContent:"space-between", width:"100%"}}>
-
-
-    <button
-      className={`like-button ${liked ? "liked" : ""}`}
-      onClick={handleLike}
-      style={{ margin: "1rem" }}
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        width: "100%",
+      }}
     >
-      <AiFillHeart /> {likes}
-    </button>
+      <button
+        className={`like-button ${liked ? "liked" : ""}`}
+        onClick={handleLike}
+        style={{ margin: "1rem" }}
+      >
+        <AiFillHeart /> {likes}
+      </button>
 
-    <div style={{display:"flex",  margin:"1rem"}}>
-    <AiFillEye style={
-      {
-        fontSize: "40px",
-      }
-    } color="#FFFFFF"/> 10
-    </div>
-
-
-
+      <div style={{ display: "flex",  margin: "1rem" }}>
+        <AiFillEye
+          style={{
+            fontSize: "40px",
+          }}
+          color="#FFFFFF"
+        />
+        <div>10</div>
+      </div>
     </div>
   );
 }
