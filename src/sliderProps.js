@@ -43,7 +43,7 @@ const roadmapStep = (mySwiper, step, widthParts) => {
 };
 export const roadMapProps = {
   loop: false,
-  speed: 1000,
+  speed: 100,
   autoplay: {
     delay: 10,
     disableOnInteraction: false,
