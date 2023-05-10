@@ -74,7 +74,7 @@ const SXUpcomingProject = () => {
                   {/* <SwiperSlide className="swiper-slide">
                   <div className="item">
                     <span className="icon" />
-                    <span className="phase">Project 02</span>
+                  <span className="phase">Project 01</span>
                     <div className="item_in">
                       <img
                         src="/img/upcoming/graveOfTheFireflies.webp"
@@ -105,7 +105,7 @@ const SXUpcomingProject = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="item">
                     <span className="icon" />
-                    <span className="phase">Project 03</span>
+                    <span className="phase">Project 02</span>
                     <div className="item_in">
                       <img
                         src="/img/upcoming/princessMononoke.webp"
@@ -125,7 +125,7 @@ const SXUpcomingProject = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="item">
                     <span className="icon" />
-                    <span className="phase">Project 04</span>
+                    <span className="phase">Project 03</span>
                     <div className="item_in">
                       <img
                         src="/img/upcoming/howlsMovingCastle.webp"
@@ -145,7 +145,7 @@ const SXUpcomingProject = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="item">
                     <span className="icon" />
-                    <span className="phase">Project 05</span>
+                    <span className="phase">Project 04</span>
                     <div className="item_in">
                       <img
                         src="/img/upcoming/myNeighbourTotoro.webp"
@@ -166,7 +166,7 @@ const SXUpcomingProject = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="item">
                     <span className="icon" />
-                    <span className="phase">Project 06</span>
+                    <span className="phase">Project 05</span>
                     <div className="item_in">
                       <img
                         src="/img/upcoming/wolfChildren.webp"
@@ -187,7 +187,7 @@ const SXUpcomingProject = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="item">
                     <span className="icon" />
-                    <span className="phase">Project 07</span>
+                    <span className="phase">Project 06</span>
                     <div className="item_in">
                       <img
                         src="/img/upcoming/neonGenesisEvangelion.webp"
@@ -209,7 +209,7 @@ const SXUpcomingProject = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="item">
                     <span className="icon" />
-                    <span className="phase">Project 08</span>
+                    <span className="phase">Project 07</span>
                     <div className="item_in">
                       <img
                         src="/img/upcoming/nausicaaOfTheValleyOfTheWind.webp"
@@ -231,7 +231,7 @@ const SXUpcomingProject = () => {
                 <SwiperSlide className="swiper-slide">
                   <div className="item">
                     <span className="icon" />
-                    <span className="phase">Project 09</span>
+                    <span className="phase">Project 08</span>
                     <div className="item_in">
                       <img
                         src="/img/upcoming/castleInTheSky.webp"
