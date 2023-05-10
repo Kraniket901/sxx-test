@@ -1,68 +1,124 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { roadMapProps } from "../sliderProps";
-import React,{useState} from "react";
-import {Button ,Progress, Grid, Container, Text } from "@nextui-org/react";
-import { BsEmojiHeartEyes,BsEmojiWink, BsEmojiSunglasses, BsEmojiKiss,BsEmojiLaughing } from 'react-icons/bs';
+import React, { useState } from "react";
+import { Button, Progress, Grid, Container, Text } from "@nextui-org/react";
+import {
+  BsEmojiHeartEyes,
+  BsEmojiWink,
+  BsEmojiSunglasses,
+  BsEmojiKiss,
+  BsEmojiLaughing,
+} from "react-icons/bs";
+import { useEffect } from "react";
+import axios from "axios";
 const SXUpcomingPoll = () => {
+  const [pollData, setPollData] = useState([]);
+  useEffect(() => {
+    let data = [];
+    axios
+      .get("/api/poll")
+      .then(res => res.data)
+      .then(res => {
+        res.map(item => {
+          data = [
+            ...data,
+            { "id": item.id, "name": item.title, "value": item.percent },
+          ];
+        });
+      })
+      .then(() => {
+        setPollData(data);
+        // console.log(pollData);
+      });
+  }, []);
 
-    const [Voted, setVote] = useState(0);
-
-    
-     const pro1 = {
-        value: 80,
-        name: "Demon Slayer",
-      };
-     const pro2 = {
-        value: 30,
-        name: "Naruto",
-      };
-     const pro3 = {
-        value: 40,
-        name: "Demon Slayer",
-      };
-      const pro4 = {
-        value: 40,
-        name: "Demon Slayer",
-      };
-      const pro5 = {
-        value: 40,
-        name: "Demon Slayer",
-      };
-    
   return (
     <>
-    <Container data-aos="fade-up"  css={{ display: 'block' }} >
-    <h3
+      <Container data-aos="fade-up" css={{ display: "block" }}>
+        <h3
           className="fn__maintitle big"
           data-text="Top Voted"
           data-align="center"
-          style={{ fontFamily:"font1", paddingBottom:"1rem" }}
+          style={{ fontFamily: "font1", paddingBottom: "1rem" }}
         >
-        Top Voted
+          Top Voted
         </h3>
-    <Grid.Container  xs={12} sm={12} gap={3}>
-      <Grid>
-        <Text color="White" h4><span style={{color: '#f31260'}}><BsEmojiHeartEyes/> {pro1.value}%</span> <span style={{color:'#9ba0b8'}}>People Vote for</span> {pro1.name}</Text>
-        <Progress value={pro1.value} color="error" size="md" status="primary" />
-      </Grid>
-      <Grid>
-      <Text color="white" h4><span style={{color: '#9750dd'}}><BsEmojiSunglasses/> {pro2.value}%</span> <span style={{color:'#9ba0b8'}}>People Vote for</span> {pro2.name}</Text>
-        <Progress  value={pro2.value} color="secondary" size="md" status="secondary" />
-      </Grid>
-      <Grid>
-      <Text color="white" h4><span style={{color: '#17c964'}}><BsEmojiKiss/> {pro3.value}%</span> <span style={{color:'#9ba0b8'}}>People Vote for</span> {pro3.name}</Text>
-        <Progress value={pro3.value} color="success" size="md" status="success" />
-      </Grid>
-      <Grid>
-      <Text color="white" h4><span style={{color: '#f5a524'}}><BsEmojiWink/> {pro4.value}%</span> <span style={{color:'#9ba0b8'}}>People Vote for</span> {pro4.name}</Text>
-        <Progress value={pro4.value} color="warning" size="md" status="warning" />
-      </Grid>
-      <Grid>
-      <Text color="white" h4><span style={{color: '#0072f5'}}><BsEmojiLaughing/> {pro5.value}%</span> <span style={{color:'#9ba0b8'}}>People Vote for</span> {pro5.name}</Text>
-        <Progress value={pro5.value} color="primary" size="md" status="error" />
-      </Grid>
-    </Grid.Container>
-    </Container>
+        <Grid.Container xs={12} sm={12} gap={3}>
+          <Grid>
+            <Text color="White" h4>
+              <span style={{ color: "#f31260" }}>
+                <BsEmojiHeartEyes /> {pollData[0]?.value}%
+              </span>{" "}
+              <span style={{ color: "#9ba0b8" }}>People Vote for</span>{" "}
+              {pollData[0]?.name}
+            </Text>
+            <Progress
+              value={pollData[0]?.value}
+              color="error"
+              size="md"
+              status="primary"
+            />
+          </Grid>
+          <Grid>
+            <Text color="white" h4>
+              <span style={{ color: "#9750dd" }}>
+                <BsEmojiSunglasses /> {pollData[1]?.value}%
+              </span>{" "}
+              <span style={{ color: "#9ba0b8" }}>People Vote for</span>{" "}
+              {pollData[1]?.name}
+            </Text>
+            <Progress
+              value={pollData[1]?.value}
+              color="secondary"
+              size="md"
+              status="secondary"
+            />
+          </Grid>
+          <Grid>
+            <Text color="white" h4>
+              <span style={{ color: "#17c964" }}>
+                <BsEmojiKiss /> {pollData[2]?.value}%
+              </span>{" "}
+              <span style={{ color: "#9ba0b8" }}>People Vote for</span>{" "}
+              {pollData[2]?.name}
+            </Text>
+            <Progress
+              value={pollData[2]?.value}
+              color="success"
+              size="md"
+              status="success"
+            />
+          </Grid>
+          <Grid>
+            <Text color="white" h4>
+              <span style={{ color: "#f5a524" }}>
+                <BsEmojiWink /> {pollData[3]?.value}%
+              </span>{" "}
+              <span style={{ color: "#9ba0b8" }}>People Vote for</span>{" "}
+              {pollData[3]?.name}
+            </Text>
+            <Progress
+              value={pollData[3]?.value}
+              color="warning"
+              size="md"
+              status="warning"
+            />
+          </Grid>
+          <Grid>
+            <Text color="white" h4>
+              <span style={{ color: "#0072f5" }}>
+                <BsEmojiLaughing /> {pollData[4]?.value}%
+              </span>{" "}
+              <span style={{ color: "#9ba0b8" }}>People Vote for</span>{" "}
+              {pollData[4]?.name}
+            </Text>
+            <Progress
+              value={pollData[4]?.value}
+              color="primary"
+              size="md"
+              status="error"
+            />
+          </Grid>
+        </Grid.Container>
+      </Container>
     </>
   );
 };
