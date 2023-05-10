@@ -72,8 +72,9 @@ model Project {
   votes  String[] @unique
 }
 
-model Feedback {
+model Form {
   id       String @id @default(auto()) @map("_id") @db.ObjectId
+  type     String
   name     String
   city     String
   phone    String

@@ -1,4 +1,35 @@
+import { useState } from "react";
 const SXContact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [city, setCity] = useState("");
+  const [phone, setPhone] = useState("");
+  const [topic, setTopic] = useState("");
+  const [feedback, setFeedback] = useState("");
+
+  async function handleForm(e) {
+    e.preventDefault();
+    await fetch("/api/form", {
+      method: "post",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json",
+      },
+      //make sure to serialize your JSON body
+      body: JSON.stringify({
+        name: name,
+        type: "contact",
+        email: email,
+        city: city,
+        phone: phone,
+        topic: topic,
+        feedback: feedback,
+      }),
+    }).catch(err => {
+      // catch them errors
+      console.log(err);
+    });
+  }
   return (
     <section id="contact">
       <div className="container">
@@ -6,7 +37,7 @@ const SXContact = () => {
           className="fn__maintitle big"
           data-text="Contact Us"
           data-align="center"
-          style={{fontFamily:"font1"}}
+          style={{ fontFamily: "font1" }}
         >
           Contact Us
         </h3>
@@ -51,8 +82,7 @@ const SXContact = () => {
         </div>
         <div className="fn_cs_contact_form">
           <form
-            action="/"
-            method="post"
+            onSubmit={handleForm}
             className="contact_form"
             id="contact_form"
             autoComplete="off"
@@ -60,15 +90,35 @@ const SXContact = () => {
             <div className="input_list">
               <ul>
                 <li>
-                  <input id="name" type="text" placeholder="Your Name *" />
+                  <input
+                    id="name"
+                    type="text"
+                    value={name}
+                    onInput={({ target }) => {
+                      setName(target.value);
+                    }}
+                    placeholder="Your Name *"
+                  />
                 </li>
                 <li>
-                  <input id="email" type="text" placeholder="Your Email *" />
+                  <input
+                    id="email"
+                    type="text"
+                    value={email}
+                    onInput={({ target }) => {
+                      setEmail(target.value);
+                    }}
+                    placeholder="Your Email *"
+                  />
                 </li>
                 <li>
                   <input
                     id="tel"
                     type="text"
+                    value={phone}
+                    onInput={({ target }) => {
+                      setPhone(target.value);
+                    }}
                     placeholder="Your Phone (optional)"
                   />
                 </li>
@@ -76,6 +126,10 @@ const SXContact = () => {
                   <input
                     id="subject"
                     type="text"
+                    value={topic}
+                    onInput={({ target }) => {
+                      setTopic(target.value);
+                    }}
                     placeholder="Topic (optional)"
                   />
                 </li>
@@ -84,17 +138,21 @@ const SXContact = () => {
                     id="message"
                     placeholder="Your Message *"
                     defaultValue={""}
+                    value={feedback}
+                    onInput={({ target }) => {
+                      setFeedback(target.value);
+                    }}
                   />
                 </li>
                 <li className="full">
                   <div className="mw300">
-                    <a
+                    <button
                       id="send_message"
                       href="#"
                       className="metaportal_fn_button full"
                     >
                       <span>Send Message</span>
-                    </a>
+                    </button>
                   </div>
                 </li>
               </ul>

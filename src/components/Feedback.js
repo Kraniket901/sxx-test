@@ -1,6 +1,7 @@
 import { useState } from "react";
 const Feedback = () => {
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   const [city, setCity] = useState("");
   const [phone, setPhone] = useState("");
   const [topic, setTopic] = useState("");
@@ -8,7 +9,7 @@ const Feedback = () => {
 
   async function handleForm(e) {
     e.preventDefault();
-    await fetch("/api/feedback", {
+    await fetch("/api/form", {
       method: "post",
       headers: {
         Accept: "application/json",
@@ -17,6 +18,8 @@ const Feedback = () => {
       //make sure to serialize your JSON body
       body: JSON.stringify({
         name: name,
+        type: "feedback",
+        email: email,
         city: city,
         phone: phone,
         topic: topic,
@@ -74,22 +77,22 @@ const Feedback = () => {
                   <input
                     id="tel"
                     type="text"
-                    placeholder="Your Phone (optional)"
                     value={phone}
                     onInput={({ target }) => {
                       setPhone(target.value);
                     }}
+                    placeholder="Your Phone (optional)"
                   />
                 </li>
                 <li>
                   <input
                     id="subject"
                     type="text"
-                    placeholder="Topic (optional)"
                     value={topic}
                     onInput={({ target }) => {
                       setTopic(target.value);
                     }}
+                    placeholder="Topic (optional)"
                   />
                 </li>
                 <li className="full">
