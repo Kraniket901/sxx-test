@@ -260,11 +260,12 @@ const SXUpcomingProject = () => {
                           <p className="desc">{item.desc}</p>
                           <Button
                             type="submit"
+                            style={{margin:"0.5rem 0"}}
                             onClick={() => handleVote(item.phase, item.id)}
                             color={vote === item.phase ? "gradient" : ""}
                             auto
                           >
-                            {vote === item.phase ? "Thanks for Vote" : "Vote"}
+                            {vote === item.phase ? "Thanks for Voting" : "Vote"}
                           </Button>
                         </div>
                       </div>
