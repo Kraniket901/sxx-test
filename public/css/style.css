@@ -1583,6 +1583,7 @@ a.full_link{
   @media(width<1000px){
 	.codeutsava__sponsers-carousel-item {
 		height: 37px;
+		margin: 16px 1.5rem;
 	}
   }
   
