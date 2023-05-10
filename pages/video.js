@@ -2,6 +2,7 @@ import React from "react";
 import MediaComponent from "../src/components/MediaComponent";
 import Header from "../src/layout/Header";
 import Footer from "../src/layout/Footer";
+import ScrollTop from "../src/layout/ScrollTop";
 import MobileNavigation from "../src/layout/MobileNavigation";
 import Navigation from "../src/layout/Navigation";
 import PreLoader from "../src/layout/PreLoader";
@@ -37,7 +38,7 @@ const Video = () => {
         <Social/>
         <SearchButton/>
         <Searchbox/>
-        {/* <ScrollTop/> */}
+        <ScrollTop/>
         <WalletPopUp />
       </div>
     </>

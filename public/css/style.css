@@ -7141,3 +7141,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 		margin: 0;
 	}
 }
+
+.pollingDiv{
+	padding: 0 !important;
+}
