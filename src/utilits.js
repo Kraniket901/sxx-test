@@ -60,7 +60,7 @@ export const holdSection = () => {
 
   window.addEventListener("scroll", () => {
     let offset = window.scrollY;
-    if (offset < 2000) {
+    if (offset < 500) {
       metaportal_fn_search.classList.add("hold");
       social.classList.add("hold");
     } else {
