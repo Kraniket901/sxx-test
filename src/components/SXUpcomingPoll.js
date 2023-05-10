@@ -31,7 +31,7 @@ const SXUpcomingPoll = () => {
     
   return (
     <>
-    <Container css={{ display: 'block' }} >
+    <Container data-aos="fade-up"  css={{ display: 'block' }} >
     <h3
           className="fn__maintitle big"
           data-text="Top Voted"
