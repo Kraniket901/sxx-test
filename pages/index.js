@@ -17,7 +17,6 @@ const Index = () => {
     <Layout pageTitle={"Home"}>
       
       <SXHome/>
-      
       <InfiniteCr/>
       <SectionDivider/>
       <SXVideoDesc/>
@@ -27,7 +26,6 @@ const Index = () => {
       <SXDesc/>
       <SXVoiceArtist/>
       <SectionDivider/>
-      
       <Donation/>
       <SectionDivider/>
       <Collection/>
