@@ -20,6 +20,14 @@ function MyApp({ Component, pageProps: { session, ...pageProps }  }) {
     <SessionProvider session={session}>
     <Provider store={store}>
       <Head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N9GD15L2JS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N9GD15L2JS');
+</script>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
