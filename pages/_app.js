@@ -5,7 +5,7 @@ import "../styles/globals.css";
 import { SessionProvider } from "next-auth/react";
 import { useEffect } from "react";
 import AOS from "aos";
-
+// fix
 import "aos/dist/aos.css";
 
 function MyApp({ Component, pageProps: { session, ...pageProps }  }) {
