@@ -27,8 +27,8 @@ const Index = () => {
       <SXDesc/>
       <SXVoiceArtist/>
       <SXAOTTwo/>
-      <SXUpcomingProject/>
-      <SXUpcomingPoll/>
+      {/* <SXUpcomingProject/> */}
+      {/* <SXUpcomingPoll/> */}
       <SectionDivider/>
       <Donation/>
       <SectionDivider/>
