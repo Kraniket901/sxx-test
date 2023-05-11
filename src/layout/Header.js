@@ -5,6 +5,7 @@ import { navigationToggle, walletToggle } from "../redux/actions/siteSettings";
 import { stickyNav } from "../utilits";
 import { useSession, signIn } from "next-auth/react";
 import { Button } from "@nextui-org/react";
+import { FaDonate } from "react-icons/fa";
 
 const Header = ({ walletToggle, navigationToggle }) => {
   const { data: session, status } = useSession();
@@ -58,6 +59,9 @@ const Header = ({ walletToggle, navigationToggle }) => {
           </div>
 
           <div className="wallet" style={{ display: "flex" }}>
+          <Link href="#donation">
+            <FaDonate color="white" size={30} style={{margin:"0.3rem 1rem"}}/>
+            </Link>
             {status === "authenticated" && (
               <a
                 href="#"
