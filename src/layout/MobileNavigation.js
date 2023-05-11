@@ -38,7 +38,7 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
            
           <div className="wallet" style={{ display: "flex" }}>
           <Link href="#donation">
-            <FaDonate color="white" size={30} style={{margin:"0.3rem 1rem"}}/>
+            <FaDonate color="white" size={30} style={{margin:"0.4rem 1rem"}}/>
             </Link>
             {status === "authenticated" && (
               <a
