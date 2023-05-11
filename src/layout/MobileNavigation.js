@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Fragment, useEffect, useState } from "react";
 import { connect } from "react-redux";
+import { FaDonate } from "react-icons/fa";
 import { navigationToggle, walletToggle } from "../redux/actions/siteSettings";
 import { stickyNav } from "../utilits";
 import { useSession, signIn } from "next-auth/react";
@@ -34,8 +35,11 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
             style={{ margin: "0 25px" }}
             alt=""
           />
-
+           
           <div className="wallet" style={{ display: "flex" }}>
+          <Link href="#donation">
+            <FaDonate color="white" size={30} style={{margin:"0.3rem 1rem"}}/>
+            </Link>
             {status === "authenticated" && (
               <a
                 href="#"
