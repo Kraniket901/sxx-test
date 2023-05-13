@@ -35,7 +35,7 @@ const SXContact = () => {
       }),
     })
       .then(() => {
-        toast.success("Messsage sent", {
+        toast.success("Message sent", {
           position: "top-center",
           autoClose: 1500,
           hideProgressBar: true,
