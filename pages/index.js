@@ -13,12 +13,14 @@ import SXContact from "../src/components/SXContact";
 import SXHome from "../src/components/SXHome";
 import Donation from "../src/components/Donation";
 import SXAOTTwo from "../src/components/SXAOTTwo";
+import Sorry from "../src/components/Sorry";
 const Index = () => {
   return (
     
     <Layout pageTitle={"Home"}>
       
       <SXHome/>
+      <Sorry/>
       <InfiniteCr/>
       <SectionDivider/>
       <SXVideoDesc/>
