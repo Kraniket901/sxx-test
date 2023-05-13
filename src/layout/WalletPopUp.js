@@ -39,7 +39,7 @@ const WalletPopUp = ({ walletToggle, wallet }) => {
             Edit Avatar
           </button>
 
-          <button onClick={() => signOut()}>Signout</button>
+          <button onClick={() => signOut()}>Logout</button>
           {/* <button onClick={() => signIn("google")}>Login</button> */}
         </div>
       </div>

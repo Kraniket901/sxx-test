@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Feedback = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -25,10 +27,23 @@ const Feedback = () => {
         topic: topic,
         feedback: feedback,
       }),
-    }).catch(err => {
-      // catch them errors
-      console.log(err);
-    });
+    })
+      .then(() => {
+        toast.success("Feedback sent", {
+          position: "top-center",
+          autoClose: 1500,
+          hideProgressBar: true,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+      })
+      .catch(err => {
+        // catch them errors
+        console.log(err);
+      });
   }
 
   return (
@@ -109,6 +124,7 @@ const Feedback = () => {
                 <li className="full">
                   <div className="mw300">
                     <button
+                      style={{ border: "none" }}
                       id="send_message"
                       className="metaportal_fn_button full"
                     >
@@ -128,6 +144,18 @@ const Feedback = () => {
           </form>
         </div>
       </div>
+      <ToastContainer
+        position="top-center"
+        autoClose={1500}
+        hideProgressBar
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </section>
   );
 };

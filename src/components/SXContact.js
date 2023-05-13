@@ -1,5 +1,11 @@
 import { useState } from "react";
-import {AiOutlineInstagram, AiOutlineYoutube, AiOutlineMail} from "react-icons/ai";
+import {
+  AiOutlineInstagram,
+  AiOutlineYoutube,
+  AiOutlineMail,
+} from "react-icons/ai";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const SXContact = () => {
   const [name, setName] = useState("");
@@ -27,10 +33,23 @@ const SXContact = () => {
         topic: topic,
         feedback: feedback,
       }),
-    }).catch(err => {
-      // catch them errors
-      console.log(err);
-    });
+    })
+      .then(() => {
+        toast.success("Messsage sent", {
+          position: "top-center",
+          autoClose: 1500,
+          hideProgressBar: true,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+      })
+      .catch(err => {
+        // catch them errors
+        console.log(err);
+      });
   }
   return (
     <section id="contact">
@@ -39,19 +58,28 @@ const SXContact = () => {
           className="fn__maintitle big"
           data-text="Contact Us"
           data-align="center"
-          style={{ fontFamily: "font1"}}
+          style={{ fontFamily: "font1" }}
         >
           Contact Us
         </h3>
         <div className="contactUsSocial">
           <a href="https://www.instagram.com/shinnex_production/">
-          <div><AiOutlineInstagram className="contactUsSocialIcon"/><p>@shinnex_production</p></div>
+            <div>
+              <AiOutlineInstagram className="contactUsSocialIcon" />
+              <p>@shinnex_production</p>
+            </div>
           </a>
           <a href="https://www.youtube.com/@shinnex_production">
-          <div><AiOutlineYoutube className="contactUsSocialIcon"/><p>@shinnex_production</p></div>
+            <div>
+              <AiOutlineYoutube className="contactUsSocialIcon" />
+              <p>@shinnex_production</p>
+            </div>
           </a>
           <a href="mailto:shinnextream@gmail.com">
-          <div><AiOutlineMail className="contactUsSocialIcon"/><p>shinnextream@gmail.com</p></div>
+            <div>
+              <AiOutlineMail className="contactUsSocialIcon" />
+              <p>shinnextream@gmail.com</p>
+            </div>
           </a>
         </div>
         <div className="fn_cs_contact_form">
@@ -121,6 +149,7 @@ const SXContact = () => {
                 <li className="full">
                   <div className="mw300">
                     <button
+                      style={{ border: "none" }}
                       id="send_message"
                       href="#"
                       className="metaportal_fn_button full"
@@ -141,6 +170,18 @@ const SXContact = () => {
           </form>
         </div>
       </div>
+      <ToastContainer
+        position="top-center"
+        autoClose={1500}
+        hideProgressBar
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+      />
     </section>
   );
 };
