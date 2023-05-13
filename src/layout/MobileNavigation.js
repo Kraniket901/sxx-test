@@ -6,6 +6,7 @@ import { navigationToggle, walletToggle } from "../redux/actions/siteSettings";
 import { stickyNav } from "../utilits";
 import { useSession, signIn } from "next-auth/react";
 import { Button } from "@nextui-org/react";
+import { Loading } from "@nextui-org/react";
 const MobileNavigation = ({ walletToggle, navigationToggle }) => {
   const { data: session, status } = useSession();
   useEffect(() => {
@@ -35,10 +36,14 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
             style={{ margin: "0 25px" }}
             alt=""
           />
-           
+
           <div className="wallet" style={{ display: "flex" }}>
-          <Link href="#donation">
-            <FaDonate color="white" size={30} style={{margin:"0.4rem 1rem"}}/>
+            <Link href="#donation">
+              <FaDonate
+                color="white"
+                size={30}
+                style={{ margin: "0.4rem 1rem" }}
+              />
             </Link>
             {status === "authenticated" && (
               <a
@@ -49,11 +54,22 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                 }}
                 className="wallet_opener"
               >
-                <img src={session.user.image} width="45px" style={{borderRadius:"50%", border:"1px solid white"}} alt="" />
+                <img
+                  src={session.user.image}
+                  width="45px"
+                  style={{ borderRadius: "50%", border: "1px solid white" }}
+                  alt=""
+                />
               </a>
             )}
             {status === "unauthenticated" && (
-              <Button className="loginBtn" color="secondary" auto onClick={() => signIn("google")} style={{padding:"0 10px"}}>
+              <Button
+                className="loginBtn"
+                color="secondary"
+                auto
+                onClick={() => signIn("google")}
+                style={{ padding: "0 10px" }}
+              >
                 <a
                   style={{
                     fontFamily: "font1",
@@ -66,7 +82,9 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                 </a>
               </Button>
             )}
-            {status === "loading" && <p>.....</p>}
+            {status === "loading" && (
+              <Loading type="points-opacity" size="lg" />
+            )}
           </div>
         </div>
         <div className="mob_mid">
@@ -87,91 +105,91 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
         <div className="mob_bot" style={{ display: toggle ? "block" : "none" }}>
           <ul>
             <li>
-                <Link href="#">
-                  <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">Home</span>
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="#about">
-                  <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">About</span>
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setSubMenu("pages");
-                  }}
-                  className={`${subMenu == "pages" ? "active" : ""}`}
-                >
-                  <span className="creative_link">
-                    Shinnextream
-                    <img src="/svg/down.svg" alt="" className="fn__svg" />
-                  </span>
+              <Link href="#">
+                <a onClick={() => navigationToggle(false)}>
+                  <span className="creative_link">Home</span>
                 </a>
-                <ul className="sub-menu">
-                  <li>
-                    <a
-                      href="#shinnextream"
-                      className="prev"
-                      onClick={() => setSubMenu(null)}
-                    >
-                      <span className="creative_link">
-                        <img src="/svg/down.svg" alt="" className="fn__svg" />
-                        Shinnextream
-                      </span>
-                    </a>
-                  </li>
+              </Link>
+            </li>
+            <li>
+              <Link href="#about">
+                <a onClick={() => navigationToggle(false)}>
+                  <span className="creative_link">About</span>
+                </a>
+              </Link>
+            </li>
+            <li>
+              <a
+                href="#"
+                onClick={e => {
+                  e.preventDefault();
+                  setSubMenu("pages");
+                }}
+                className={`${subMenu == "pages" ? "active" : ""}`}
+              >
+                <span className="creative_link">
+                  Shinnextream
+                  <img src="/svg/down.svg" alt="" className="fn__svg" />
+                </span>
+              </a>
+              <ul className="sub-menu">
+                <li>
+                  <a
+                    href="#shinnextream"
+                    className="prev"
+                    onClick={() => setSubMenu(null)}
+                  >
+                    <span className="creative_link">
+                      <img src="/svg/down.svg" alt="" className="fn__svg" />
+                      Shinnextream
+                    </span>
+                  </a>
+                </li>
 
-                  <li>
-                    <Link href="#shinnextream">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">About</span>
-                      </a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="#voice_artists">
-                      <a onClick={() => navigationToggle(false)}>
-                        <span className="creative_link">Voice Artists</span>
-                      </a>
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <Link href="#anime_poll">
-                  <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">Anime Poll</span>
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="#donation">
-                  <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">Donation</span>
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="#avatars">
-                  <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">Our Avatars</span>
-                  </a>
-                </Link>
-              </li>
-              <li>
-                <Link href="#contact">
-                  <a onClick={() => navigationToggle(false)}>
-                    <span className="creative_link">Contact</span>
-                  </a>
-                </Link>
-              </li>
+                <li>
+                  <Link href="#shinnextream">
+                    <a onClick={() => navigationToggle(false)}>
+                      <span className="creative_link">About</span>
+                    </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="#voice_artists">
+                    <a onClick={() => navigationToggle(false)}>
+                      <span className="creative_link">Voice Artists</span>
+                    </a>
+                  </Link>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <Link href="#anime_poll">
+                <a onClick={() => navigationToggle(false)}>
+                  <span className="creative_link">Anime Poll</span>
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#donation">
+                <a onClick={() => navigationToggle(false)}>
+                  <span className="creative_link">Donation</span>
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#avatars">
+                <a onClick={() => navigationToggle(false)}>
+                  <span className="creative_link">Our Avatars</span>
+                </a>
+              </Link>
+            </li>
+            <li>
+              <Link href="#contact">
+                <a onClick={() => navigationToggle(false)}>
+                  <span className="creative_link">Contact</span>
+                </a>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

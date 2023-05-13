@@ -5,6 +5,7 @@ import { navigationToggle, walletToggle } from "../redux/actions/siteSettings";
 import { stickyNav } from "../utilits";
 import { useSession, signIn } from "next-auth/react";
 import { Button } from "@nextui-org/react";
+import { Loading } from "@nextui-org/react";
 import { FaDonate } from "react-icons/fa";
 
 const Header = ({ walletToggle, navigationToggle }) => {
@@ -59,8 +60,12 @@ const Header = ({ walletToggle, navigationToggle }) => {
           </div>
 
           <div className="wallet" style={{ display: "flex" }}>
-          <Link href="#donation">
-            <FaDonate color="white" size={30} style={{margin:"0.5rem 1rem"}}/>
+            <Link href="#donation">
+              <FaDonate
+                color="white"
+                size={30}
+                style={{ margin: "0.5rem 1rem" }}
+              />
             </Link>
             {status === "authenticated" && (
               <a
@@ -75,7 +80,12 @@ const Header = ({ walletToggle, navigationToggle }) => {
               </a>
             )}
             {status === "unauthenticated" && (
-              <Button className="loginBtn" color="secondary" auto onClick={() => signIn("google")}>
+              <Button
+                className="loginBtn"
+                color="secondary"
+                auto
+                onClick={() => signIn("google")}
+              >
                 <a
                   style={{
                     fontFamily: "font1",
@@ -88,7 +98,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
                 </a>
               </Button>
             )}
-            {status === "loading" && <p>.....</p>}
+            {status === "loading" && <Loading size="lg" type="points-opacity" />}
           </div>
         </div>
       </div>
