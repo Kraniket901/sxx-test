@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const SXHome = () => {
   const handleView = async () => {
-    await fetch("/api/view", {
+    await fetch("/api/video", {
       method: "post",
       headers: {
         Accept: "application/json",

@@ -10,16 +10,21 @@ const Video = () => {
   useEffect(() => {
     axios
       .get("/api/video")
-      // .then(res => res.json())
+      // .then(res => {
+      //   console.log(res);
+      // })
       .then(({ data }) => setVideos(data))
+      // .then(() => {
+      //   console.log(videos);
+      // })
       .catch(err => console.log(err));
   }, []);
   return (
     <>
       <div>
-      <Layout pageTitle={"Video"}>
-        <MediaComponent videos={videos} />
-        <Feedback />
+        <Layout pageTitle={"Video"}>
+          <MediaComponent videos={videos} />
+          <Feedback />
         </Layout>
       </div>
     </>

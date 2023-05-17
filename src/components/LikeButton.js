@@ -34,10 +34,11 @@ function LikeButton({ vidId }) {
 
   useEffect(() => {
     axios
-      .get("/api/view")
+      .get("/api/video")
       .then(res => res.data)
+      .then(res => res[0].views)
       .then(res => {
-        setViews(res.count);
+        setViews(res);
       });
   }, []);
 
@@ -99,11 +100,11 @@ function LikeButton({ vidId }) {
         <AiFillHeart /> {likes}
       </button>
 
-      <div style={{ display: "flex", alignItems:"center", margin: "1rem" }}>
+      <div style={{ display: "flex", alignItems: "center", margin: "1rem" }}>
         <AiFillEye
           style={{
             fontSize: "30px",
-            margin:"0 0.3rem"
+            margin: "0 0.3rem",
           }}
           color="#FFFFFF"
         />
