@@ -20,12 +20,12 @@ const SXHome = () => {
     <>
       <div className="fn_cs_video">
         <Link href="/video">
-          <button onClick={() => handleView()}>
+          <div onClick={() => handleView()}>
             <a className="popup-youtube" href="">
               {/* <img src="/svg/play.svg" alt="" className="fn__svg" /> */}
               <img src="/svg/play.svg" alt="Play" className="fn__svg" />
             </a>
-          </button>
+          </div>
         </Link>
       </div>
     </>
