@@ -58,6 +58,7 @@ model Video {
   id    String   @id @default(auto()) @map("_id") @db.ObjectId
   title String
   url   String   @unique
+  views Int      @default(0)
   likes String[]
 }
 
@@ -80,9 +81,4 @@ model Form {
   phone    String
   topic    String
   feedback String
-}
-
-model View {
-  id    String @id @default(auto()) @map("_id") @db.ObjectId
-  count Int    @default(0)
 }
