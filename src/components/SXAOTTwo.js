@@ -11,7 +11,7 @@ const SXAOTTwo = () => {
           >
             OUR UPCOMING PROJECT
           </h3>
-        <div className="fn_cs_news container" style={{paddingBottom:"4rem"}}>
+        <div className="fn_cs_news container">
           <div className="news_part">
             <div className="left_items">
               <div  className="blog__item">

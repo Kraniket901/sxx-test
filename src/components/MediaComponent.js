@@ -36,7 +36,7 @@ function MediaComponent({ videos }) {
   Attack on Titan: The Final Season Part 3 HINDI DUB TRAILER | 20th MAY
   | Shinnex Production | Shinnextream
 </p>
-<Sorry/>
+{/* <Sorry/> */}
 <p>
   The Final Run Looks Set To Bring About An End To The Long Conflict
   Between Paradis And Marley. This amazing epic special episode is

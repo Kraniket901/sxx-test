@@ -14,16 +14,18 @@ import SXHome from "../src/components/SXHome";
 import Donation from "../src/components/Donation";
 import SXAOTTwo from "../src/components/SXAOTTwo";
 import Sorry from "../src/components/Sorry";
+import Trailer from "../src/components/Trailer";
 const Index = () => {
   return (
     
     <Layout pageTitle={"Home"}>
       
       <SXHome/>
-      <Sorry/>
+      {/* <Sorry/> */}
       <InfiniteCr/>
       <SectionDivider/>
       <SXVideoDesc/>
+      <Trailer/>
       <SXAboutAOT/>
       <SectionDivider/>
       <SXDesc/>
