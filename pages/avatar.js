@@ -1,10 +1,7 @@
 import { Card, Grid, Row, Text } from "@nextui-org/react";
 import { useRouter } from "next/router";
-import { useSession } from "next-auth/react";
 
 const Avatar = () => {
-  const { data: session } = useSession();
-  const email = session?.user.email;
   const router = useRouter();
 
   // avatarList smh
@@ -57,7 +54,6 @@ const Avatar = () => {
       },
       //make sure to serialize your JSON body
       body: JSON.stringify({
-        email: email,
         img: img,
       }),
     })
@@ -76,16 +72,25 @@ const Avatar = () => {
 
   return (
     <Grid.Container gap={1} justify="flex-start">
-      <h1 style={{fontSize:"4rem", cursor:"pointer", display:"flex"}} onClick={() => router.back()}>←</h1>
-              <h3
-              
-          className="fn__maintitle big"
-          data-text="CHOOSE YOUR AVATAR"
-          data-align="center"
-          style={{ fontFamily:"font1", marginBottom:"1rem", textAlign:"center", width:"100%" }}
-        >
-         CHOOSE YOUR AVATAR
-        </h3>
+      <h1
+        style={{ fontSize: "4rem", cursor: "pointer", display: "flex" }}
+        onClick={() => router.back()}
+      >
+        ←
+      </h1>
+      <h3
+        className="fn__maintitle big"
+        data-text="CHOOSE YOUR AVATAR"
+        data-align="center"
+        style={{
+          fontFamily: "font1",
+          marginBottom: "1rem",
+          textAlign: "center",
+          width: "100%",
+        }}
+      >
+        CHOOSE YOUR AVATAR
+      </h3>
       {avatarList.map((item, index) => (
         <Grid xs={6} sm={3} key={index}>
           <Card

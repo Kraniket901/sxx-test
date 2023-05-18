@@ -1,12 +1,7 @@
 import prisma from "../../prisma/prisma";
 export default async function handler(req, res) {
   if (req.method === "POST") {
-    const name = req.body.name;
-    const type = req.body.type
-    const city = req.body.city;
-    const phone = req.body.phone;
-    const topic = req.body.topic;
-    const feedback = req.body.feedback;
+    const { name, type, city, phone, topic, feedback } = req.body;
 
     const data = await prisma.form.create({
       data: {
