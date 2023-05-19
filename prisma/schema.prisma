@@ -74,11 +74,11 @@ model Project {
 }
 
 model Form {
-  id       String @id @default(auto()) @map("_id") @db.ObjectId
-  type     String
-  name     String
-  city     String
-  phone    String
-  topic    String
-  feedback String
+  id    String @id @default(auto()) @map("_id") @db.ObjectId
+  type  String
+  name  String
+  city  String
+  phone String
+  topic String
+  text  String
 }
