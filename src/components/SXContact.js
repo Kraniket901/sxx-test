@@ -13,7 +13,7 @@ const SXContact = () => {
   const [city, setCity] = useState("");
   const [phone, setPhone] = useState("");
   const [topic, setTopic] = useState("");
-  const [feedback, setFeedback] = useState("");
+  const [text, setText] = useState("");
 
   async function handleForm(e) {
     e.preventDefault();
@@ -31,7 +31,7 @@ const SXContact = () => {
         city: city,
         phone: phone,
         topic: topic,
-        feedback: feedback,
+        text: text,
       }),
     })
       .then(() => {
@@ -140,9 +140,9 @@ const SXContact = () => {
                     id="message"
                     placeholder="Your Message *"
                     defaultValue={""}
-                    value={feedback}
+                    value={text}
                     onInput={({ target }) => {
-                      setFeedback(target.value);
+                      setText(target.value);
                     }}
                   />
                 </li>
