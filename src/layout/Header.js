@@ -64,7 +64,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
               <FaDonate
                 color="white"
                 size={30}
-                style={{ margin: "0.5rem 1rem" }}
+                style={{ margin: "0.5rem 1rem", cursor:"pointer" }}
               />
             </Link>
             {status === "authenticated" && (
