@@ -28,7 +28,7 @@
 /*	01) Base
 /*------------------------------------------------------------------*/
 :root{
-	--mc1: #842bdd;
+	--mc1: #7828c8;
 	--mc2: #7000ff;
 	--hc: #ddd;
 	--bc: #9ba0b8;
@@ -922,6 +922,10 @@ a.full_link{
 	letter-spacing: 0;
 	text-decoration: none;
 }
+.header .nav a:hover{
+	text-shadow: 1px -2px rgb(255, 255, 255);
+}
+
 
 
 
@@ -7148,7 +7152,7 @@ a.metaportal_fn_videobutton:hover .fn__svg,
 @media(width<1000px){
 	.AOT2{
 		padding: 0.4rem;
-		font-size: 12px;
+		font-size: 14px;
 		margin: 0;
 		font-weight: 500;
 	}
