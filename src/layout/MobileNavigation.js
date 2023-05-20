@@ -162,13 +162,13 @@ const MobileNavigation = ({ walletToggle, navigationToggle }) => {
                 </li>
               </ul>
             </li>
-            <li>
+            {/* <li>
               <Link href="#anime_poll">
                 <a onClick={() => navigationToggle(false)}>
                   <span className="creative_link">Anime Poll</span>
                 </a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="#donation">
                 <a onClick={() => navigationToggle(false)}>
