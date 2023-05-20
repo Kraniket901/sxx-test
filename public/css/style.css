@@ -852,8 +852,12 @@ a.full_link{
 .trigger img{
 	height: 100%;
 	width: 100%;
+	filter: drop-shadow(5px 5px 5px #222);
 }
-
+.trigger img:hover{
+	transition-timing-function: ease-in-out;
+	transform: scale(1.03);
+}
 .trigger.active:after,
 .trigger:hover:after{
 	opacity: .5;
