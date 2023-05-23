@@ -58,7 +58,8 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
             href="/css/style.css?ver=4.1"
           />
           <link rel="shortcut icon" href="/img/favicon.ico" />
-          <Script
+        </Head>
+        <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-N9GD15L2JS"
         />
@@ -76,7 +77,6 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
         `,
           }}
         />
-        </Head>
         <Component {...pageProps} />
       </Provider>
     </SessionProvider>
