@@ -33,8 +33,7 @@ function MediaComponent({ videos }) {
 
         
 <p className="desccp">
-  Attack on Titan: The Final Season Part 3 HINDI DUB TRAILER | 20th MAY
-  | Shinnex Production | Shinnextream
+  Attack on Titan: The Final Season Part 3 HINDI DUB | Shinnex Production | Shinnextream
 </p>
 {/* <Sorry/> */}
 <p>
