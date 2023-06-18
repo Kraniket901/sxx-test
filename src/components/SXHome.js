@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 // import svg1 from '../../public/svg/play.svg'
 
+
 const SXHome = () => {
   const handleView = async () => {
     await fetch("/api/video", {
