@@ -249,21 +249,6 @@ function MediaComponent({ videos }) {
             </a>
           </p>
           <p>
-            <b>Trailer By :</b>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{
-                color: "#CDCDCD",
-                textDecoration: "none",
-                margin: "0.5rem",
-              }}
-              href="https://www.instagram.com/sp4de.baka/"
-            >
-              @sp4de.baka{" "}
-            </a>
-          </p>
-          <p>
             <b>Posters and Thumbnail By : </b>
             <a
               target="_blank"
