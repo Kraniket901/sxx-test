@@ -293,9 +293,9 @@ function MediaComponent({ videos }) {
       textDecoration: "none",
       margin: "0.5rem",
     }}
-    href="https://www.instagram.com/er.sam_23/"
+    href="https://www.instagram.com/ik_khwaish_byrachitmishra/"
   >
-    @er.sam_23{" "}
+    @ik_khwaish_byrachitmishra{" "}
   </a>
 </p>
 </div>

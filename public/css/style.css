@@ -1934,6 +1934,12 @@ a.full_link{
 	
 	/* padding: 3rem; */
 }
+.fn_cs_video:hover{
+	background: linear-gradient(rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.20)), url("../img/homeImage2.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 .fn_cs_video2{
 	position: relative;
 	height: 80vh;

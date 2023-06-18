@@ -27,6 +27,11 @@ const SXHome = () => {
             </a>
           </div>
         </Link>
+        <Link href="/video">
+        <div style={{width:"100vw", backgroundColor:"white", color:"black", position:"absolute", bottom:"0", textAlign:"center", fontSize:"14px", cursor:"pointer"}}>
+          CLICK TO WATCH
+        </div>
+        </Link>
       </div>
     </>
   );
