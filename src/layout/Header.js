@@ -60,7 +60,7 @@ const Header = ({ walletToggle, navigationToggle }) => {
           </div>
 
           <div className="wallet" style={{ display: "flex" }}>
-            <Link href="#donation">
+            <Link href="/#donation">
               <FaDonate
                 color="white"
                 size={30}
