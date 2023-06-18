@@ -4,6 +4,8 @@ import {
   AiOutlineYoutube,
   AiOutlineMail,
 } from "react-icons/ai";
+
+import {FaTelegramPlane} from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -79,6 +81,12 @@ const SXContact = () => {
             <div>
               <AiOutlineMail className="contactUsSocialIcon" />
               <p>shinnextream@gmail.com</p>
+            </div>
+          </a>
+          <a href="https://t.me/titandubbershindi">
+            <div>
+              <FaTelegramPlane className="contactUsSocialIcon" />
+              <p>@titandubbershindi</p>
             </div>
           </a>
         </div>

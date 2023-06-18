@@ -1,7 +1,9 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
 import {GrInstagram} from 'react-icons/gr';
-import {FiLogIn} from 'react-icons/fi';
+import {SiGmail} from 'react-icons/si';
+import {BsTelegram, BsInstagram, BsYoutube} from 'react-icons/bs';
+
 import { connect } from "react-redux";
 import { navigationToggle } from "../redux/actions/siteSettings";
 const Navigation = ({ navigation, navigationToggle }) => {
@@ -166,29 +168,22 @@ const Navigation = ({ navigation, navigationToggle }) => {
               <ul>
                 <li>
                   <a href="https://www.youtube.com/@shinnex_production">
-                    <img
-                      src="/svg/social/youtube-1.svg"
-                      alt=""
-                      className="fn__svg"
-                    />
+                    <BsYoutube/>
                   </a>
                 </li>
                 <li>
                   <a href="mailto:shinnextream@gmail.com">
-                    <img
-                      src="/svg/social/wechat-1.svg"
-                      alt=""
-                      className="fn__svg"
-                    />
+                  <SiGmail/>
                   </a>
                 </li>
                 <li>
                   <a href="https://www.instagram.com/shinnex_production/">
-                    <img
-                      src="/svg/social/instagram-1.svg"
-                      alt=""
-                      className="fn__svg"
-                    />
+                    <BsInstagram/>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://t.me/titandubbershindi">
+                    <BsTelegram/>
                   </a>
                 </li>
               </ul>
