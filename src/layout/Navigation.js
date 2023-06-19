@@ -182,7 +182,7 @@ const Navigation = ({ navigation, navigationToggle }) => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://t.me/titandubbershindi">
+                  <a href="https://t.me/Attackontitanhindidubb">
                     <BsTelegram/>
                   </a>
                 </li>

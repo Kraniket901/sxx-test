@@ -83,7 +83,7 @@ const SXContact = () => {
               <p>shinnextream@gmail.com</p>
             </div>
           </a>
-          <a href="https://t.me/titandubbershindi">
+          <a href="https://t.me/Attackontitanhindidubb">
             <div>
               <FaTelegramPlane className="contactUsSocialIcon" />
               <p>@titandubbershindi</p>
