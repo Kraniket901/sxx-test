@@ -9,7 +9,7 @@ const Trailer = () => {
               <div className="blog__item">
                 <div style={{ paddingTop: "56%", position: "relative" }}>
                   <iframe
-                    src="https://player.vimeo.com/video/839424749?h=6f176313a1"
+                    src="https://drive.google.com/file/d/1i0Yc4sBNJc6hO4jHwPPtuv8ylcPNk-tt/preview"
                     style={{
                       border: "0",
                       maxWidth: "100%",
