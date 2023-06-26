@@ -138,10 +138,10 @@ function LikeButton({ vidId }) {
       >
         <Modal.Body>
           <Row justify="center">
-            <a style={{textDecoration:"none"}} href="https://drive.google.com/file/d/1m3rjjuyoxEpmxOPvg60jF-PAggV5MXvi/view?usp=drive_link" download="video.mp4"><Button size="md" color="secondary">Download in High Quality</Button></a>
+            <a style={{textDecoration:"none"}} href="https://www.mediafire.com/file/acg1hfeicmwte4g/Attack_On_Titan_S4_P3_Hindi_Dub_Full_HD.mov/file" download="video.mp4"><Button size="md" color="secondary">Download in High Quality</Button></a>
           </Row>
           <Row justify="center">
-            <a style={{textDecoration:"none"}} href="https://drive.google.com/file/d/1k2juZC0TYm5QZnAqOLOYTKlL86rm1vvg/view?usp=drive_link" download="video.mp4"><Button size="md" color="secondary">Download in Low Quality</Button></a>
+            <a style={{textDecoration:"none"}} href="https://www.mediafire.com/file/lr7k15zp0rhz90a/Attack_On_Titan_S4_P3_Hindi_Dub.mkv/file" download="Attack on Titans Hindi Dub"><Button size="md" color="secondary">Download in Low Quality</Button></a>
           </Row>
         </Modal.Body>
       </Modal>
