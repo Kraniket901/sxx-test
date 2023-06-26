@@ -112,7 +112,7 @@ function LikeButton({ vidId }) {
       </button>
 
       <div style={{ display: "flex", alignItems: "center", margin: "1rem" }}>
-      <Button auto onPress={handler} style={{zIndex:"1"}} color="secondary">
+      <Button size="sm" onPress={handler} style={{zIndex:"1"}} color="secondary">
           <AiOutlineDownload
               style={{
                 fontSize: "30px",
@@ -141,7 +141,7 @@ function LikeButton({ vidId }) {
             <a style={{textDecoration:"none"}} href="https://dl.dropboxusercontent.com/s/r9r6czs4sszdhsm/Attack%20On%20Titan%20S4%20P3%20Hindi%20Dub.mkv?dl=0" download="Attack on Titans Hindi Dub"><Button size="md" color="secondary">Download in Low Quality</Button></a>
           </Row>
           <Row justify="center">
-            <a style={{textDecoration:"none"}} href="https://dl.dropboxusercontent.com/s/amzl5315swc4en5/Attack%20On%20Titans%20S4%20P3%20Hindi%20Dub%20Full%20HD.mov?dl=0" download="Attack on Titans Hindi Dub"><Button size="md" color="secondary">Download in Low Quality</Button></a>
+            <a style={{textDecoration:"none"}} href="https://dl.dropboxusercontent.com/s/amzl5315swc4en5/Attack%20On%20Titans%20S4%20P3%20Hindi%20Dub%20Full%20HD.mov?dl=0" download="Attack on Titans Hindi Dub"><Button size="md" color="secondary">Download in High Quality</Button></a>
           </Row>
         </Modal.Body>
       </Modal>
