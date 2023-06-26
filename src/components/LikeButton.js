@@ -141,7 +141,7 @@ function LikeButton({ vidId }) {
             <a style={{textDecoration:"none"}} href="https://drive.google.com/file/d/1m3rjjuyoxEpmxOPvg60jF-PAggV5MXvi/view?usp=drive_link" download="video.mp4"><Button size="md" color="secondary">Download in High Quality</Button></a>
           </Row>
           <Row justify="center">
-            <a style={{textDecoration:"none"}} href="https://drive.google.com/file/d/1k2juZC0TYm5QZnAqOLOYTKlL86rm1vvg/view?usp=drive_link" download="Attack on Titans Hindi Dub"><Button size="md" color="secondary">Download in Low Quality</Button></a>
+            <a style={{textDecoration:"none"}} href="https://drive.google.com/file/d/1k2juZC0TYm5QZnAqOLOYTKlL86rm1vvg/view?usp=drive_link" download="video.mp4"><Button size="md" color="secondary">Download in Low Quality</Button></a>
           </Row>
         </Modal.Body>
       </Modal>
