@@ -138,9 +138,6 @@ function LikeButton({ vidId }) {
       >
         <Modal.Body>
           <Row justify="center">
-            // <a style={{textDecoration:"none"}} href="https://dl.dropboxusercontent.com/s/r9r6czs4sszdhsm/Attack%20On%20Titan%20S4%20P3%20Hindi%20Dub.mkv?dl=0" download="Attack on Titans Hindi Dub"><Button size="md" color="secondary">Download in Low Quality</Button></a>
-          </Row>
-          <Row justify="center">
             <a style={{textDecoration:"none"}} href="https://drive.google.com/file/d/1DuHBD_GfSB3ylft5l8ZadWKPJL2LAQiF/view?usp=sharing" download="Attack on Titans Hindi Dub"><Button size="md" color="secondary">Download in High Quality</Button></a>
           </Row>
         </Modal.Body>
