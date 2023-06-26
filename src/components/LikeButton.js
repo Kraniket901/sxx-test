@@ -138,10 +138,13 @@ function LikeButton({ vidId }) {
       >
         <Modal.Body>
           <Row justify="center">
-            <a style={{textDecoration:"none"}} href="https://www.mediafire.com/file/acg1hfeicmwte4g/Attack_On_Titan_S4_P3_Hindi_Dub_Full_HD.mov/file" download="video.mp4"><Button size="md" color="secondary">Download in High Quality</Button></a>
+            <a style={{textDecoration:"none"}} href="https://www.mediafire.com/file/acg1hfeicmwte4g/Attack_On_Titan_S4_P3_Hindi_Dub_Full_HD.mov/file" download="video.mp4"><Button size="md" color="secondary">Download in 1080p (2.2 gb)</Button></a>
           </Row>
-          <Row justify="center">
-            <a style={{textDecoration:"none"}} href="https://www.mediafire.com/file/lr7k15zp0rhz90a/Attack_On_Titan_S4_P3_Hindi_Dub.mkv/file" download="Attack on Titans Hindi Dub"><Button size="md" color="secondary">Download in Low Quality</Button></a>
+              <Row justify="center">
+            <a style={{textDecoration:"none"}} href="https://www.mediafire.com/file/lr7k15zp0rhz90a/Attack_On_Titan_S4_P3_Hindi_Dub.mkv/file" download="Attack on Titans Hindi Dub"><Button size="md" color="secondary">Download in 720p (250 mb)</Button></a>
+          </Row>
+            <Row justify="center">
+            <a style={{textDecoration:"none"}} href="https://www.mediafire.com/file/vsl66g6allr2yv0/Attack_On_Titan_S4_P3_Hindi_%2528480p%2529.mkv/file" download="video.mp4"><Button size="md" color="secondary">Download in 480p (190 mb)</Button></a>
           </Row>
         </Modal.Body>
       </Modal>
