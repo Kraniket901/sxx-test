@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { AiFillHeart } from "react-icons/ai";
-import { AiFillEye } from "react-icons/ai";
+import { AiFillEye, AiOutlineDownload } from "react-icons/ai";
+import { Modal, Button, Row} from "@nextui-org/react";
+import React from "react";
 import { useSession, signIn } from "next-auth/react";
 import axios from "axios";
 
@@ -83,6 +85,15 @@ function LikeButton({ vidId }) {
       signIn("google");
     }
   };
+
+  const [visible, setVisible] = React.useState(false);
+  const handler = () => setVisible(true);
+
+  const closeHandler = () => {
+    setVisible(false);
+    console.log("closed");
+  };
+
   return (
     <div
       style={{
@@ -101,6 +112,15 @@ function LikeButton({ vidId }) {
       </button>
 
       <div style={{ display: "flex", alignItems: "center", margin: "1rem" }}>
+      <Button auto onPress={handler} style={{zIndex:"1"}} color="secondary">
+          <AiOutlineDownload
+              style={{
+                fontSize: "30px",
+                margin:"0 0.5rem 0 0",
+                cursor: "pointer",
+              }}
+            />Download
+      </Button>
         <AiFillEye
           style={{
             fontSize: "30px",
@@ -110,6 +130,21 @@ function LikeButton({ vidId }) {
         />
         <div>{views}</div>
       </div>
+      <Modal
+        closeButton
+        aria-labelledby="modal-title"
+        open={visible}
+        onClose={closeHandler}
+      >
+        <Modal.Body>
+          <Row justify="center">
+            <a style={{textDecoration:"none"}} href="https://dl.dropboxusercontent.com/s/r9r6czs4sszdhsm/Attack%20On%20Titan%20S4%20P3%20Hindi%20Dub.mkv?dl=0" download="Attack on Titans Hindi Dub"><Button size="md" color="secondary">Download in Low Quality</Button></a>
+          </Row>
+          <Row justify="center">
+            <a style={{textDecoration:"none"}} href="https://dl.dropboxusercontent.com/s/amzl5315swc4en5/Attack%20On%20Titans%20S4%20P3%20Hindi%20Dub%20Full%20HD.mov?dl=0" download="Attack on Titans Hindi Dub"><Button size="md" color="secondary">Download in Low Quality</Button></a>
+          </Row>
+        </Modal.Body>
+      </Modal>
     </div>
   );
 }
