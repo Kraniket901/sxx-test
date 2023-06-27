@@ -1,14 +1,38 @@
 import LikeButton from "./LikeButton";
 import Sorry from "./Sorry";
+import { useState } from "react";
+import { Loading } from "@nextui-org/react";
 
 function MediaComponent({ videos }) {
-  // console.log(videos);
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false);
+  const handleVideoLoad = () => {
+    setIsVideoLoaded(true);
+  };
   return (
     <>
       <div className="container">
         {videos.map((items) => (
           <div key={items.id}>
             <div style={{ paddingTop: "56%", position: "relative" }}>
+		{!isVideoLoaded && (
+                <div className="loading-spinner"
+                style={{
+                  maxWidth: "100%",
+                  // position: "absolute",
+                  top: "0",
+                  left: "0",
+                  height: "100%",
+                  width: "100%",
+                  display:"flex",
+                  textAlign:"center",
+                  justifyContent:"center",
+                  paddingTop:"5rem"
+                }}>
+                  {/* Add your loading animation or spinner here */}
+                  <Loading size="lg" type="points-opacity" />
+                  Loading...
+                </div>
+              )}
               <iframe
                 src={items.url}
                 // src="https://player.vdocipher.com/v2/?otp=20160313versASE3233gq0zTF2QNuVI04X12KzPLJfBSKKSVzgF7dKm23dwQAljF&playbackInfo=eyJ2aWRlb0lkIjoiYTA2ZDllOGUzYzhjNGVmYWI1MGNjN2MxNmMwODY0YzUifQ==&player=D3NxxdAtIkYztSFe"
