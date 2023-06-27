@@ -112,10 +112,10 @@ function LikeButton({ vidId }) {
       </button>
 
       <div style={{ display: "flex", alignItems: "center", margin: "1rem" }}>
-      <Button size="sm" onPress={handler} style={{zIndex:"1"}} color="secondary">
+      <Button auto onPress={handler} style={{zIndex:"1", fontSize:"20px"}} color="secondary">
           <AiOutlineDownload
               style={{
-                fontSize: "30px",
+                fontSize: "25px",
                 margin:"0 0.5rem 0 0",
                 cursor: "pointer",
               }}
