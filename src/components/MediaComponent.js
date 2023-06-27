@@ -27,7 +27,7 @@ function MediaComponent({ videos }) {
                   display: "flex",
                   textAlign: "center",
                   justifyContent: "center",
-                  paddingTop: "5rem",
+                  paddingTop: "10rem",
                 }}
               >
                 {/* Add your loading animation or spinner here */}
