@@ -11,9 +11,8 @@ function MediaComponent({ videos }) {
   return (
     <>
       <div className="container">
-        {videos.map((items) => (
-          <div key={items.id}>
-		{!isVideoLoaded && (
+	<div>
+	  {!isVideoLoaded && (
                 <div className="loading-spinner"
                 style={{
                   maxWidth: "100%",
@@ -32,6 +31,8 @@ function MediaComponent({ videos }) {
                   Loading...
                 </div>
               )}
+        {videos.map((items) => (
+          <div key={items.id}>
             <div style={{ paddingTop: "56%", position: "relative" }}>
               <iframe
                 src={items.url}
@@ -52,6 +53,7 @@ function MediaComponent({ videos }) {
             <LikeButton vidId={items.id} />
           </div>
         ))}
+		</div>
 
         <div className="descc">
           <p className="desccp">
