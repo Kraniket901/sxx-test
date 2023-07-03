@@ -41,10 +41,10 @@
 * Interactive & Engaging User Interface
 
 ### Privacy Policy
-[shinnextream.vercel.app/policy](shinnextream.vercel.app/policy)
+[shinnextream.vercel.app/policy](shinnextream.in/policy)
 
 ### Cookies
-[shinnextream.vercel.app/cookies](shinnextream.vercel.app/cookies)
+[shinnextream.vercel.app/cookies](shinnextream.in/cookies)
 
 ### Terms & Conditions
-[shinnextream.vercel.app/terms-conditions](shinnextream.vercel.app/terms-conditions)
+[shinnextream.vercel.app/terms-conditions](shinnextream.in/terms-conditions)
