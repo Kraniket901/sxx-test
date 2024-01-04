@@ -3,11 +3,11 @@ const Sorry = () => {
   return (
     <section id="shinnextream">
       <div data-aos="fade-up" className="container">
-        <div className="fn_cs_news container" style={{paddingBottom:"4rem"}}>
+        <div className="shinnex-wrapper container" style={{ paddingBottom: "4rem" }}>
           <div className="news_part">
             <div className="left_items">
-              <div  className="blog__item">
-                      <img src="/img/sorry.webp" alt="Sorry" />
+              <div className="blog__item">
+                <img src="/img/sorry.webp" alt="Sorry" />
               </div>
             </div>
           </div>

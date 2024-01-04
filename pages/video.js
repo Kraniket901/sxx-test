@@ -7,26 +7,20 @@ import Layout from "../src/layout/Layout";
 
 const Video = () => {
   const [videos, setVideos] = useState([]);
+  
   useEffect(() => {
     axios
       .get("/api/video")
-      // .then(res => {
-      //   console.log(res);
-      // })
       .then(({ data }) => setVideos(data))
-      // .then(() => {
-      //   console.log(videos);
-      // })
       .catch(err => console.log(err));
   }, []);
+
   return (
     <>
-      <div>
-        <Layout pageTitle={"Video"}>
+        <Layout pageTitle={"Attack On Titan Season 3"}>
           <MediaComponent videos={videos} />
           <Feedback />
         </Layout>
-      </div>
     </>
   );
 };

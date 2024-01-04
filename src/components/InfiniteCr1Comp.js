@@ -1,15 +1,12 @@
 import React from "react";
-// import img1 from "../../public/img/shinnextream.png";
-// import Image from "next/image";
 
 const InfiniteCr1Comp = () => {
   return (
     <>
-      <div className="codeutsava__sponsers-carousel-item">
+      <div className="shinnex-carousel-item">
         <img src="/img/shinnextream.webp" />
       </div>
-      <div className="codeutsava__sponsers-carousel-item">
-        {/* <img src="/img/shinnextream.png"/> */}
+      <div className="shinnex-carousel-item">
         <div>WATCH NOW</div>
       </div>
     </>

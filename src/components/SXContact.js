@@ -5,7 +5,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 
-import {FaTelegramPlane} from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -57,7 +57,7 @@ const SXContact = () => {
     <section id="contact">
       <div data-aos="fade-up" className="container">
         <h3
-          className="fn__maintitle big"
+          className="maintitle big"
           data-text="Contact Us"
           data-align="center"
           style={{ fontFamily: "font1" }}
@@ -90,7 +90,7 @@ const SXContact = () => {
             </div>
           </a>
         </div>
-        <div className="fn_cs_contact_form">
+        <div className="shinnex_contact_form">
           <form
             onSubmit={handleForm}
             className="contact_form"
@@ -160,7 +160,7 @@ const SXContact = () => {
                       style={{ border: "none" }}
                       id="send_message"
                       href="#"
-                      className="metaportal_fn_button full"
+                      className="ossm_btn full"
                     >
                       <span>Send Message</span>
                     </button>

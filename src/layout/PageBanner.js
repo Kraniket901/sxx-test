@@ -8,7 +8,7 @@ const PageBanner = ({ pageName }) => {
         <div className="container small">
           <div className="pagetitle">
             <h3
-              className="fn__maintitle big"
+              className="maintitle big"
               data-text={pageName}
               data-align="center"
             >
@@ -22,7 +22,7 @@ const PageBanner = ({ pageName }) => {
           </div>
         </div>
       </div>{" "}
-      <div className="fn_cs_section_divider">
+      <div className="shinnex_section_divider">
         <div className="divider">
           <span className="short" />
           <span className="long" />

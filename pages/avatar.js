@@ -1,10 +1,10 @@
 import { Card, Grid, Row, Text } from "@nextui-org/react";
 import { useRouter } from "next/router";
+import Layout from "../src/layout/Layout";
 
 const Avatar = () => {
   const router = useRouter();
 
-  // avatarList smh
   const avatarList = [
     {
       title: "Annie",
@@ -58,7 +58,6 @@ const Avatar = () => {
       }),
     })
       .then(res => {
-        //do something awesome that makes the world a better place
         router.push("/");
         setTimeout(() => {
           router.reload();
@@ -71,15 +70,10 @@ const Avatar = () => {
   }
 
   return (
+    <Layout pageTitle={"Avatar Page"}>
     <Grid.Container gap={1} justify="flex-start">
-      <h1
-        style={{ fontSize: "4rem", cursor: "pointer", display: "flex" }}
-        onClick={() => router.back()}
-      >
-        ←
-      </h1>
       <h3
-        className="fn__maintitle big"
+        className="maintitle big"
         data-text="CHOOSE YOUR AVATAR"
         data-align="center"
         style={{
@@ -87,6 +81,7 @@ const Avatar = () => {
           marginBottom: "1rem",
           textAlign: "center",
           width: "100%",
+          marginTop:"6rem"
         }}
       >
         CHOOSE YOUR AVATAR
@@ -135,6 +130,7 @@ const Avatar = () => {
         </Grid>
       ))}
     </Grid.Container>
+    </Layout>
   );
 };
 

@@ -1,6 +1,6 @@
 const SectionDivider = () => {
   return (
-    <div className="fn_cs_section_divider">
+    <div className="shinnex_section_divider">
       <div className="divider">
         <span className="short" />
         <span className="long" />

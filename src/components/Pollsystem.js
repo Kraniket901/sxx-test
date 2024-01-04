@@ -11,8 +11,6 @@ const Pollsystem = () => {
   return (
     <>
     <SXUpcomingPoll/>
-  {/* <SXUpcomingProject/> */}
-
     </>
   )
 }

@@ -3,7 +3,7 @@ import React from 'react'
 const SXAboutAOT = () => {
   return (
     <>
-          <div className="fn_cs_about" id='about'>
+      <div className="fn_cs_about" id='about'>
         <div className="left_part">
           <div data-aos="fade-right" className="img">
             <div className="img_in" data-bg-img="../img/poster1.webp">
@@ -12,13 +12,13 @@ const SXAboutAOT = () => {
           </div>
           <div data-aos="fade-left" className="right_in">
             <h3
-              style={{ lineHeight: "45px", fontFamily:"font1" }}
-              className="fn__maintitle"
+              style={{ lineHeight: "45px", fontFamily: "font1" }}
+              className="maintitle"
               data-text="ATTACK ON TITAN: THE FINAL SEASON PART 3"
             >
               ATTACK ON TITAN: THE FINAL SEASON PART 3
             </h3>
-            <div className="fn_cs_divider">
+            <div className="shinnexdivider">
               <div className="divider">
                 <span />
                 <span />
@@ -52,7 +52,7 @@ const SXAboutAOT = () => {
             </div>
             <a
               href="https://chapmanganato.com/manga-oa952283"
-              className="metaportal_fn_button"
+              className="ossm_btn"
               target="_blank"
               rel="noreferrer"
             >

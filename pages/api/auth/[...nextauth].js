@@ -6,7 +6,6 @@ import prisma from "../../../prisma/prisma";
 export const authOptions = {
   // Configure one or more authentication providers
   providers: [
-    // google
     GoogleProvider({
       clientId: process.env.GOOGLE_ID,
       clientSecret: process.env.GOOGLE_SECRET,
@@ -18,13 +17,6 @@ export const authOptions = {
         },
       },
     }),
-
-    // github
-    // GithubProvider({
-    //   clientId: process.env.GITHUB_ID,
-    //   clientSecret: process.env.GITHUB_SECRET,
-    // }),
-    // ...add more providers here
   ],
 
   callbacks: {

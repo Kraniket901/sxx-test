@@ -1,15 +1,8 @@
 import { Card, Grid, Row, Text } from "@nextui-org/react";
-import { useRouter } from "next/router";
-import { useSession } from "next-auth/react";
 import { checkout } from "../../checkout";
-import Link from "next/link";
 
 const Donation = () => {
-  const { data: session } = useSession();
-  const email = session?.user.email;
-  const router = useRouter();
 
-  // avatarList smh
   const avatarList = [
     {
       title: "Founding Titan Donation",
@@ -58,38 +51,11 @@ const Donation = () => {
     },
   ];
 
-  // handle avatar list
-  async function handleAvatar(img) {
-    await fetch("/api/avatar", {
-      method: "post",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      //make sure to serialize your JSON body
-      body: JSON.stringify({
-        email: email,
-        img: img,
-      }),
-    })
-      .then((res) => {
-        //do something awesome that makes the world a better place
-        router.push("/");
-        setTimeout(() => {
-          router.reload();
-        }, 500);
-      })
-      .catch((err) => {
-        // catch them errors
-        console.log(err);
-      });
-  }
-
   return (
     <div data-aos="fade-up" className="container">
       <Grid.Container gap={1} justify="flex-start" id="donation">
         <h3
-          className="fn__maintitle big AnimePollTitle"
+          className="maintitle big AnimePollTitle"
           data-text="DONATE US"
           data-align="center"
           style={{
@@ -132,7 +98,6 @@ const Donation = () => {
                       src={item.img}
                       objectFit="cover"
                       width="100%"
-                      // height={140}
                       alt={item.title}
                     />
                   </Card.Body>

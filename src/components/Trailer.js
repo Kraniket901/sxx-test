@@ -3,7 +3,7 @@ const Trailer = () => {
   return (
     <section>
       <div data-aos="fade-up" className="container">
-        <div className="fn_cs_news container">
+        <div className="shinnex-wrapper container">
           <div className="news_part">
             <div className="left_items left_items2">
               <div className="blog__item">
@@ -18,7 +18,7 @@ const Trailer = () => {
                       left: "0",
                       height: "100%",
                       width: "100%",
-                      borderRadius:"10px 10px 0 0"
+                      borderRadius: "10px 10px 0 0"
                     }}
                     allowFullScreen="true"
                     allow="encrypted-media"

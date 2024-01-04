@@ -2,15 +2,15 @@ import Layout from "../src/layout/Layout";
 import PageBanner from "../src/layout/PageBanner";
 const TermsConditions = () => {
   return (
-    <Layout pageTitle={"Terms & Conditions"}>
+    <Layout pageTitle={"Terms & Conditions Page"}>
       <PageBanner pageName={"Terms & Conditions"} />
 
-      <div className="metaportal_fn_privacy">
+      <div className="privacy-container">
         <div className="container small">
-          <h3 className="fn__maintitle" data-text="Welcome to Shinnextream!">
+          <h3 className="maintitle" data-text="Welcome to Shinnextream!">
             Welcome to Shinnextream!
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -21,10 +21,10 @@ const TermsConditions = () => {
             use of Shinnex Production's Website, located at
             shinnextream.vercel.app.
           </p>
-          <h3 className="fn__maintitle" data-text="Content">
+          <h3 className="maintitle" data-text="Content">
             Content
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -52,10 +52,10 @@ const TermsConditions = () => {
             or they, are taken as interchangeable and therefore as referring to
             same.
           </p>
-          <h3 className="fn__maintitle" data-text="Cookies">
+          <h3 className="maintitle" data-text="Cookies">
             Cookies
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -73,10 +73,10 @@ const TermsConditions = () => {
             visiting our website. Some of our affiliate/advertising partners may
             also use cookies.
           </p>
-          <h3 className="fn__maintitle" data-text="License">
+          <h3 className="maintitle" data-text="License">
             License
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -89,10 +89,10 @@ const TermsConditions = () => {
             from Shinnextream for your own personal use subjected to
             restrictions set in these terms and conditions.
           </p>
-          <h3 className="fn__maintitle" data-text="You Must Not:">
+          <h3 className="maintitle" data-text="You Must Not:">
             You Must Not:
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -137,12 +137,12 @@ const TermsConditions = () => {
           </p>
 
           <h3
-            className="fn__maintitle"
+            className="maintitle"
             data-text="You Warrant And Represent That:"
           >
             You Warrant And Represent That:
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -175,10 +175,10 @@ const TermsConditions = () => {
             reproduce, edit and authorize others to use, reproduce and edit any
             of your Comments in any and all forms, formats or media.
           </p>
-          <h3 className="fn__maintitle" data-text="Hyperlinking To Our Content">
+          <h3 className="maintitle" data-text="Hyperlinking To Our Content">
             Hyperlinking To Our Content
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -276,10 +276,10 @@ const TermsConditions = () => {
             for linking absent a trademark license agreement.
           </p>
 
-          <h3 className="fn__maintitle" data-text="iFrames">
+          <h3 className="maintitle" data-text="iFrames">
             iFrames
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -290,10 +290,10 @@ const TermsConditions = () => {
             frames around our Webpages that alter in any way the visual
             presentation or appearance of our Website.
           </p>
-          <h3 className="fn__maintitle" data-text="Content Liability">
+          <h3 className="maintitle" data-text="Content Liability">
             Content Liability
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -307,10 +307,10 @@ const TermsConditions = () => {
             which infringes, otherwise violates, or advocates the infringement
             or other violation of, any third party rights.
           </p>
-          <h3 className="fn__maintitle" data-text="Reservation of Rights">
+          <h3 className="maintitle" data-text="Reservation of Rights">
             Reservation of Rights
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -325,12 +325,12 @@ const TermsConditions = () => {
             follow these linking terms and conditions.
           </p>
           <h3
-            className="fn__maintitle"
+            className="maintitle"
             data-text="Removal of Links From Our Website"
           >
             Removal of Links From Our Website
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -349,10 +349,10 @@ const TermsConditions = () => {
             ensure that the website remains available or that the material on
             the website is kept up to date.
           </p>
-          <h3 className="fn__maintitle" data-text="Disclaimer">
+          <h3 className="maintitle" data-text="Disclaimer">
             Disclaimer
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />

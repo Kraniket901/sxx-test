@@ -5,7 +5,7 @@ import { useSession, signIn, signOut, getSession } from "next-auth/react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-const WalletPopUp = ({ walletToggle, wallet }) => {
+const UserProfile = ({ walletToggle, wallet }) => {
   const router = useRouter();
   const { data: session, status } = useSession();
 
@@ -51,4 +51,4 @@ const mapStateToProps = state => ({
   wallet: state.site.wallet,
 });
 
-export default connect(mapStateToProps, { walletToggle })(WalletPopUp);
+export default connect(mapStateToProps, { walletToggle })(UserProfile);

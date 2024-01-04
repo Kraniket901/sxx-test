@@ -2,18 +2,17 @@ import Layout from "../src/layout/Layout";
 import PageBanner from "../src/layout/PageBanner";
 const Cookies = () => {
   return (
-    <Layout pageTitle={"Cookies"}>
+    <Layout pageTitle={"Cookies Page"}>
       <PageBanner pageName={"Cookies"} />
-
-      <div className="metaportal_fn_privacy">
+      <div className="privacy-container">
         <div className="container small">
           <h3
-            className="fn__maintitle"
+            className="maintitle"
             data-text="Cookie Policy for Shinnextream"
           >
             Cookie Policy for Shinnextream
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -23,10 +22,10 @@ const Cookies = () => {
             This is the Cookie Policy for Shinnextream, accessible from
             shinnextream.vercel.app
           </p>
-          <h3 className="fn__maintitle" data-text="What Are Cookies ?">
+          <h3 className="maintitle" data-text="What Are Cookies ?">
             What Are Cookies ?
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -42,10 +41,10 @@ const Cookies = () => {
             certain elements of the sites functionality.
           </p>
 
-          <h3 className="fn__maintitle" data-text="How We Use Cookies ?">
+          <h3 className="maintitle" data-text="How We Use Cookies ?">
             How We Use Cookies ?
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -59,10 +58,10 @@ const Cookies = () => {
             on all cookies if you are not sure whether you need them or not in
             case they are used to provide a service that you use.
           </p>
-          <h3 className="fn__maintitle" data-text="Disabling Cookies">
+          <h3 className="maintitle" data-text="Disabling Cookies">
             Disabling Cookies
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -85,10 +84,10 @@ const Cookies = () => {
             .
           </p>
 
-          <h3 className="fn__maintitle" data-text="The Cookies We Set">
+          <h3 className="maintitle" data-text="The Cookies We Set">
             The Cookies We Set
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -127,10 +126,10 @@ const Cookies = () => {
             </li>
           </ul>
 
-          <h3 className="fn__maintitle" data-text="Third Party Cookies">
+          <h3 className="maintitle" data-text="Third Party Cookies">
             Third Party Cookies
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -165,10 +164,10 @@ const Cookies = () => {
               </p>
             </li>
           </ul>
-          <h3 className="fn__maintitle" data-text="More Information">
+          <h3 className="maintitle" data-text="More Information">
             More Information
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />

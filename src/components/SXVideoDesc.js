@@ -3,7 +3,7 @@ import React from 'react'
 const SXVideoDesc = () => {
   return (
     <>
-    <div className="fn_cs_desc" >
+      <div className="shinnex-desc" >
         <p>
           "मैं इस नफ़रत को इस दुनिया के साथ खत्म कर दूंगा"
           <br />

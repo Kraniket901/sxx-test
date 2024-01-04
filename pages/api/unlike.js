@@ -15,9 +15,7 @@ export default async function handler(req, res) {
         likes: true,
       },
     });
-    // console.log(email);
     likes = likes.filter(item => item != email);
-    // console.log(likes)
 
     const video = await prisma.video.update({
       where: {

@@ -2,17 +2,17 @@ import Layout from "../src/layout/Layout";
 import PageBanner from "../src/layout/PageBanner";
 const Policy = () => {
   return (
-    <Layout pageTitle={"Privacy Policy"}>
+    <Layout pageTitle={"Privacy Policy Page"}>
       <PageBanner pageName={"Privacy Policy"} />
-      <div className="metaportal_fn_privacy">
+      <div className="privacy-container">
         <div className="container small">
           <h3
-            className="fn__maintitle"
+            className="maintitle"
             data-text="Privacy Policy for Shinnex Production"
           >
             Privacy Policy for Shinnex Production
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -35,15 +35,15 @@ const Policy = () => {
             applicable to any information collected offline or via channels
             other than this website. Our Privacy Policy was created with the
             help of the{" "}
-            <a style={{color:"#9ba0b8"}} href="https://www.termsfeed.com/privacy-policy-generator/">
+            <a style={{ color: "#9ba0b8" }} href="https://www.termsfeed.com/privacy-policy-generator/">
               Privacy Policy Generator
             </a>
             .
           </p>
-          <h3 className="fn__maintitle" data-text="Consent">
+          <h3 className="maintitle" data-text="Consent">
             Consent
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -54,10 +54,10 @@ const Policy = () => {
             agree to its terms.
           </p>
 
-          <h3 className="fn__maintitle" data-text="Information we collect">
+          <h3 className="maintitle" data-text="Information we collect">
             Information we collect
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -79,10 +79,10 @@ const Policy = () => {
             information, including items such as name, company name, address,
             email address, and telephone number.
           </p>
-          <h3 className="fn__maintitle" data-text="How we use your information">
+          <h3 className="maintitle" data-text="How we use your information">
             How we use your information
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -106,10 +106,10 @@ const Policy = () => {
             <li>Send you emails</li>
             <li>Find and prevent fraud</li>
           </ul>
-          <h3 className="fn__maintitle" data-text="Log Files">
+          <h3 className="maintitle" data-text="Log Files">
             Log Files
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -128,12 +128,12 @@ const Policy = () => {
             demographic information.
           </p>
           <h3
-            className="fn__maintitle"
+            className="maintitle"
             data-text="Advertising Partners Privacy Policies"
           >
             Advertising Partners Privacy Policies
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -159,12 +159,12 @@ const Policy = () => {
             cookies that are used by third-party advertisers.
           </p>
           <h3
-            className="fn__maintitle"
+            className="maintitle"
             data-text="Third Party Privacy Policies"
           >
             Third Party Privacy Policies
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -185,12 +185,12 @@ const Policy = () => {
             respective websites.
           </p>
           <h3
-            className="fn__maintitle"
+            className="maintitle"
             data-text="CCPA Privacy Rights (Do Not Sell My Personal Information)"
           >
             CCPA Privacy Rights (Do Not Sell My Personal Information)
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -217,10 +217,10 @@ const Policy = () => {
             If you make a request, we have one month to respond to you. If you
             would like to exercise any of these rights, please contact us.
           </p>
-          <h3 className="fn__maintitle" data-text="GDPR Data Protection Rights">
+          <h3 className="maintitle" data-text="GDPR Data Protection Rights">
             GDPR Data Protection Rights
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />
@@ -262,10 +262,10 @@ const Policy = () => {
             If you make a request, we have one month to respond to you. If you
             would like to exercise any of these rights, please contact us.
           </p>
-          <h3 className="fn__maintitle" data-text="Children's Information">
+          <h3 className="maintitle" data-text="Children's Information">
             Children's Information
           </h3>
-          <div className="fn_cs_divider">
+          <div className="shinnexdivider">
             <div className="divider">
               <span />
               <span />

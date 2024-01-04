@@ -4,7 +4,7 @@ const SearchButton = ({ searchToggle }) => {
   return (
     <a
       href="#"
-      className="metaportal_fn_search hold"
+      className="shinnexlogo hold"
       onClick={(e) => {
         e.preventDefault();
         searchToggle(true);

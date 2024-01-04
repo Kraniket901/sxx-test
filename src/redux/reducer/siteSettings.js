@@ -1,5 +1,3 @@
-import { NAVIGATION, SEARCH, WALLET } from "../actions/type";
-
 const initialState = {
   navigation: false,
   wallet: false,
@@ -9,17 +7,17 @@ const initialState = {
 const nfts = (state = initialState, action) => {
   const { type, payload } = action;
   switch (type) {
-    case NAVIGATION:
+    case "NAVIGATION":
       return {
         ...state,
         navigation: payload,
       };
-    case WALLET:
+    case "WALLET":
       return {
         ...state,
         wallet: payload,
       };
-    case SEARCH:
+    case "SEARCH":
       return {
         ...state,
         search: payload,

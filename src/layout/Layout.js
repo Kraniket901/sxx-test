@@ -5,13 +5,14 @@ import Footer from "./Footer";
 import Header from "./Header";
 import MobileNavigation from "./MobileNavigation";
 import Navigation from "./Navigation";
-import PreLoader from "./PreLoader";
 import ScrollTop from "./ScrollTop";
-import Searchbox from "./Searchbox";
-import SearchButton from "./SearchButton";
-import Social from "./Social";
-import WalletPopUp from "./WalletPopUp";
+import Banner from "./Banner";
+import Tagline from "./Tagline";
+import UserProfile from "./UserProfile";
+import Logo from "./Logo";
+
 const Layout = ({ children, pageTitle }) => {
+  
   useEffect(() => {
     holdSection();
     imgToSVG();
@@ -21,44 +22,21 @@ const Layout = ({ children, pageTitle }) => {
   return (
     <Fragment>
       <Head>
-        <title>Shinnextream</title>
+        <title>{pageTitle}</title>
       </Head>
-      <PreLoader />
-      {/* !Preloader */}
-      {/* Left Navigation */}
       <Navigation />
-      {/* !Left Navigation */}
-      {/* Searchbox Popup */}
-      <Searchbox />
-      {/* !Searchbox Popup */}
-      {/* Wallet Popup */}
-      <WalletPopUp />
-      {/* !Wallet Popup */}
-      {/* Main */}
-      <div className="metaportal_fn_main">
-        {/* Mobile Navigation */}
-        <MobileNavigation />
-        {/* !Mobile Navigation */}
-        {/* Header */}
+      <Banner />
+      <UserProfile />
+      <MobileNavigation />
+      <div className="main-container">
         <Header />
-        {/* !Header */}
-        {/* Content */}
-        <div className="metaportal_fn_content">
+        <div className="main-content">
           {children}
-          {/* Footer */}
-          <Footer />
-          {/* !Footer */}
         </div>
-        {/* !Content */}
-        {/* Social */}
-        <Social />
-        {/* !Social */}
-        {/* Totop */}
+        <Footer />
+        <Tagline />
         <ScrollTop />
-        {/* /Totop */}
-        {/* Search Button */}
-        <SearchButton />
-        {/* !Search Button */}
+        <Logo />
       </div>
     </Fragment>
   );

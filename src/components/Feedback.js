@@ -50,14 +50,14 @@ const Feedback = () => {
     <section id="contact" style={{ margin: "1rem", padding: 0 }}>
       <div className="container">
         <h3
-          className="fn__maintitle big AnimePollTitle"
+          className="maintitle big AnimePollTitle"
           data-text="Give Your Feedback"
           data-align="center"
           style={{ fontFamily: "font1" }}
         >
           Give Your Feedback
         </h3>
-        <div className="fn_cs_contact_form">
+        <div className="shinnex_contact_form">
           <form
             onSubmit={handleForm}
             className="contact_form"
@@ -126,7 +126,7 @@ const Feedback = () => {
                     <button
                       style={{ border: "none" }}
                       id="send_message"
-                      className="metaportal_fn_button full"
+                      className="ossm_btn full"
                     >
                       <span>Send</span>
                     </button>

@@ -17,7 +17,6 @@ export default async function handler(req, res) {
     desData.forEach(item => {
       totalVotes += item.votes.length;
     });
-    // console.log(totalVotes);
 
     desData.forEach(item => {
       let percent =
